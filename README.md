@@ -3,9 +3,12 @@
 <br/>
 
 # ⚡ n8n Automation Portfolio
+### By Sreyash Baishkhiyar
 
 ### 250+ production-ready workflows demonstrating expertise in AI integration, business process automation, and API engineering.
 
+[![Email](https://img.shields.io/badge/Email-sreyashbaishkhiyar%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:sreyashbaishkhiyar@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat_Now-25D366?style=flat-square&logo=whatsapp)](https://wa.me/918360583151)
 [![n8n](https://img.shields.io/badge/Platform-n8n-EF5E3E?style=flat-square&logo=n8n)](https://n8n.io)
 [![OpenAI](https://img.shields.io/badge/AI-OpenAI%20%7C%20Claude%20%7C%20Gemini-412991?style=flat-square)](https://openai.com)
 [![Workflows](https://img.shields.io/badge/Workflows-250%2B-orange?style=flat-square)](#-workflow-categories)
@@ -154,7 +157,11 @@ Available for freelance and contract work:
 - **Automation Audits & Optimization** — Review existing workflows for reliability, cost, and performance
 - **n8n Setup & Consulting** — Self-hosted deployment, credential management, best practices
 
-> To discuss a project, reach out via the contact links at the top of this page.
+### 📬 Contact Me
+
+**SREYASH BAISHKHIYAR**
+- ✉️ **Email:** [sreyashbaishkhiyar@gmail.com](mailto:sreyashbaishkhiyar@gmail.com)
+- 📞 **Phone & WhatsApp:** [+91-8360583151](https://wa.me/918360583151) *(Available for calls and messages)*
 
 ---
 
@@ -198,9 +205,16 @@ All workflows are importable directly into any n8n instance:
 
 ---
 
-## 📄 License
+## 📄 Purpose & Disclaimer
 
-All workflows in this portfolio are provided for reference and inspiration. Please do not redistribute or resell without permission.
+This repository serves as both a **personal learning journal** and a **portfolio for prospective clients**. 
+
+It contains a curated mix of:
+- My own original workflows built from scratch
+- Client-adapted demo samples
+- Community templates that I have personally tested, adapted, and refined
+
+These workflows are provided as-is for educational purposes and to showcase my technical capabilities to anyone browsing this repo. If you are the original author of a community template included here and would like specific attribution, please open an issue!
 
 ---
 
