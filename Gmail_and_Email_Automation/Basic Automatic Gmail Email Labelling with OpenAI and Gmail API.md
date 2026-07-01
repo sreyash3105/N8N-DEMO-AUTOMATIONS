@@ -4,15 +4,15 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Gmail_Trigger(("Gmail Trigger")):::trigger
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Gmail___read_labels["Gmail - read labels"]
-    Gmail___get_message["Gmail - get message"]
-    Gmail___add_label_to_message["Gmail - add label to message"]
-    Gmail___create_label["Gmail - create label"]
-    Gmail_labelling_agent["Gmail labelling agent"]:::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Wait["Wait"]
+    Gmail_Trigger(("fas:fa-envelope Gmail Trigger")):::trigger
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Gmail___read_labels["fas:fa-envelope Gmail - read labels"]
+    Gmail___get_message["fas:fa-envelope Gmail - get message"]
+    Gmail___add_label_to_message["fas:fa-envelope Gmail - add label to message"]
+    Gmail___create_label["fas:fa-envelope Gmail - create label"]
+    Gmail_labelling_agent["fas:fa-envelope Gmail labelling agent"]:::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Wait["fas:fa-robot Wait"]
 
     Wait --> Gmail_labelling_agent
     Gmail_Trigger --> Wait

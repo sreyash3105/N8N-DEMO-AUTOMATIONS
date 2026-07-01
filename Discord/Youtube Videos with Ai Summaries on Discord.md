@@ -4,13 +4,13 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    YouTube_Video_Trigger(("YouTube Video Trigger")):::trigger
-    Retrieve_Caption_Data["Retrieve Caption Data"]
-    Download_Captions["Download Captions"]
-    Caption_File_Conversion["Caption File Conversion"]
-    Caption_Summary_with_ChatGPT(["Caption Summary with ChatGPT"]):::ai
-    Post_to_Discord["Post to Discord"]
-    Find_English_Captions["Find English Captions"]
+    YouTube_Video_Trigger(("fas:fa-bolt YouTube Video Trigger")):::trigger
+    Retrieve_Caption_Data["fas:fa-globe Retrieve Caption Data"]
+    Download_Captions["fas:fa-globe Download Captions"]
+    Caption_File_Conversion["fas:fa-cogs Caption File Conversion"]
+    Caption_Summary_with_ChatGPT(["fas:fa-robot Caption Summary with ChatGPT"]):::ai
+    Post_to_Discord["fas:fa-cogs Post to Discord"]
+    Find_English_Captions["fas:fa-cogs Find English Captions"]
 
     Download_Captions --> Caption_File_Conversion
     Find_English_Captions --> Download_Captions

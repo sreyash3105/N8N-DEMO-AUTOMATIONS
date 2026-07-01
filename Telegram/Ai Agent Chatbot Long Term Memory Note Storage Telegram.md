@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_chat_message_received(("When chat message received")):::trigger
-    gpt_4o_mini(["gpt-4o-mini"]):::ai
-    Chat_Response["Chat Response"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Save_Long_Term_Memories["Save Long Term Memories"]
-    Retrieve_Long_Term_Memories["Retrieve Long Term Memories"]
-    Telegram_Response["Telegram Response"]
-    DeepSeek_V3_Chat(["DeepSeek-V3 Chat"]):::ai
-    AI_Tools_Agent["AI Tools Agent"]:::ai
-    Save_Notes["Save Notes"]
-    Retrieve_Notes["Retrieve Notes"]
-    Aggregate["Aggregate"]
-    Merge["Merge"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    gpt_4o_mini(["fas:fa-robot gpt-4o-mini"]):::ai
+    Chat_Response["fas:fa-cogs Chat Response"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Save_Long_Term_Memories["fab:fa-google Save Long Term Memories"]
+    Retrieve_Long_Term_Memories["fab:fa-google Retrieve Long Term Memories"]
+    Telegram_Response["fab:fa-telegram Telegram Response"]
+    DeepSeek_V3_Chat(["fas:fa-robot DeepSeek-V3 Chat"]):::ai
+    AI_Tools_Agent["fas:fa-robot AI Tools Agent"]:::ai
+    Save_Notes["fab:fa-google Save Notes"]
+    Retrieve_Notes["fab:fa-google Retrieve Notes"]
+    Aggregate["fas:fa-cogs Aggregate"]
+    Merge["fas:fa-cogs Merge"]
 
     Merge --> Aggregate
     Aggregate --> AI_Tools_Agent

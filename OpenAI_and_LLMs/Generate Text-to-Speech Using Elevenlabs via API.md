@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    If_params_correct{"If params correct"}:::logic
-    Respond_to_Webhook(("Respond to Webhook")):::trigger
-    Webhook(("Webhook")):::trigger
-    Generate_voice["Generate voice"]
-    Error(("Error")):::trigger
+    If_params_correct{"fas:fa-code-branch If params correct"}:::logic
+    Respond_to_Webhook(("fas:fa-bolt Respond to Webhook")):::trigger
+    Webhook(("fas:fa-bolt Webhook")):::trigger
+    Generate_voice["fas:fa-globe Generate voice"]
+    Error(("fas:fa-bolt Error")):::trigger
 
     Webhook --> If_params_correct
     Generate_voice --> Respond_to_Webhook

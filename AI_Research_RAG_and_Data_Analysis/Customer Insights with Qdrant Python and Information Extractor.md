@@ -4,30 +4,30 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Zip_Entries["Zip Entries"]
-    Extract_Reviews["Extract Reviews"]
-    Reviews_to_List["Reviews to List"]
-    Default_Data_Loader["Default Data Loader"]
-    Recursive_Character_Text_Splitter["Recursive Character Text Splitter"]
-    Embeddings_OpenAI(["Embeddings OpenAI"]):::ai
-    Set_Variables["Set Variables"]
-    Get_Payload_of_Points["Get Payload of Points"]
-    Clusters_To_List["Clusters To List"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Only_Clusters_With_3__points["Only Clusters With 3+ points"]
-    Set_Variables1["Set Variables1"]
-    Find_Reviews["Find Reviews"]
-    Prep_Output_For_Export["Prep Output For Export"]
-    Export_To_Sheets["Export To Sheets"]
-    Clear_Existing_Reviews["Clear Existing Reviews"]
-    Trigger_Insights["Trigger Insights"]
-    Prep_Values_For_Trigger["Prep Values For Trigger"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Get_TrustPilot_Page["Get TrustPilot Page"]
-    Qdrant_Vector_Store["Qdrant Vector Store"]
-    Apply_K_means_Clustering_Algorithm["Apply K-means Clustering Algorithm"]
-    Customer_Insights_Agent["Customer Insights Agent"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Zip_Entries["fas:fa-cogs Zip Entries"]
+    Extract_Reviews["fas:fa-cogs Extract Reviews"]
+    Reviews_to_List["fas:fa-cogs Reviews to List"]
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Recursive_Character_Text_Splitter["fas:fa-robot Recursive Character Text Splitter"]
+    Embeddings_OpenAI(["fas:fa-robot Embeddings OpenAI"]):::ai
+    Set_Variables["fas:fa-cogs Set Variables"]
+    Get_Payload_of_Points["fas:fa-globe Get Payload of Points"]
+    Clusters_To_List["fas:fa-cogs Clusters To List"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Only_Clusters_With_3__points["fas:fa-cogs Only Clusters With 3+ points"]
+    Set_Variables1["fas:fa-cogs Set Variables1"]
+    Find_Reviews["fas:fa-globe Find Reviews"]
+    Prep_Output_For_Export["fas:fa-cogs Prep Output For Export"]
+    Export_To_Sheets["fab:fa-google Export To Sheets"]
+    Clear_Existing_Reviews["fas:fa-globe Clear Existing Reviews"]
+    Trigger_Insights["fas:fa-cogs Trigger Insights"]
+    Prep_Values_For_Trigger["fas:fa-cogs Prep Values For Trigger"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Get_TrustPilot_Page["fas:fa-globe Get TrustPilot Page"]
+    Qdrant_Vector_Store["fas:fa-robot Qdrant Vector Store"]
+    Apply_K_means_Clustering_Algorithm["fas:fa-cogs Apply K-means Clustering Algorithm"]
+    Customer_Insights_Agent["fas:fa-robot Customer Insights Agent"]
 
     Zip_Entries --> Reviews_to_List
     Find_Reviews --> Apply_K_means_Clustering_Algorithm

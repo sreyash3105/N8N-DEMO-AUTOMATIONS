@@ -4,17 +4,17 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Schedule_Trigger(("Schedule Trigger")):::trigger
-    If{"If"}:::logic
-    Loop_Over_Items["Loop Over Items"]
-    Split_Out["Split Out"]
-    Request_Hugging_Face_Paper["Request Hugging Face Paper"]
-    Extract_Hugging_Face_Paper["Extract Hugging Face Paper"]
-    Check_Paper_URL_Existed["Check Paper URL Existed"]
-    Request_Hugging_Face_Paper_Detail["Request Hugging Face Paper Detail"]
-    OpenAI_Analysis_Abstract(["OpenAI Analysis Abstract"]):::ai
-    Store_Abstract_Notion["Store Abstract Notion"]
-    Extract_Hugging_Face_Paper_Abstract["Extract Hugging Face Paper Abstract"]
+    Schedule_Trigger(("fas:fa-bolt Schedule Trigger")):::trigger
+    If{"fas:fa-code-branch If"}:::logic
+    Loop_Over_Items["fas:fa-cogs Loop Over Items"]
+    Split_Out["fas:fa-cogs Split Out"]
+    Request_Hugging_Face_Paper["fas:fa-globe Request Hugging Face Paper"]
+    Extract_Hugging_Face_Paper["fas:fa-cogs Extract Hugging Face Paper"]
+    Check_Paper_URL_Existed["fas:fa-cogs Check Paper URL Existed"]
+    Request_Hugging_Face_Paper_Detail["fas:fa-globe Request Hugging Face Paper Detail"]
+    OpenAI_Analysis_Abstract(["fas:fa-robot OpenAI Analysis Abstract"]):::ai
+    Store_Abstract_Notion["fas:fa-cogs Store Abstract Notion"]
+    Extract_Hugging_Face_Paper_Abstract["fas:fa-cogs Extract Hugging Face Paper Abstract"]
 
     If --> Request_Hugging_Face_Paper_Detail
     If --> Loop_Over_Items

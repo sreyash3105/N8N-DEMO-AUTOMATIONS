@@ -4,28 +4,28 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    No_Recording_Transcript_available["No Recording/Transcript available"]
-    Zoom__Get_data_of_last_meeting["Zoom: Get data of last meeting"]
-    Filter_transcript_URL["Filter transcript URL"]
-    Filter__Only_1_item["Filter: Only 1 item"]
-    Zoom__Get_transcript_file["Zoom: Get transcript file"]
-    Extract_text_from_transcript_file["Extract text from transcript file"]
-    Format_transcript_text["Format transcript text"]
-    Zoom__Get_participants_data["Zoom: Get participants data"]
-    Create_meeting_summary(["Create meeting summary"]):::ai
-    Sort_for_mail_delivery["Sort for mail delivery"]
-    Format_to_html["Format to html"]
-    Send_meeting_summary["Send meeting summary"]
-    Create_tasks["Create tasks"]
-    Create_tasks_and_follow_up_call["Create tasks and follow-up call"]:::ai
-    Create_follow_up_call["Create follow-up call"]
-    Filter__Last_24_hours["Filter: Last 24 hours"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Split_Out["Split Out"]
-    ClickUp["ClickUp"]
-    Zoom__Get_transcripts_data["Zoom: Get transcripts data"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    No_Recording_Transcript_available["fas:fa-cogs No Recording/Transcript available"]
+    Zoom__Get_data_of_last_meeting["fas:fa-cogs Zoom: Get data of last meeting"]
+    Filter_transcript_URL["fas:fa-cogs Filter transcript URL"]
+    Filter__Only_1_item["fas:fa-cogs Filter: Only 1 item"]
+    Zoom__Get_transcript_file["fas:fa-globe Zoom: Get transcript file"]
+    Extract_text_from_transcript_file["fas:fa-cogs Extract text from transcript file"]
+    Format_transcript_text["fas:fa-cogs Format transcript text"]
+    Zoom__Get_participants_data["fas:fa-globe Zoom: Get participants data"]
+    Create_meeting_summary(["fas:fa-robot Create meeting summary"]):::ai
+    Sort_for_mail_delivery["fas:fa-cogs Sort for mail delivery"]
+    Format_to_html["fas:fa-cogs Format to html"]
+    Send_meeting_summary["fas:fa-envelope Send meeting summary"]
+    Create_tasks["fas:fa-robot Create tasks"]
+    Create_tasks_and_follow_up_call["fas:fa-robot Create tasks and follow-up call"]:::ai
+    Create_follow_up_call["fas:fa-cogs Create follow-up call"]
+    Filter__Last_24_hours["fas:fa-cogs Filter: Last 24 hours"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Split_Out["fas:fa-cogs Split Out"]
+    ClickUp["fas:fa-cogs ClickUp"]
+    Zoom__Get_transcripts_data["fas:fa-globe Zoom: Get transcripts data"]
 
     Split_Out --> ClickUp
     Create_tasks --> Create_tasks_and_follow_up_call

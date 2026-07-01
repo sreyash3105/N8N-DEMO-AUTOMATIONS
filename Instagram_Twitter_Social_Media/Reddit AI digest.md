@@ -4,17 +4,17 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Execute_Workflow_(("When clicking 'Execute Workflow'")):::trigger
-    Reddit["Reddit"]
-    Set["Set"]
-    IF{"IF"}:::logic
-    IF1{"IF1"}:::logic
-    Merge["Merge"]
-    Merge1["Merge1"]
-    SetFinal["SetFinal"]
-    OpenAI_Summary(["OpenAI Summary"]):::ai
-    OpenAI_Classify(["OpenAI Classify"]):::ai
-    OpenAI_Summary_Backup(["OpenAI Summary Backup"]):::ai
+    When_clicking__Execute_Workflow_(("fas:fa-bolt When clicking 'Execute Workflow'")):::trigger
+    Reddit["fas:fa-cogs Reddit"]
+    Set["fas:fa-cogs Set"]
+    IF{"fas:fa-code-branch IF"}:::logic
+    IF1{"fas:fa-code-branch IF1"}:::logic
+    Merge["fas:fa-cogs Merge"]
+    Merge1["fas:fa-cogs Merge1"]
+    SetFinal["fas:fa-cogs SetFinal"]
+    OpenAI_Summary(["fas:fa-robot OpenAI Summary"]):::ai
+    OpenAI_Classify(["fas:fa-robot OpenAI Classify"]):::ai
+    OpenAI_Summary_Backup(["fas:fa-robot OpenAI Summary Backup"]):::ai
 
     IF --> Set
     IF1 --> OpenAI_Summary_Backup

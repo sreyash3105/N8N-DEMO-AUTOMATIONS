@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Execute_Workflow_(("When clicking 'Execute Workflow'")):::trigger
-    Fetch_essay_list["Fetch essay list"]
-    Extract_essay_names["Extract essay names"]
-    Fetch_essay_texts["Fetch essay texts"]
-    Extract_title["Extract title"]
-    Clean_up["Clean up"]
-    Split_out_into_items["Split out into items"]
-    Limit_to_first_3["Limit to first 3"]
-    Default_Data_Loader["Default Data Loader"]
-    Recursive_Character_Text_Splitter["Recursive Character Text Splitter"]
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Merge["Merge"]
-    Summarization_Chain["Summarization Chain"]
+    When_clicking__Execute_Workflow_(("fas:fa-bolt When clicking 'Execute Workflow'")):::trigger
+    Fetch_essay_list["fas:fa-globe Fetch essay list"]
+    Extract_essay_names["fas:fa-cogs Extract essay names"]
+    Fetch_essay_texts["fas:fa-globe Fetch essay texts"]
+    Extract_title["fas:fa-cogs Extract title"]
+    Clean_up["fas:fa-cogs Clean up"]
+    Split_out_into_items["fas:fa-cogs Split out into items"]
+    Limit_to_first_3["fas:fa-cogs Limit to first 3"]
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Recursive_Character_Text_Splitter["fas:fa-robot Recursive Character Text Splitter"]
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Merge["fas:fa-cogs Merge"]
+    Summarization_Chain["fas:fa-robot Summarization Chain"]
 
     Merge --> Clean_up
     Extract_title --> Merge

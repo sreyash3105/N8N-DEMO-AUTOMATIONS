@@ -4,25 +4,25 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Crawl_HN_Home["Crawl HN Home"]
-    Extract_Meta["Extract Meta"]
-    Filter_Unposted_Items["Filter Unposted Items"]
-    Visit_GH_Page["Visit GH Page"]
-    Convert_HTML_To_Markdown["Convert HTML To Markdown"]
-    Filter_Errored["Filter Errored"]
-    No_Operation__do_nothing["No Operation, do nothing"]
-    Update_X_Status["Update X Status"]
-    LinkedIn["LinkedIn"]
-    Update_L_Status["Update L Status"]
-    Search_Item["Search Item"]
-    Create_Item["Create Item"]
-    X["X"]
-    Validate_Generate_Content["Validate Generate Content"]
-    Schedule_Trigger(("Schedule Trigger")):::trigger
-    Merge["Merge"]
-    Generate_Content(["Generate Content"]):::ai
-    Ping_Me["Ping Me"]
-    Wait_for_5_mins_before_posting["Wait for 5 mins before posting"]
+    Crawl_HN_Home["fas:fa-globe Crawl HN Home"]
+    Extract_Meta["fas:fa-cogs Extract Meta"]
+    Filter_Unposted_Items["fas:fa-cogs Filter Unposted Items"]
+    Visit_GH_Page["fas:fa-globe Visit GH Page"]
+    Convert_HTML_To_Markdown["fas:fa-cogs Convert HTML To Markdown"]
+    Filter_Errored["fas:fa-cogs Filter Errored"]
+    No_Operation__do_nothing["fas:fa-cogs No Operation, do nothing"]
+    Update_X_Status["fas:fa-robot Update X Status"]
+    LinkedIn["fas:fa-cogs LinkedIn"]
+    Update_L_Status["fas:fa-robot Update L Status"]
+    Search_Item["fas:fa-robot Search Item"]
+    Create_Item["fas:fa-robot Create Item"]
+    X["fas:fa-cogs X"]
+    Validate_Generate_Content["fas:fa-cogs Validate Generate Content"]
+    Schedule_Trigger(("fas:fa-bolt Schedule Trigger")):::trigger
+    Merge["fas:fa-cogs Merge"]
+    Generate_Content(["fas:fa-robot Generate Content"]):::ai
+    Ping_Me["fab:fa-telegram Ping Me"]
+    Wait_for_5_mins_before_posting["fas:fa-robot Wait for 5 mins before posting"]
 
     X --> Update_X_Status
     Merge --> Filter_Unposted_Items

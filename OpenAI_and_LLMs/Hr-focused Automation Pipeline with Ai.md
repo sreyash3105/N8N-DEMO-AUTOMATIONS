@@ -4,18 +4,18 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    On_form_submission(("On form submission")):::trigger
-    Extract_from_File["Extract from File"]
-    Qualifications["Qualifications"]
-    Summarization_Chain["Summarization Chain"]
-    Merge["Merge"]
-    Profile_Wanted["Profile Wanted"]
-    Google_Sheets["Google Sheets"]
-    Structured_Output_Parser["Structured Output Parser"]
-    HR_Expert(["HR Expert"]):::ai
-    Personal_Data["Personal Data"]
-    Upload_CV["Upload CV"]
-    OpenAI(["OpenAI"]):::ai
+    On_form_submission(("fas:fa-bolt On form submission")):::trigger
+    Extract_from_File["fas:fa-cogs Extract from File"]
+    Qualifications["fas:fa-robot Qualifications"]
+    Summarization_Chain["fas:fa-robot Summarization Chain"]
+    Merge["fas:fa-cogs Merge"]
+    Profile_Wanted["fas:fa-cogs Profile Wanted"]
+    Google_Sheets["fab:fa-google Google Sheets"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    HR_Expert(["fas:fa-robot HR Expert"]):::ai
+    Personal_Data["fas:fa-robot Personal Data"]
+    Upload_CV["fab:fa-google Upload CV"]
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
 
     Merge --> Summarization_Chain
     OpenAI --> Qualifications

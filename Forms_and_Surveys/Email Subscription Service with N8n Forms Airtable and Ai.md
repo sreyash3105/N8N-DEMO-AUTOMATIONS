@@ -4,30 +4,30 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Schedule_Trigger(("Schedule Trigger")):::trigger
-    Search_daily["Search daily"]
-    Search_weekly["Search weekly"]
-    confirmation_email1["confirmation email1"]
-    Execute_Workflow["Execute Workflow"]
-    Create_Event["Create Event"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Unsubscribe_Form(("Unsubscribe Form")):::trigger
-    Set_Email_Vars["Set Email Vars"]
-    Log_Last_Sent["Log Last Sent"]
-    Search_surprise["Search surprise"]
-    Should_Send___True["Should Send = True"]
-    Should_Send_["Should Send?"]
-    Create_Subscriber["Create Subscriber"]
-    Update_Subscriber["Update Subscriber"]
-    Subscribe_Form(("Subscribe Form")):::trigger
-    Execution_Data["Execution Data"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Wikipedia["Wikipedia"]
-    Content_Generation_Agent["Content Generation Agent"]:::ai
-    Groq_Chat_Model["Groq Chat Model"]
-    Generate_Image(["Generate Image"]):::ai
-    Resize_Image["Resize Image"]
-    Send_Message["Send Message"]
+    Schedule_Trigger(("fas:fa-bolt Schedule Trigger")):::trigger
+    Search_daily["fas:fa-robot Search daily"]
+    Search_weekly["fas:fa-robot Search weekly"]
+    confirmation_email1["fas:fa-envelope confirmation email1"]
+    Execute_Workflow["fas:fa-cogs Execute Workflow"]
+    Create_Event["fas:fa-cogs Create Event"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Unsubscribe_Form(("fas:fa-bolt Unsubscribe Form")):::trigger
+    Set_Email_Vars["fas:fa-cogs Set Email Vars"]
+    Log_Last_Sent["fas:fa-robot Log Last Sent"]
+    Search_surprise["fas:fa-robot Search surprise"]
+    Should_Send___True["fas:fa-cogs Should Send = True"]
+    Should_Send_["fas:fa-cogs Should Send?"]
+    Create_Subscriber["fas:fa-robot Create Subscriber"]
+    Update_Subscriber["fas:fa-robot Update Subscriber"]
+    Subscribe_Form(("fas:fa-bolt Subscribe Form")):::trigger
+    Execution_Data["fas:fa-cogs Execution Data"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Wikipedia["fas:fa-robot Wikipedia"]
+    Content_Generation_Agent["fas:fa-robot Content Generation Agent"]:::ai
+    Groq_Chat_Model["fas:fa-robot Groq Chat Model"]
+    Generate_Image(["fas:fa-robot Generate Image"]):::ai
+    Resize_Image["fas:fa-cogs Resize Image"]
+    Send_Message["fas:fa-envelope Send Message"]
 
     Wikipedia --> Content_Generation_Agent
     Create_Event --> Execute_Workflow

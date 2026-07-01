@@ -4,15 +4,15 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    AI_Agent["AI Agent"]:::ai
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Get_Airtable_Record_Data["Get Airtable Record Data"]
-    Wait_1_Minute["Wait 1 Minute"]
-    Format_Fields["Format Fields"]
-    Post_Caption_into_Airtable_Record["Post Caption into Airtable Record"]
-    Airtable_Trigger__New_Record(("Airtable Trigger: New Record")):::trigger
-    Background_Info["Background Info"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Get_Airtable_Record_Data["fas:fa-robot Get Airtable Record Data"]
+    Wait_1_Minute["fas:fa-robot Wait 1 Minute"]
+    Format_Fields["fas:fa-cogs Format Fields"]
+    Post_Caption_into_Airtable_Record["fas:fa-robot Post Caption into Airtable Record"]
+    Airtable_Trigger__New_Record(("fas:fa-robot Airtable Trigger: New Record")):::trigger
+    Background_Info["fas:fa-robot Background Info"]
 
     AI_Agent --> Format_Fields
     Format_Fields --> Post_Caption_into_Airtable_Record

@@ -4,12 +4,12 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_chat_message_received(("When chat message received")):::trigger
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Generic_AI_Tool_Agent["Generic AI Tool Agent"]:::ai
-    Chat_Memory_Buffer[("Chat Memory Buffer")]
-    A_tool_to_get_the_weather_forecast_based_on_geolocation["A tool to get the weather forecast based on geolocation"]
-    A_tool_for_inputting_the_city_and_obtaining_geolocation["A tool for inputting the city and obtaining geolocation"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Generic_AI_Tool_Agent["fas:fa-robot Generic AI Tool Agent"]:::ai
+    Chat_Memory_Buffer[("fas:fa-robot Chat Memory Buffer")]
+    A_tool_to_get_the_weather_forecast_based_on_geolocation["fas:fa-robot A tool to get the weather forecast based on geolocation"]
+    A_tool_for_inputting_the_city_and_obtaining_geolocation["fas:fa-robot A tool for inputting the city and obtaining geolocation"]
 
     OpenAI_Chat_Model --> Generic_AI_Tool_Agent
     Chat_Memory_Buffer --> When_chat_message_received

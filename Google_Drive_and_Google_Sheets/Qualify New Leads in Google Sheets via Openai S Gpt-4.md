@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Merge["Merge"]
-    Update_lead_status["Update lead status"]
-    Extract_JSON_reply["Extract JSON reply"]
-    Qualify_leads_with_GPT(["Qualify leads with GPT"]):::ai
-    Check_for_new_entries(("Check for new entries")):::trigger
+    Merge["fas:fa-cogs Merge"]
+    Update_lead_status["fab:fa-google Update lead status"]
+    Extract_JSON_reply["fas:fa-cogs Extract JSON reply"]
+    Qualify_leads_with_GPT(["fas:fa-robot Qualify leads with GPT"]):::ai
+    Check_for_new_entries(("fab:fa-google Check for new entries")):::trigger
 
     Merge --> Update_lead_status
     Extract_JSON_reply --> Merge

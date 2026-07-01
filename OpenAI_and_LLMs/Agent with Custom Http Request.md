@@ -4,22 +4,22 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    On_new_manual_Chat_Message(("On new manual Chat Message")):::trigger
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    HTTP_Request["HTTP Request"]
-    Exctract_HTML_Body["Exctract HTML Body"]
-    Is_error_{"Is error?"}:::logic
-    Stringify_error_message["Stringify error message"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Remove_extra_tags["Remove extra tags"]
-    Simplify_output["Simplify output"]
-    Simplify_{"Simplify?"}:::logic
-    QUERY_PARAMS["QUERY_PARAMS"]
-    CONFIG["CONFIG"]
-    ReAct_AI_Agent["ReAct AI Agent"]:::ai
-    Convert_to_Markdown["Convert to Markdown"]
-    Send_Page_Content["Send Page Content"]
-    HTTP_Request_Tool["HTTP_Request_Tool"]
+    On_new_manual_Chat_Message(("fas:fa-robot On new manual Chat Message")):::trigger
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    HTTP_Request["fas:fa-globe HTTP Request"]
+    Exctract_HTML_Body["fas:fa-cogs Exctract HTML Body"]
+    Is_error_{"fas:fa-code-branch Is error?"}:::logic
+    Stringify_error_message["fas:fa-cogs Stringify error message"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Remove_extra_tags["fas:fa-cogs Remove extra tags"]
+    Simplify_output["fas:fa-cogs Simplify output"]
+    Simplify_{"fas:fa-code-branch Simplify?"}:::logic
+    QUERY_PARAMS["fas:fa-cogs QUERY_PARAMS"]
+    CONFIG["fas:fa-cogs CONFIG"]
+    ReAct_AI_Agent["fas:fa-robot ReAct AI Agent"]:::ai
+    Convert_to_Markdown["fas:fa-cogs Convert to Markdown"]
+    Send_Page_Content["fas:fa-cogs Send Page Content"]
+    HTTP_Request_Tool["fas:fa-robot HTTP_Request_Tool"]
 
     CONFIG --> HTTP_Request
     Is_error_ --> Stringify_error_message

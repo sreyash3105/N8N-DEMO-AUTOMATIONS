@@ -4,54 +4,54 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    CONFIG["CONFIG"]
-    Convert_to_File["Convert to File"]
-    HasFile_{"HasFile?"}:::logic
-    Extract_from_File["Extract from File"]
-    Main_Page["Main Page"]
-    Instance_overview["Instance overview"]
-    Sort_workflows["Sort-workflows"]
-    doc_action{"doc action"}:::logic
-    Empty_Set["Empty Set"]
-    Load_Doc_File["Load Doc File"]
-    Respond_with_markdown(("Respond with markdown")):::trigger
-    Respond_with_HTML(("Respond with HTML")):::trigger
-    Save_New_Doc_File["Save New Doc File"]
-    Blank_Doc_File["Blank Doc File"]
-    Fetch_Single_Workflow1["Fetch Single Workflow1"]
-    Fill_Workflow_Table["Fill Workflow Table"]
-    Basic_LLM_Chain(["Basic LLM Chain"]):::ai
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Structured_Output_Parser["Structured Output Parser"]
-    Auto_fixing_Output_Parser["Auto-fixing Output Parser"]
-    Respond_with_main_page_HTML(("Respond with main page HTML")):::trigger
-    Workflow_Tags["Workflow Tags"]
-    No_Operation__do_nothing["No Operation, do nothing"]
-    Merge["Merge"]
-    Fallback_file_name["Fallback file name"]
-    mkdir["mkdir"]
-    Merge1["Merge1"]
-    Edit_Page["Edit Page"]
-    Workflow_md_content["Workflow md content"]
-    Is_Action_Edit_1{"Is Action Edit?1"}:::logic
-    Is_Action_Edit_2{"Is Action Edit?2"}:::logic
-    Generate_Mermaid_Chart["Generate Mermaid Chart"]
-    Merge2["Merge2"]
-    Generated_Doc["Generated Doc"]
-    Passthrough["Passthrough"]
-    Merge3["Merge3"]
-    Merge4["Merge4"]
-    Merge5["Merge5"]
-    Edit_Fields["Edit Fields"]
-    Is_Action_Save_{"Is Action Save?"}:::logic
-    Merge6["Merge6"]
-    Respond_OK_on_Save(("Respond OK on Save")):::trigger
-    single_workflow(("single workflow")):::trigger
-    file_types{"file types"}:::logic
-    Get_All_Workflows["Get All Workflows"]
-    md_files{"md files"}:::logic
-    Get_Workflow_tags["Get Workflow tags"]
-    docsify(("docsify")):::trigger
+    CONFIG["fas:fa-cogs CONFIG"]
+    Convert_to_File["fas:fa-cogs Convert to File"]
+    HasFile_{"fas:fa-code-branch HasFile?"}:::logic
+    Extract_from_File["fas:fa-cogs Extract from File"]
+    Main_Page["fas:fa-cogs Main Page"]
+    Instance_overview["fas:fa-cogs Instance overview"]
+    Sort_workflows["fas:fa-cogs Sort-workflows"]
+    doc_action{"fas:fa-code-branch doc action"}:::logic
+    Empty_Set["fas:fa-cogs Empty Set"]
+    Load_Doc_File["fas:fa-cogs Load Doc File"]
+    Respond_with_markdown(("fas:fa-bolt Respond with markdown")):::trigger
+    Respond_with_HTML(("fas:fa-bolt Respond with HTML")):::trigger
+    Save_New_Doc_File["fas:fa-cogs Save New Doc File"]
+    Blank_Doc_File["fas:fa-cogs Blank Doc File"]
+    Fetch_Single_Workflow1["fas:fa-cogs Fetch Single Workflow1"]
+    Fill_Workflow_Table["fas:fa-cogs Fill Workflow Table"]
+    Basic_LLM_Chain(["fas:fa-robot Basic LLM Chain"]):::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Auto_fixing_Output_Parser["fas:fa-robot Auto-fixing Output Parser"]
+    Respond_with_main_page_HTML(("fas:fa-bolt Respond with main page HTML")):::trigger
+    Workflow_Tags["fas:fa-cogs Workflow Tags"]
+    No_Operation__do_nothing["fas:fa-cogs No Operation, do nothing"]
+    Merge["fas:fa-cogs Merge"]
+    Fallback_file_name["fas:fa-cogs Fallback file name"]
+    mkdir["fas:fa-cogs mkdir"]
+    Merge1["fas:fa-cogs Merge1"]
+    Edit_Page["fas:fa-cogs Edit Page"]
+    Workflow_md_content["fas:fa-cogs Workflow md content"]
+    Is_Action_Edit_1{"fas:fa-code-branch Is Action Edit?1"}:::logic
+    Is_Action_Edit_2{"fas:fa-code-branch Is Action Edit?2"}:::logic
+    Generate_Mermaid_Chart["fas:fa-cogs Generate Mermaid Chart"]
+    Merge2["fas:fa-cogs Merge2"]
+    Generated_Doc["fas:fa-cogs Generated Doc"]
+    Passthrough["fas:fa-cogs Passthrough"]
+    Merge3["fas:fa-cogs Merge3"]
+    Merge4["fas:fa-cogs Merge4"]
+    Merge5["fas:fa-cogs Merge5"]
+    Edit_Fields["fas:fa-cogs Edit Fields"]
+    Is_Action_Save_{"fas:fa-code-branch Is Action Save?"}:::logic
+    Merge6["fas:fa-cogs Merge6"]
+    Respond_OK_on_Save(("fas:fa-bolt Respond OK on Save")):::trigger
+    single_workflow(("fas:fa-bolt single workflow")):::trigger
+    file_types{"fas:fa-code-branch file types"}:::logic
+    Get_All_Workflows["fas:fa-cogs Get All Workflows"]
+    md_files{"fas:fa-code-branch md files"}:::logic
+    Get_Workflow_tags["fas:fa-cogs Get Workflow tags"]
+    docsify(("fas:fa-bolt docsify")):::trigger
 
     Merge --> Is_Action_Edit_1
     mkdir --> Merge1

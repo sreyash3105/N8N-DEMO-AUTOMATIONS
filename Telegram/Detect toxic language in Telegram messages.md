@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Telegram_Trigger(("Telegram Trigger")):::trigger
-    Google_Perspective["Google Perspective"]
-    IF{"IF"}:::logic
-    Telegram["Telegram"]
-    NoOp["NoOp"]
+    Telegram_Trigger(("fab:fa-telegram Telegram Trigger")):::trigger
+    Google_Perspective["fab:fa-google Google Perspective"]
+    IF{"fas:fa-code-branch IF"}:::logic
+    Telegram["fab:fa-telegram Telegram"]
+    NoOp["fas:fa-cogs NoOp"]
 
     IF --> Telegram
     IF --> NoOp

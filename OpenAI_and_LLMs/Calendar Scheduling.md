@@ -4,23 +4,23 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Gmail_Trigger(("Gmail Trigger")):::trigger
-    Chat_OpenAI(["Chat OpenAI"]):::ai
-    Workflow_Tool["Workflow Tool"]
-    Chat_OpenAI1(["Chat OpenAI1"]):::ai
-    Google_Calendar["Google Calendar"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Format_response["Format response"]
-    Stringify_Response["Stringify Response"]
-    Extract_start__end_and_name["Extract start, end and name"]
-    Filter_only_confirmed_and_with_set_time["Filter only confirmed and with set time"]
-    Is_appointment_request{"Is appointment request"}:::logic
-    Classify_appointment(["Classify appointment"]):::ai
-    Structured_Output_Parser["Structured Output Parser"]
-    Sort["Sort"]
-    Mark_as_read["Mark as read"]
-    Send_Reply["Send Reply"]
-    Agent["Agent"]:::ai
+    Gmail_Trigger(("fas:fa-envelope Gmail Trigger")):::trigger
+    Chat_OpenAI(["fas:fa-robot Chat OpenAI"]):::ai
+    Workflow_Tool["fas:fa-robot Workflow Tool"]
+    Chat_OpenAI1(["fas:fa-robot Chat OpenAI1"]):::ai
+    Google_Calendar["fab:fa-google Google Calendar"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Format_response["fas:fa-cogs Format response"]
+    Stringify_Response["fas:fa-cogs Stringify Response"]
+    Extract_start__end_and_name["fas:fa-cogs Extract start, end and name"]
+    Filter_only_confirmed_and_with_set_time["fas:fa-cogs Filter only confirmed and with set time"]
+    Is_appointment_request{"fas:fa-code-branch Is appointment request"}:::logic
+    Classify_appointment(["fas:fa-robot Classify appointment"]):::ai
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Sort["fas:fa-cogs Sort"]
+    Mark_as_read["fas:fa-envelope Mark as read"]
+    Send_Reply["fas:fa-envelope Send Reply"]
+    Agent["fas:fa-robot Agent"]:::ai
 
     Sort --> Format_response
     Agent --> Send_Reply

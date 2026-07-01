@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Setup["Setup"]
-    URLbox_API_Request["URLbox API Request"]
-    Analyze_the_Screenshot(["Analyze the Screenshot"]):::ai
-    Merge_Name___Description["Merge Name & Description"]
-    Manual_Execution(("Manual Execution")):::trigger
+    Setup["fas:fa-cogs Setup"]
+    URLbox_API_Request["fas:fa-globe URLbox API Request"]
+    Analyze_the_Screenshot(["fas:fa-robot Analyze the Screenshot"]):::ai
+    Merge_Name___Description["fas:fa-cogs Merge Name & Description"]
+    Manual_Execution(("fas:fa-bolt Manual Execution")):::trigger
 
     Setup --> URLbox_API_Request
     Setup --> Merge_Name___Description

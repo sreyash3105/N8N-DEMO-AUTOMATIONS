@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Basic_LLM_Chain(["Basic LLM Chain"]):::ai
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    Schedule_Trigger(("Schedule Trigger")):::trigger
-    CreateYearsList["CreateYearsList"]
-    CleanUpYearList["CleanUpYearList"]
-    SplitOutYearList["SplitOutYearList"]
-    GetFrontPage["GetFrontPage"]
-    ExtractDetails["ExtractDetails"]
-    GetHeadlines["GetHeadlines"]
-    GetDate["GetDate"]
-    MergeHeadlinesDate["MergeHeadlinesDate"]
-    SingleJson["SingleJson"]
-    Telegram["Telegram"]
+    Basic_LLM_Chain(["fas:fa-robot Basic LLM Chain"]):::ai
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    Schedule_Trigger(("fas:fa-bolt Schedule Trigger")):::trigger
+    CreateYearsList["fas:fa-cogs CreateYearsList"]
+    CleanUpYearList["fas:fa-cogs CleanUpYearList"]
+    SplitOutYearList["fas:fa-cogs SplitOutYearList"]
+    GetFrontPage["fas:fa-globe GetFrontPage"]
+    ExtractDetails["fas:fa-cogs ExtractDetails"]
+    GetHeadlines["fas:fa-cogs GetHeadlines"]
+    GetDate["fas:fa-cogs GetDate"]
+    MergeHeadlinesDate["fas:fa-cogs MergeHeadlinesDate"]
+    SingleJson["fas:fa-cogs SingleJson"]
+    Telegram["fab:fa-telegram Telegram"]
 
     GetDate --> MergeHeadlinesDate
     SingleJson --> Basic_LLM_Chain

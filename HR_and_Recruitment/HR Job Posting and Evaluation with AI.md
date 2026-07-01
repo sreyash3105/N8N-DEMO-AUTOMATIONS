@@ -4,36 +4,36 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    On_form_submission(("On form submission")):::trigger
-    Airtable["Airtable"]
-    Upload_CV_to_google_drive["Upload CV to google drive"]
-    applicant_details["applicant details"]
-    download_CV["download CV"]
-    Extract_from_File["Extract from File"]
-    AI_Agent["AI Agent"]:::ai
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Airtable1["Airtable1"]
-    Structured_Output_Parser["Structured Output Parser"]
-    shortlisted_{"shortlisted?"}:::logic
-    Rejected["Rejected"]
-    Potential_Hire["Potential Hire"]
-    Airtable2["Airtable2"]
-    generate_questionnaires(["generate questionnaires"]):::ai
-    questionnaires["questionnaires"]
-    update_questionnaires["update questionnaires"]
-    job_posting["job_posting"]
-    candidate_insights["candidate_insights"]
-    Personalize_email(["Personalize email"]):::ai
-    Edit_Fields["Edit Fields"]
-    Send_Email["Send Email"]
-    Book_Meeting(["Book Meeting"]):::ai
-    Google_Calendar["Google Calendar"]
-    update_phone_meeting_time["update phone meeting time"]
-    Screening_Questions(["Screening Questions"]):::ai
-    job_posting1["job_posting1"]
-    candidate_insights1["candidate_insights1"]
-    screening_questions["screening questions"]
-    Edit_Fields1["Edit Fields1"]
+    On_form_submission(("fas:fa-bolt On form submission")):::trigger
+    Airtable["fas:fa-robot Airtable"]
+    Upload_CV_to_google_drive["fab:fa-google Upload CV to google drive"]
+    applicant_details["fas:fa-cogs applicant details"]
+    download_CV["fab:fa-google download CV"]
+    Extract_from_File["fas:fa-cogs Extract from File"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Airtable1["fas:fa-robot Airtable1"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    shortlisted_{"fas:fa-code-branch shortlisted?"}:::logic
+    Rejected["fas:fa-robot Rejected"]
+    Potential_Hire["fas:fa-robot Potential Hire"]
+    Airtable2["fas:fa-robot Airtable2"]
+    generate_questionnaires(["fas:fa-robot generate questionnaires"]):::ai
+    questionnaires["fas:fa-cogs questionnaires"]
+    update_questionnaires["fas:fa-robot update questionnaires"]
+    job_posting["fas:fa-robot job_posting"]
+    candidate_insights["fas:fa-robot candidate_insights"]
+    Personalize_email(["fas:fa-robot Personalize email"]):::ai
+    Edit_Fields["fas:fa-cogs Edit Fields"]
+    Send_Email["fas:fa-envelope Send Email"]
+    Book_Meeting(["fas:fa-robot Book Meeting"]):::ai
+    Google_Calendar["fab:fa-google Google Calendar"]
+    update_phone_meeting_time["fas:fa-robot update phone meeting time"]
+    Screening_Questions(["fas:fa-robot Screening Questions"]):::ai
+    job_posting1["fas:fa-robot job_posting1"]
+    candidate_insights1["fas:fa-robot candidate_insights1"]
+    screening_questions["fas:fa-robot screening questions"]
+    Edit_Fields1["fas:fa-cogs Edit Fields1"]
 
     AI_Agent --> shortlisted_
     Airtable --> download_CV

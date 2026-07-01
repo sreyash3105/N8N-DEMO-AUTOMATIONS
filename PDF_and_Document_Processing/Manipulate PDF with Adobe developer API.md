@@ -4,20 +4,20 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Create_Asset["Create Asset"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Adobe_API_Query["Adobe API Query"]
-    Load_a_test_pdf_file["Load a test pdf file"]
-    Query___File["Query + File"]
-    Query___File___Asset_information["Query + File + Asset information"]
-    Process_Query["Process Query"]
-    Wait_5_second["Wait 5 second"]
-    Try_to_download_the_result["Try to download the result"]
-    Switch{"Switch"}:::logic
-    Forward_response_to_origin_workflow["Forward response to origin workflow"]
-    Authenticartion__get_token_["Authenticartion (get token)"]
-    Upload_PDF_File__asset_["Upload PDF File (asset)"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Create_Asset["fas:fa-globe Create Asset"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Adobe_API_Query["fas:fa-cogs Adobe API Query"]
+    Load_a_test_pdf_file["fas:fa-file-pdf Load a test pdf file"]
+    Query___File["fas:fa-cogs Query + File"]
+    Query___File___Asset_information["fas:fa-cogs Query + File + Asset information"]
+    Process_Query["fas:fa-globe Process Query"]
+    Wait_5_second["fas:fa-robot Wait 5 second"]
+    Try_to_download_the_result["fas:fa-globe Try to download the result"]
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    Forward_response_to_origin_workflow["fas:fa-cogs Forward response to origin workflow"]
+    Authenticartion__get_token_["fas:fa-globe Authenticartion (get token)"]
+    Upload_PDF_File__asset_["fas:fa-file-pdf Upload PDF File (asset)"]
 
     Switch --> Wait_5_second
     Switch --> Forward_response_to_origin_workflow

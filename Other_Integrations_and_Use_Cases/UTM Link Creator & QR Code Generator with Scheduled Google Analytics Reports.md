@@ -4,17 +4,17 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Google_Analytics["Google Analytics"]
-    Create_UTM_Link___Send_To_Database(("Create UTM Link & Send To Database")):::trigger
-    Set_UTM_Parameters_For_Link["Set UTM Parameters For Link"]
-    Create_UTM_Link_With_Parameters["Create UTM Link With Parameters"]
-    Submit_UTM_Link_To_Database["Submit UTM Link To Database"]
-    Create_QR_Code_With_Submitted_QR_Link["Create QR Code With Submitted QR Link"]
-    Schedule_Google_Analytics_Report_To_Marketing_Manager(("Schedule Google Analytics Report To Marketing Manager")):::trigger
-    Google_Analytics_Data_Analysis_Agent["Google Analytics Data Analysis Agent"]:::ai
-    Send_Summary_Report_To_Marketing_Manager["Send Summary Report To Marketing Manager"]
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Google_Analytics["fab:fa-google Google Analytics"]
+    Create_UTM_Link___Send_To_Database(("fas:fa-bolt Create UTM Link & Send To Database")):::trigger
+    Set_UTM_Parameters_For_Link["fas:fa-cogs Set UTM Parameters For Link"]
+    Create_UTM_Link_With_Parameters["fas:fa-cogs Create UTM Link With Parameters"]
+    Submit_UTM_Link_To_Database["fas:fa-robot Submit UTM Link To Database"]
+    Create_QR_Code_With_Submitted_QR_Link["fas:fa-globe Create QR Code With Submitted QR Link"]
+    Schedule_Google_Analytics_Report_To_Marketing_Manager(("fab:fa-google Schedule Google Analytics Report To Marketing Manager")):::trigger
+    Google_Analytics_Data_Analysis_Agent["fab:fa-google Google Analytics Data Analysis Agent"]:::ai
+    Send_Summary_Report_To_Marketing_Manager["fas:fa-envelope Send Summary Report To Marketing Manager"]
 
     Google_Analytics --> Google_Analytics_Data_Analysis_Agent
     OpenAI_Chat_Model1 --> Google_Analytics_Data_Analysis_Agent

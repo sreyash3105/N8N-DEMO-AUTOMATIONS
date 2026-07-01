@@ -4,62 +4,62 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Extract_First_Url_Match["Extract First Url Match"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Clean_Webdriver_["Clean Webdriver "]
-    Delete_Session["Delete Session"]
-    Delete_Session2["Delete Session2"]
-    If_Block1{"If Block1"}:::logic
-    Delete_Session3["Delete Session3"]
-    Limit["Limit"]
-    Delete_Session1["Delete Session1"]
-    Delete_Session4["Delete Session4"]
-    Success_with_cookie(("Success with cookie")):::trigger
-    Respond_to_Webhook2(("Respond to Webhook2")):::trigger
-    Code["Code"]
-    Delete_Session5["Delete Session5"]
-    Error(("Error")):::trigger
-    Error1(("Error1")):::trigger
-    Error2(("Error2")):::trigger
-    If{"If"}:::logic
-    Inject_Cookie["Inject Cookie"]
-    Respond_to_Webhook3(("Respond to Webhook3")):::trigger
-    Success(("Success")):::trigger
-    Go_on_url["Go on url"]
-    Delete_Session6["Delete Session6"]
-    Error3(("Error3")):::trigger
-    Information_Extractor["Information Extractor"]
-    Check_if_empty_of_NA{"Check if empty of NA"}:::logic
-    If_Block{"If Block"}:::logic
-    Google_search_Query_["Google search Query "]
-    Create_Selenium_Session["Create Selenium Session"]
-    Get_ScreenShot_1["Get ScreenShot 1"]
-    Refresh_browser["Refresh browser"]
-    Get_ScreenShot_["Get ScreenShot "]
-    Convert_to_File["Convert to File"]
-    Convert_to_File1["Convert to File1"]
-    Delete_Session7["Delete Session7"]
-    Edit_Fields__For_testing_prupose__["Edit Fields (For testing prupose )"]
-    Get_ScreenShot_2["Get ScreenShot 2"]
-    Convert_to_File2["Convert to File2"]
-    Go_on_ip_api_com["Go on ip-api.com"]
-    Delete_Session8["Delete Session8"]
-    Error_can_t_find_url(("Error can't find url")):::trigger
-    Resize_browser_window["Resize browser window"]
-    OpenAI(["OpenAI"]):::ai
-    OpenAI1(["OpenAI1"]):::ai
-    Information_Extractor1["Information Extractor1"]
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Information_Extractor2["Information Extractor2"]
-    OpenAI_Chat_Model2(["OpenAI Chat Model2"]):::ai
-    Webhook(("Webhook")):::trigger
-    If_Target_Url{"If Target Url"}:::logic
-    If1{"If1"}:::logic
-    Go_on_url1["Go on url1"]
-    If2{"If2"}:::logic
-    Go_on_url2["Go on url2"]
-    If3{"If3"}:::logic
-    Go_on_url3["Go on url3"]
+    Extract_First_Url_Match["fas:fa-cogs Extract First Url Match"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Clean_Webdriver_["fas:fa-globe Clean Webdriver "]
+    Delete_Session["fas:fa-globe Delete Session"]
+    Delete_Session2["fas:fa-globe Delete Session2"]
+    If_Block1{"fas:fa-code-branch If Block1"}:::logic
+    Delete_Session3["fas:fa-globe Delete Session3"]
+    Limit["fas:fa-cogs Limit"]
+    Delete_Session1["fas:fa-globe Delete Session1"]
+    Delete_Session4["fas:fa-globe Delete Session4"]
+    Success_with_cookie(("fas:fa-bolt Success with cookie")):::trigger
+    Respond_to_Webhook2(("fas:fa-bolt Respond to Webhook2")):::trigger
+    Code["fas:fa-cogs Code"]
+    Delete_Session5["fas:fa-globe Delete Session5"]
+    Error(("fas:fa-bolt Error")):::trigger
+    Error1(("fas:fa-bolt Error1")):::trigger
+    Error2(("fas:fa-bolt Error2")):::trigger
+    If{"fas:fa-code-branch If"}:::logic
+    Inject_Cookie["fas:fa-globe Inject Cookie"]
+    Respond_to_Webhook3(("fas:fa-bolt Respond to Webhook3")):::trigger
+    Success(("fas:fa-bolt Success")):::trigger
+    Go_on_url["fas:fa-globe Go on url"]
+    Delete_Session6["fas:fa-globe Delete Session6"]
+    Error3(("fas:fa-bolt Error3")):::trigger
+    Information_Extractor["fas:fa-robot Information Extractor"]
+    Check_if_empty_of_NA{"fas:fa-code-branch Check if empty of NA"}:::logic
+    If_Block{"fas:fa-code-branch If Block"}:::logic
+    Google_search_Query_["fab:fa-google Google search Query "]
+    Create_Selenium_Session["fas:fa-globe Create Selenium Session"]
+    Get_ScreenShot_1["fas:fa-globe Get ScreenShot 1"]
+    Refresh_browser["fas:fa-globe Refresh browser"]
+    Get_ScreenShot_["fas:fa-globe Get ScreenShot "]
+    Convert_to_File["fas:fa-cogs Convert to File"]
+    Convert_to_File1["fas:fa-cogs Convert to File1"]
+    Delete_Session7["fas:fa-globe Delete Session7"]
+    Edit_Fields__For_testing_prupose__["fas:fa-cogs Edit Fields (For testing prupose )"]
+    Get_ScreenShot_2["fas:fa-globe Get ScreenShot 2"]
+    Convert_to_File2["fas:fa-cogs Convert to File2"]
+    Go_on_ip_api_com["fas:fa-globe Go on ip-api.com"]
+    Delete_Session8["fas:fa-globe Delete Session8"]
+    Error_can_t_find_url(("fas:fa-bolt Error can't find url")):::trigger
+    Resize_browser_window["fas:fa-globe Resize browser window"]
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
+    OpenAI1(["fas:fa-robot OpenAI1"]):::ai
+    Information_Extractor1["fas:fa-robot Information Extractor1"]
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Information_Extractor2["fas:fa-robot Information Extractor2"]
+    OpenAI_Chat_Model2(["fas:fa-robot OpenAI Chat Model2"]):::ai
+    Webhook(("fas:fa-bolt Webhook")):::trigger
+    If_Target_Url{"fas:fa-code-branch If Target Url"}:::logic
+    If1{"fas:fa-code-branch If1"}:::logic
+    Go_on_url1["fas:fa-globe Go on url1"]
+    If2{"fas:fa-code-branch If2"}:::logic
+    Go_on_url2["fas:fa-globe Go on url2"]
+    If3{"fas:fa-code-branch If3"}:::logic
+    Go_on_url3["fas:fa-globe Go on url3"]
 
     If --> If3
     If --> Delete_Session5

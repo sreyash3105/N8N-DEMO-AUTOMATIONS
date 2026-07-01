@@ -4,32 +4,32 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Ollama_Chat_Model1["Ollama Chat Model1"]
-    Microsoft_Outlook10["Microsoft Outlook10"]
-    Microsoft_Outlook12["Microsoft Outlook12"]
-    Loop_Over_Items1["Loop Over Items1"]
-    Microsoft_Outlook13["Microsoft Outlook13"]
-    Microsoft_Outlook15["Microsoft Outlook15"]
-    Microsoft_Outlook16["Microsoft Outlook16"]
-    Microsoft_Outlook17["Microsoft Outlook17"]
-    Microsoft_Outlook18["Microsoft Outlook18"]
-    Microsoft_Outlook19["Microsoft Outlook19"]
-    Markdown1["Markdown1"]
-    varEmal1["varEmal1"]
-    Microsoft_Outlook20["Microsoft Outlook20"]
-    Microsoft_Outlook21["Microsoft Outlook21"]
-    Filter1["Filter1"]
-    If1{"If1"}:::logic
-    Microsoft_Outlook22["Microsoft Outlook22"]
-    Catch_Errors1["Catch Errors1"]
-    varJSON1["varJSON1"]
-    Microsoft_Outlook23["Microsoft Outlook23"]
-    varID___Category1["varID & Category1"]
-    Microsoft_Outlook_Move_Message1["Microsoft Outlook Move Message1"]
-    AI_Agent1["AI Agent1"]:::ai
-    Merge1["Merge1"]
-    Switch1{"Switch1"}:::logic
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Ollama_Chat_Model1["fas:fa-robot Ollama Chat Model1"]
+    Microsoft_Outlook10["fas:fa-cogs Microsoft Outlook10"]
+    Microsoft_Outlook12["fas:fa-cogs Microsoft Outlook12"]
+    Loop_Over_Items1["fas:fa-cogs Loop Over Items1"]
+    Microsoft_Outlook13["fas:fa-cogs Microsoft Outlook13"]
+    Microsoft_Outlook15["fas:fa-cogs Microsoft Outlook15"]
+    Microsoft_Outlook16["fas:fa-cogs Microsoft Outlook16"]
+    Microsoft_Outlook17["fas:fa-cogs Microsoft Outlook17"]
+    Microsoft_Outlook18["fas:fa-cogs Microsoft Outlook18"]
+    Microsoft_Outlook19["fas:fa-cogs Microsoft Outlook19"]
+    Markdown1["fas:fa-cogs Markdown1"]
+    varEmal1["fas:fa-cogs varEmal1"]
+    Microsoft_Outlook20["fas:fa-cogs Microsoft Outlook20"]
+    Microsoft_Outlook21["fas:fa-cogs Microsoft Outlook21"]
+    Filter1["fas:fa-cogs Filter1"]
+    If1{"fas:fa-code-branch If1"}:::logic
+    Microsoft_Outlook22["fas:fa-cogs Microsoft Outlook22"]
+    Catch_Errors1["fas:fa-cogs Catch Errors1"]
+    varJSON1["fas:fa-cogs varJSON1"]
+    Microsoft_Outlook23["fas:fa-cogs Microsoft Outlook23"]
+    varID___Category1["fas:fa-cogs varID & Category1"]
+    Microsoft_Outlook_Move_Message1["fas:fa-cogs Microsoft Outlook Move Message1"]
+    AI_Agent1["fas:fa-robot AI Agent1"]:::ai
+    Merge1["fas:fa-cogs Merge1"]
+    Switch1{"fas:fa-code-branch Switch1"}:::logic
 
     If1 --> Microsoft_Outlook_Move_Message1
     If1 --> Merge1

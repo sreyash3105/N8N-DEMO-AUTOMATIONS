@@ -4,17 +4,17 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Verify_Webhook(("Verify Webhook")):::trigger
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    No_Operation__do_nothing["No Operation, do nothing"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Check_if_Bot{"Check if Bot"}:::logic
-    Send_Initial_Message["Send Initial Message"]
-    Delete_Initial_Message["Delete Initial Message"]
-    Send_Message["Send Message"]
-    Receive_DMs(("Receive DMs")):::trigger
-    Call_Confluence_Workflow_Tool["Call Confluence Workflow Tool"]
-    AI_Agent["AI Agent"]:::ai
+    Verify_Webhook(("fas:fa-bolt Verify Webhook")):::trigger
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    No_Operation__do_nothing["fas:fa-cogs No Operation, do nothing"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Check_if_Bot{"fas:fa-code-branch Check if Bot"}:::logic
+    Send_Initial_Message["fab:fa-slack Send Initial Message"]
+    Delete_Initial_Message["fab:fa-slack Delete Initial Message"]
+    Send_Message["fab:fa-slack Send Message"]
+    Receive_DMs(("fas:fa-bolt Receive DMs")):::trigger
+    Call_Confluence_Workflow_Tool["fas:fa-robot Call Confluence Workflow Tool"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
 
     AI_Agent --> Delete_Initial_Message
     Receive_DMs --> Verify_Webhook

@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Code["Code"]
-    Split_Out1["Split Out1"]
-    Basic_LLM_Chain4(["Basic LLM Chain4"]):::ai
-    Ollama_Chat_Model["Ollama Chat Model"]
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Edit_Fields["Edit Fields"]
-    Merge["Merge"]
-    Filter["Filter"]
-    When_Executed_by_Another_Workflow(("When Executed by Another Workflow")):::trigger
-    Aggregate["Aggregate"]
-    Merge1["Merge1"]
-    Basic_LLM_Chain(["Basic LLM Chain"]):::ai
-    Ollama_Model["Ollama Model"]
+    Code["fas:fa-cogs Code"]
+    Split_Out1["fas:fa-cogs Split Out1"]
+    Basic_LLM_Chain4(["fas:fa-robot Basic LLM Chain4"]):::ai
+    Ollama_Chat_Model["fas:fa-robot Ollama Chat Model"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Edit_Fields["fas:fa-cogs Edit Fields"]
+    Merge["fas:fa-cogs Merge"]
+    Filter["fas:fa-cogs Filter"]
+    When_Executed_by_Another_Workflow(("fas:fa-bolt When Executed by Another Workflow")):::trigger
+    Aggregate["fas:fa-cogs Aggregate"]
+    Merge1["fas:fa-cogs Merge1"]
+    Basic_LLM_Chain(["fas:fa-robot Basic LLM Chain"]):::ai
+    Ollama_Model["fas:fa-robot Ollama Model"]
 
     Code --> Merge1
     Merge --> Filter

@@ -4,24 +4,24 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Extract_the_HTML_with_the_right_css_class["Extract the HTML with the right css class"]
-    Summary(["Summary"]):::ai
-    Keywords(["Keywords"]):::ai
-    Rename_keywords["Rename keywords"]
-    Rename_Summary["Rename Summary"]
-    Merge["Merge"]
-    Extract_date["Extract date"]
-    Select_posts_of_last_7_days["Select posts of last 7 days"]
-    Merge_date___links["Merge date & links"]
-    HTTP_Request1["HTTP Request1"]
-    Merge_Content_with_Date___Link["Merge Content with Date & Link"]
-    Extract_individual_posts["Extract individual posts"]
-    Merge_ChatGPT_output_with_Date___Link["Merge ChatGPT output with Date & Link"]
-    Retrieve_the_web_page_for_further_processsing["Retrieve the web page for further processsing"]
-    Schedule_Trigger_each_week(("Schedule Trigger each week")):::trigger
-    NocoDB_news_database["NocoDB news database"]
-    Create_single_link_items["Create single link items"]
-    Create_single_date_items["Create single date items"]
+    Extract_the_HTML_with_the_right_css_class["fas:fa-cogs Extract the HTML with the right css class"]
+    Summary(["fas:fa-robot Summary"]):::ai
+    Keywords(["fas:fa-robot Keywords"]):::ai
+    Rename_keywords["fas:fa-cogs Rename keywords"]
+    Rename_Summary["fas:fa-cogs Rename Summary"]
+    Merge["fas:fa-cogs Merge"]
+    Extract_date["fas:fa-cogs Extract date"]
+    Select_posts_of_last_7_days["fas:fa-cogs Select posts of last 7 days"]
+    Merge_date___links["fas:fa-cogs Merge date & links"]
+    HTTP_Request1["fas:fa-globe HTTP Request1"]
+    Merge_Content_with_Date___Link["fas:fa-cogs Merge Content with Date & Link"]
+    Extract_individual_posts["fas:fa-cogs Extract individual posts"]
+    Merge_ChatGPT_output_with_Date___Link["fas:fa-cogs Merge ChatGPT output with Date & Link"]
+    Retrieve_the_web_page_for_further_processsing["fas:fa-globe Retrieve the web page for further processsing"]
+    Schedule_Trigger_each_week(("fas:fa-bolt Schedule Trigger each week")):::trigger
+    NocoDB_news_database["fas:fa-cogs NocoDB news database"]
+    Create_single_link_items["fas:fa-cogs Create single link items"]
+    Create_single_date_items["fas:fa-cogs Create single date items"]
 
     Merge --> Merge_ChatGPT_output_with_Date___Link
     Summary --> Rename_Summary

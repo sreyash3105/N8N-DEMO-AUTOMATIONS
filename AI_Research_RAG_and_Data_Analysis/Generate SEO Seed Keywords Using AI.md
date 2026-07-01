@@ -4,13 +4,13 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Anthropic_Chat_Model["Anthropic Chat Model"]
-    Split_Out["Split Out"]
-    Set_Ideal_Customer_Profile__ICP_["Set Ideal Customer Profile (ICP)"]
-    Aggregate_for_AI_node["Aggregate for AI node"]
-    AI_Agent["AI Agent"]:::ai
-    Connect_to_your_own_database["Connect to your own database"]
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
+    Anthropic_Chat_Model["fas:fa-robot Anthropic Chat Model"]
+    Split_Out["fas:fa-cogs Split Out"]
+    Set_Ideal_Customer_Profile__ICP_["fas:fa-cogs Set Ideal Customer Profile (ICP)"]
+    Aggregate_for_AI_node["fas:fa-cogs Aggregate for AI node"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Connect_to_your_own_database["fas:fa-cogs Connect to your own database"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
 
     AI_Agent --> Split_Out
     Split_Out --> Connect_to_your_own_database

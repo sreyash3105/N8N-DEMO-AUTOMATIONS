@@ -4,20 +4,20 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    ScrapingBee__Get_page_HTML["ScrapingBee- Get page HTML"]
-    Structured_Output_Parser["Structured Output Parser"]
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    Split_Out["Split Out"]
-    Google_Sheets___Get_list_of_URLs["Google Sheets - Get list of URLs"]
-    Set_fields["Set fields"]
-    ScrapingBee___Get_page_screenshot["ScrapingBee - Get page screenshot"]
-    HTML_based_Scraping_Tool["HTML-based Scraping Tool"]
-    Google_Sheets___Create_Rows["Google Sheets - Create Rows"]
-    Vision_based_Scraping_Agent["Vision-based Scraping Agent"]:::ai
-    HTML_Scraping_Tool(("HTML-Scraping Tool")):::trigger
-    Set_fields___from_AI_agent_query["Set fields - from AI agent query"]
-    HTML_to_Markdown["HTML to Markdown"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    ScrapingBee__Get_page_HTML["fas:fa-globe ScrapingBee- Get page HTML"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    Split_Out["fas:fa-cogs Split Out"]
+    Google_Sheets___Get_list_of_URLs["fab:fa-google Google Sheets - Get list of URLs"]
+    Set_fields["fas:fa-cogs Set fields"]
+    ScrapingBee___Get_page_screenshot["fas:fa-globe ScrapingBee - Get page screenshot"]
+    HTML_based_Scraping_Tool["fas:fa-robot HTML-based Scraping Tool"]
+    Google_Sheets___Create_Rows["fab:fa-google Google Sheets - Create Rows"]
+    Vision_based_Scraping_Agent["fas:fa-robot Vision-based Scraping Agent"]:::ai
+    HTML_Scraping_Tool(("fas:fa-bolt HTML-Scraping Tool")):::trigger
+    Set_fields___from_AI_agent_query["fas:fa-robot Set fields - from AI agent query"]
+    HTML_to_Markdown["fas:fa-cogs HTML to Markdown"]
 
     Split_Out --> Google_Sheets___Create_Rows
     Set_fields --> ScrapingBee___Get_page_screenshot

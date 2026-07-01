@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Telegram_Trigger(("Telegram Trigger")):::trigger
-    OpenAI___Ask_about_a_track(["OpenAI - Ask about a track"]):::ai
-    Search_track{"Search track"}:::logic
-    Add_song{"Add song"}:::logic
-    Next_Song{"Next Song"}:::logic
-    Resume_play{"Resume play"}:::logic
-    Currently_Playing{"Currently Playing"}:::logic
-    Merge["Merge"]
-    If{"If"}:::logic
-    Message_parser["Message parser"]
-    Not_found_error_message["Not found error message"]
-    Return_message_to_Telegram["Return message to Telegram"]
-    Define_Now_Playing["Define Now Playing"]
+    Telegram_Trigger(("fab:fa-telegram Telegram Trigger")):::trigger
+    OpenAI___Ask_about_a_track(["fas:fa-robot OpenAI - Ask about a track"]):::ai
+    Search_track{"fas:fa-code-branch Search track"}:::logic
+    Add_song{"fas:fa-code-branch Add song"}:::logic
+    Next_Song{"fas:fa-code-branch Next Song"}:::logic
+    Resume_play{"fas:fa-code-branch Resume play"}:::logic
+    Currently_Playing{"fas:fa-code-branch Currently Playing"}:::logic
+    Merge["fas:fa-cogs Merge"]
+    If{"fas:fa-code-branch If"}:::logic
+    Message_parser["fas:fa-cogs Message parser"]
+    Not_found_error_message["fas:fa-cogs Not found error message"]
+    Return_message_to_Telegram["fab:fa-telegram Return message to Telegram"]
+    Define_Now_Playing["fas:fa-cogs Define Now Playing"]
 
     If --> Add_song
     If --> Not_found_error_message

@@ -4,25 +4,25 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    n8n_Form_Trigger(("n8n Form Trigger")):::trigger
-    Form_End["Form End"]
-    Enter_Date___Time["Enter Date & Time"]
-    Get_Form_Values["Get Form Values"]
-    Terms___Conditions["Terms & Conditions"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Has_Accepted_{"Has Accepted?"}:::logic
-    Send_Receipt["Send Receipt"]
-    Wait_for_Approval["Wait for Approval"]
-    Has_Approval_{"Has Approval?"}:::logic
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Create_Appointment["Create Appointment"]
-    Send_Rejection["Send Rejection"]
-    Decline["Decline"]
-    Decline1["Decline1"]
-    Trigger_Approval_Process["Trigger Approval Process"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Summarise_Enquiry(["Summarise Enquiry"]):::ai
-    Enquiry_Classifier{"Enquiry Classifier"}:::logic
+    n8n_Form_Trigger(("fas:fa-bolt n8n Form Trigger")):::trigger
+    Form_End["fas:fa-cogs Form End"]
+    Enter_Date___Time["fas:fa-cogs Enter Date & Time"]
+    Get_Form_Values["fas:fa-cogs Get Form Values"]
+    Terms___Conditions["fas:fa-cogs Terms & Conditions"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Has_Accepted_{"fas:fa-code-branch Has Accepted?"}:::logic
+    Send_Receipt["fas:fa-envelope Send Receipt"]
+    Wait_for_Approval["fas:fa-envelope Wait for Approval"]
+    Has_Approval_{"fas:fa-code-branch Has Approval?"}:::logic
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Create_Appointment["fab:fa-google Create Appointment"]
+    Send_Rejection["fas:fa-envelope Send Rejection"]
+    Decline["fas:fa-cogs Decline"]
+    Decline1["fas:fa-cogs Decline1"]
+    Trigger_Approval_Process["fas:fa-cogs Trigger Approval Process"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Summarise_Enquiry(["fas:fa-robot Summarise Enquiry"]):::ai
+    Enquiry_Classifier{"fas:fa-robot Enquiry Classifier"}:::logic
 
     Send_Receipt --> Form_End
     Has_Accepted_ --> Enter_Date___Time

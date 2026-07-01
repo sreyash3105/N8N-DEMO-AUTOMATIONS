@@ -4,12 +4,12 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_chat_message_received(("When chat message received")):::trigger
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    DB_Schema["DB Schema"]
-    Get_table_definition["Get table definition"]
-    AI_Agent["AI Agent"]:::ai
-    Run_SQL_Query["Run SQL Query"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    DB_Schema["fas:fa-database DB Schema"]
+    Get_table_definition["fas:fa-database Get table definition"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Run_SQL_Query["fas:fa-database Run SQL Query"]
 
     DB_Schema --> AI_Agent
     Run_SQL_Query --> AI_Agent

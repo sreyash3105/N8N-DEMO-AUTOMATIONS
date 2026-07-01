@@ -4,18 +4,18 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Email_Trigger__IMAP_["Email Trigger (IMAP)"]
-    Markdown["Markdown"]
-    DeepSeek_R1(["DeepSeek R1"]):::ai
-    Send_Email["Send Email"]
-    Qdrant_Vector_Store["Qdrant Vector Store"]
-    Embeddings_OpenAI(["Embeddings OpenAI"]):::ai
-    Email_Summarization_Chain["Email Summarization Chain"]
-    Write_email["Write email"]:::ai
-    OpenAI(["OpenAI"]):::ai
-    Set_Email["Set Email"]
-    Approve_{"Approve?"}:::logic
-    Send_Draft["Send Draft"]
+    Email_Trigger__IMAP_["fas:fa-envelope Email Trigger (IMAP)"]
+    Markdown["fas:fa-cogs Markdown"]
+    DeepSeek_R1(["fas:fa-robot DeepSeek R1"]):::ai
+    Send_Email["fas:fa-envelope Send Email"]
+    Qdrant_Vector_Store["fas:fa-robot Qdrant Vector Store"]
+    Embeddings_OpenAI(["fas:fa-robot Embeddings OpenAI"]):::ai
+    Email_Summarization_Chain["fas:fa-robot Email Summarization Chain"]
+    Write_email["fas:fa-robot Write email"]:::ai
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
+    Set_Email["fas:fa-cogs Set Email"]
+    Approve_{"fas:fa-code-branch Approve?"}:::logic
+    Send_Draft["fas:fa-envelope Send Draft"]
 
     OpenAI --> Write_email
     Approve_ --> Send_Email

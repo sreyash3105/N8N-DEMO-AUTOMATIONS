@@ -4,20 +4,20 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Chat_Message_Trigger(("Chat Message Trigger")):::trigger
-    Generate_Search_Queries_using_LLM(["Generate Search Queries using LLM"]):::ai
-    LLM_Response_Provider__OpenRouter_{"LLM Response Provider (OpenRouter)"}
-    Parse_and_Chunk_JSON_Data["Parse and Chunk JSON Data"]
-    Perform_SerpAPI_Search_Request["Perform SerpAPI Search Request"]
-    Perform_Jina_AI_Analysis_Request["Perform Jina AI Analysis Request"]
-    Format_SerpAPI_Organic_Results["Format SerpAPI Organic Results"]
-    Extract_Relevant_Context_via_LLM["Extract Relevant Context via LLM"]:::ai
-    Generate_Comprehensive_Research_Report["Generate Comprehensive Research Report"]:::ai
-    Split_Data_for_SerpAPI_Batching["Split Data for SerpAPI Batching"]
-    Split_Data_for_Jina_AI_Batching["Split Data for Jina AI Batching"]
-    LLM_Memory_Buffer__Input_Context_[("LLM Memory Buffer (Input Context)")]
-    LLM_Memory_Buffer__Report_Context_[("LLM Memory Buffer (Report Context)")]
-    Fetch_Wikipedia_Information["Fetch Wikipedia Information"]
+    Chat_Message_Trigger(("fas:fa-robot Chat Message Trigger")):::trigger
+    Generate_Search_Queries_using_LLM(["fas:fa-robot Generate Search Queries using LLM"]):::ai
+    LLM_Response_Provider__OpenRouter_{"fas:fa-robot LLM Response Provider (OpenRouter)"}
+    Parse_and_Chunk_JSON_Data["fas:fa-cogs Parse and Chunk JSON Data"]
+    Perform_SerpAPI_Search_Request["fas:fa-globe Perform SerpAPI Search Request"]
+    Perform_Jina_AI_Analysis_Request["fas:fa-globe Perform Jina AI Analysis Request"]
+    Format_SerpAPI_Organic_Results["fas:fa-cogs Format SerpAPI Organic Results"]
+    Extract_Relevant_Context_via_LLM["fas:fa-robot Extract Relevant Context via LLM"]:::ai
+    Generate_Comprehensive_Research_Report["fas:fa-robot Generate Comprehensive Research Report"]:::ai
+    Split_Data_for_SerpAPI_Batching["fas:fa-cogs Split Data for SerpAPI Batching"]
+    Split_Data_for_Jina_AI_Batching["fas:fa-cogs Split Data for Jina AI Batching"]
+    LLM_Memory_Buffer__Input_Context_[("fas:fa-robot LLM Memory Buffer (Input Context)")]
+    LLM_Memory_Buffer__Report_Context_[("fas:fa-robot LLM Memory Buffer (Report Context)")]
+    Fetch_Wikipedia_Information["fas:fa-robot Fetch Wikipedia Information"]
 
     Chat_Message_Trigger --> Generate_Search_Queries_using_LLM
     Parse_and_Chunk_JSON_Data --> Split_Data_for_SerpAPI_Batching

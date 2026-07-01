@@ -4,16 +4,16 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Search_Person_in_CRM["Search Person in CRM"]
-    In_campaign_{"In campaign?"}:::logic
-    Get_person_from_CRM["Get person from CRM"]
-    Is_interested_(["Is interested?"]):::ai
-    Get_email["Get email"]
-    Create_deal_in_CRM["Create deal in CRM"]
-    IF_interested{"IF interested"}:::logic
-    Get_response["Get response"]
-    Email_box_1(("Email box 1")):::trigger
-    Email_box_2(("Email box 2")):::trigger
+    Search_Person_in_CRM["fas:fa-cogs Search Person in CRM"]
+    In_campaign_{"fas:fa-code-branch In campaign?"}:::logic
+    Get_person_from_CRM["fas:fa-cogs Get person from CRM"]
+    Is_interested_(["fas:fa-robot Is interested?"]):::ai
+    Get_email["fas:fa-cogs Get email"]
+    Create_deal_in_CRM["fas:fa-cogs Create deal in CRM"]
+    IF_interested{"fas:fa-code-branch IF interested"}:::logic
+    Get_response["fas:fa-cogs Get response"]
+    Email_box_1(("fas:fa-envelope Email box 1")):::trigger
+    Email_box_2(("fas:fa-envelope Email box 2")):::trigger
 
     Get_email --> Search_Person_in_CRM
     Email_box_1 --> Get_email

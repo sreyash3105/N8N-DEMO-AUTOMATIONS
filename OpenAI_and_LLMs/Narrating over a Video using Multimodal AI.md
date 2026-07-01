@@ -4,20 +4,20 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Capture_Frames["Capture Frames"]
-    Split_Out_Frames["Split Out Frames"]
-    Download_Video["Download Video"]
-    Convert_to_Binary["Convert to Binary"]
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Combine_Script["Combine Script"]
-    Upload_to_GDrive["Upload to GDrive"]
-    Stay_Within_Service_Limits["Stay Within Service Limits"]
-    For_Every_15_Frames["For Every 15 Frames"]
-    Resize_Frame["Resize Frame"]
-    Aggregate_Frames["Aggregate Frames"]
-    Use_Text_to_Speech(["Use Text-to-Speech"]):::ai
-    Generate_Narration_Script(["Generate Narration Script"]):::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Capture_Frames["fas:fa-cogs Capture Frames"]
+    Split_Out_Frames["fas:fa-cogs Split Out Frames"]
+    Download_Video["fas:fa-globe Download Video"]
+    Convert_to_Binary["fas:fa-cogs Convert to Binary"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Combine_Script["fas:fa-cogs Combine Script"]
+    Upload_to_GDrive["fab:fa-google Upload to GDrive"]
+    Stay_Within_Service_Limits["fas:fa-robot Stay Within Service Limits"]
+    For_Every_15_Frames["fas:fa-cogs For Every 15 Frames"]
+    Resize_Frame["fas:fa-cogs Resize Frame"]
+    Aggregate_Frames["fas:fa-cogs Aggregate Frames"]
+    Use_Text_to_Speech(["fas:fa-robot Use Text-to-Speech"]):::ai
+    Generate_Narration_Script(["fas:fa-robot Generate Narration Script"]):::ai
 
     Resize_Frame --> Aggregate_Frames
     Capture_Frames --> Split_Out_Frames

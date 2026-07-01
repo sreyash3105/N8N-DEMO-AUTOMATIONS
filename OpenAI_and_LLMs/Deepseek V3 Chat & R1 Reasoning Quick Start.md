@@ -4,14 +4,14 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_chat_message_received(("When chat message received")):::trigger
-    AI_Agent["AI Agent"]:::ai
-    DeepSeek(["DeepSeek"]):::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Basic_LLM_Chain2(["Basic LLM Chain2"]):::ai
-    Ollama_DeepSeek["Ollama DeepSeek"]
-    DeepSeek_JSON_Body["DeepSeek JSON Body"]
-    DeepSeek_Raw_Body["DeepSeek Raw Body"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    DeepSeek(["fas:fa-robot DeepSeek"]):::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Basic_LLM_Chain2(["fas:fa-robot Basic LLM Chain2"]):::ai
+    Ollama_DeepSeek["fas:fa-robot Ollama DeepSeek"]
+    DeepSeek_JSON_Body["fas:fa-globe DeepSeek JSON Body"]
+    DeepSeek_Raw_Body["fas:fa-globe DeepSeek Raw Body"]
 
     DeepSeek --> AI_Agent
     Ollama_DeepSeek --> Basic_LLM_Chain2

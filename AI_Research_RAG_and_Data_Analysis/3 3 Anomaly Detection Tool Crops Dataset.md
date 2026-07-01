@@ -4,15 +4,15 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Embed_image["Embed image"]
-    Get_similarity_of_medoids["Get similarity of medoids"]
-    Compare_scores["Compare scores"]
-    Variables_for_medoids["Variables for medoids"]
-    Info_About_Crop_Labeled_Clusters["Info About Crop Labeled Clusters"]
-    Total_Points_in_Collection["Total Points in Collection"]
-    Each_Crop_Counts["Each Crop Counts"]
-    Image_URL_hardcode["Image URL hardcode"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
+    Embed_image["fas:fa-globe Embed image"]
+    Get_similarity_of_medoids["fas:fa-globe Get similarity of medoids"]
+    Compare_scores["fas:fa-cogs Compare scores"]
+    Variables_for_medoids["fas:fa-cogs Variables for medoids"]
+    Info_About_Crop_Labeled_Clusters["fas:fa-cogs Info About Crop Labeled Clusters"]
+    Total_Points_in_Collection["fas:fa-globe Total Points in Collection"]
+    Each_Crop_Counts["fas:fa-globe Each Crop Counts"]
+    Image_URL_hardcode["fas:fa-cogs Image URL hardcode"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
 
     Embed_image --> Get_similarity_of_medoids
     Each_Crop_Counts --> Info_About_Crop_Labeled_Clusters

@@ -4,20 +4,20 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    HTTP_Request["HTTP Request"]
-    Pinecone_Vector_Store["Pinecone Vector Store"]
-    Default_Data_Loader["Default Data Loader"]
-    Recursive_Character_Text_Splitter["Recursive Character Text Splitter"]
-    When_chat_message_received(("When chat message received")):::trigger
-    AI_Agent["AI Agent"]:::ai
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Vector_Store_Tool["Vector Store Tool"]
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Generate_User_Query_Embedding(["Generate User Query Embedding"]):::ai
-    Pinecone_Vector_Store__Querying_["Pinecone Vector Store (Querying)"]
-    Generate_Embeddings(["Generate Embeddings"]):::ai
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    HTTP_Request["fas:fa-globe HTTP Request"]
+    Pinecone_Vector_Store["fas:fa-robot Pinecone Vector Store"]
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Recursive_Character_Text_Splitter["fas:fa-robot Recursive Character Text Splitter"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Vector_Store_Tool["fas:fa-robot Vector Store Tool"]
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Generate_User_Query_Embedding(["fas:fa-robot Generate User Query Embedding"]):::ai
+    Pinecone_Vector_Store__Querying_["fas:fa-robot Pinecone Vector Store (Querying)"]
+    Generate_Embeddings(["fas:fa-robot Generate Embeddings"]):::ai
 
     HTTP_Request --> Pinecone_Vector_Store
     OpenAI_Chat_Model --> AI_Agent

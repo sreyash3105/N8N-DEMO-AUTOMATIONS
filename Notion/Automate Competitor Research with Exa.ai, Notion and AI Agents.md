@@ -4,36 +4,36 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Search_Crunchbase["Search Crunchbase"]
-    Search_WellFound["Search WellFound"]
-    Search_LinkedIn["Search LinkedIn"]
-    Structured_Output_Parser1["Structured Output Parser1"]
-    Webscraper_Tool1["Webscraper Tool1"]
-    Remove_Duplicates["Remove Duplicates"]
-    Extract_Domain["Extract Domain"]
-    Results_to_List["Results to List"]
-    Check_Company_Profiles_Exist["Check Company Profiles Exist"]
-    Webscraper_Tool["Webscraper Tool"]
-    Search_Company_Website["Search Company Website"]
-    Structured_Output_Parser["Structured Output Parser"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Search_Product_Review_Sites["Search Product Review Sites"]
-    Webscraper_Tool2["Webscraper Tool2"]
-    Structured_Output_Parser2["Structured Output Parser2"]
-    OpenAI_Chat_Model2(["OpenAI Chat Model2"]):::ai
-    Insert_Into_Notion["Insert Into Notion"]
-    Limit["Limit"]
-    Loop_Over_Items["Loop Over Items"]
-    Competitor_Search_via_Exa_ai["Competitor Search via Exa.ai"]
-    Get_Company_News["Get Company News"]
-    Set_Source_Company["Set Source Company"]
-    Collect_Results["Collect Results"]
-    n_2sec["2sec"]
-    Company_Overview_Agent["Company Overview Agent"]:::ai
-    Company_Product_Offering_Agent["Company Product Offering Agent"]:::ai
-    Company_Product_Reviews_Agent["Company Product Reviews Agent"]:::ai
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Search_Crunchbase["fas:fa-robot Search Crunchbase"]
+    Search_WellFound["fas:fa-robot Search WellFound"]
+    Search_LinkedIn["fas:fa-robot Search LinkedIn"]
+    Structured_Output_Parser1["fas:fa-robot Structured Output Parser1"]
+    Webscraper_Tool1["fas:fa-robot Webscraper Tool1"]
+    Remove_Duplicates["fas:fa-cogs Remove Duplicates"]
+    Extract_Domain["fas:fa-cogs Extract Domain"]
+    Results_to_List["fas:fa-cogs Results to List"]
+    Check_Company_Profiles_Exist["fas:fa-robot Check Company Profiles Exist"]
+    Webscraper_Tool["fas:fa-robot Webscraper Tool"]
+    Search_Company_Website["fas:fa-robot Search Company Website"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Search_Product_Review_Sites["fas:fa-robot Search Product Review Sites"]
+    Webscraper_Tool2["fas:fa-robot Webscraper Tool2"]
+    Structured_Output_Parser2["fas:fa-robot Structured Output Parser2"]
+    OpenAI_Chat_Model2(["fas:fa-robot OpenAI Chat Model2"]):::ai
+    Insert_Into_Notion["fas:fa-cogs Insert Into Notion"]
+    Limit["fas:fa-cogs Limit"]
+    Loop_Over_Items["fas:fa-cogs Loop Over Items"]
+    Competitor_Search_via_Exa_ai["fas:fa-globe Competitor Search via Exa.ai"]
+    Get_Company_News["fas:fa-robot Get Company News"]
+    Set_Source_Company["fas:fa-cogs Set Source Company"]
+    Collect_Results["fas:fa-cogs Collect Results"]
+    n_2sec["fas:fa-robot 2sec"]
+    Company_Overview_Agent["fas:fa-robot Company Overview Agent"]:::ai
+    Company_Product_Offering_Agent["fas:fa-robot Company Product Offering Agent"]:::ai
+    Company_Product_Reviews_Agent["fas:fa-robot Company Product Reviews Agent"]:::ai
 
     n_2sec --> Loop_Over_Items
     Limit --> Loop_Over_Items

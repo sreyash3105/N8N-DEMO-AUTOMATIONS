@@ -4,32 +4,32 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Venafi_TLS_Protect_Cloud["Venafi TLS Protect Cloud"]
-    Parse_Webhook["Parse Webhook"]
-    Close_Modal_Popup(("Close Modal Popup")):::trigger
-    Respond_to_Slack_Webhook___Vulnerability(("Respond to Slack Webhook - Vulnerability")):::trigger
-    Venafi_Request_Certificate["Venafi Request Certificate"]
-    Extract_Fields["Extract Fields"]
-    Get_Slack_User_ID["Get Slack User ID"]
-    Translate_Slack_User_ID_to_Email["Translate Slack User ID to Email"]
-    VirusTotal_HTTP_Request["VirusTotal HTTP Request"]
-    Summarize_output_to_save_on_tokens["Summarize output to save on tokens"]
-    Auto_Issue_Certificate_Based_on_0_Malicious_Reports{"Auto Issue Certificate Based on 0 Malicious Reports"}:::logic
-    Auto_Issue_Certificate["Auto Issue Certificate"]
-    Generate_Report_For_Manual_Approval["Generate Report For Manual Approval"]
-    Get_Slack_Team_ID["Get Slack Team ID"]
-    Execute_Workflow["Execute Workflow"]
-    Merge_User_and_Team_Data["Merge User and Team Data"]
-    OpenAI(["OpenAI"]):::ai
-    Merge_Requestor_and_VT_Data["Merge Requestor and VT Data"]
-    Send_Auto_Generated_Confirmation["Send Auto Generated Confirmation"]
-    Send_Message_Request_for_Manual_Approval["Send Message Request for Manual Approval"]
-    Route_Message{"Route Message"}:::logic
-    Venafi_TLS_Protect_Cloud1["Venafi TLS Protect Cloud1"]
-    Send_Auto_Generated_Confirmation1["Send Auto Generated Confirmation1"]
-    Manual_Issue_Certificate["Manual Issue Certificate"]
-    Webhook(("Webhook")):::trigger
-    Respond_to_webhook_success(("Respond to webhook success")):::trigger
+    Venafi_TLS_Protect_Cloud["fas:fa-cogs Venafi TLS Protect Cloud"]
+    Parse_Webhook["fas:fa-cogs Parse Webhook"]
+    Close_Modal_Popup(("fas:fa-bolt Close Modal Popup")):::trigger
+    Respond_to_Slack_Webhook___Vulnerability(("fab:fa-slack Respond to Slack Webhook - Vulnerability")):::trigger
+    Venafi_Request_Certificate["fas:fa-globe Venafi Request Certificate"]
+    Extract_Fields["fas:fa-cogs Extract Fields"]
+    Get_Slack_User_ID["fab:fa-slack Get Slack User ID"]
+    Translate_Slack_User_ID_to_Email["fab:fa-slack Translate Slack User ID to Email"]
+    VirusTotal_HTTP_Request["fas:fa-globe VirusTotal HTTP Request"]
+    Summarize_output_to_save_on_tokens["fas:fa-cogs Summarize output to save on tokens"]
+    Auto_Issue_Certificate_Based_on_0_Malicious_Reports{"fas:fa-code-branch Auto Issue Certificate Based on 0 Malicious Reports"}:::logic
+    Auto_Issue_Certificate["fas:fa-cogs Auto Issue Certificate"]
+    Generate_Report_For_Manual_Approval["fas:fa-cogs Generate Report For Manual Approval"]
+    Get_Slack_Team_ID["fab:fa-slack Get Slack Team ID"]
+    Execute_Workflow["fas:fa-cogs Execute Workflow"]
+    Merge_User_and_Team_Data["fas:fa-cogs Merge User and Team Data"]
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
+    Merge_Requestor_and_VT_Data["fas:fa-cogs Merge Requestor and VT Data"]
+    Send_Auto_Generated_Confirmation["fab:fa-slack Send Auto Generated Confirmation"]
+    Send_Message_Request_for_Manual_Approval["fab:fa-slack Send Message Request for Manual Approval"]
+    Route_Message{"fas:fa-code-branch Route Message"}:::logic
+    Venafi_TLS_Protect_Cloud1["fas:fa-cogs Venafi TLS Protect Cloud1"]
+    Send_Auto_Generated_Confirmation1["fab:fa-slack Send Auto Generated Confirmation1"]
+    Manual_Issue_Certificate["fas:fa-cogs Manual Issue Certificate"]
+    Webhook(("fas:fa-bolt Webhook")):::trigger
+    Respond_to_webhook_success(("fas:fa-bolt Respond to webhook success")):::trigger
 
     OpenAI --> Send_Message_Request_for_Manual_Approval
     Webhook --> Parse_Webhook

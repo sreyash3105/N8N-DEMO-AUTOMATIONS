@@ -4,20 +4,20 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Issues_to_List["Issues to List"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Combine_Sentiment_Analysis["Combine Sentiment Analysis"]
-    Sentiment_over_Issue_Comments["Sentiment over Issue Comments"]
-    Copy_of_Issue["Copy of Issue"]
-    For_Each_Issue___["For Each Issue..."]
-    Get_Existing_Sentiment["Get Existing Sentiment"]
-    Update_Row["Update Row"]
-    Airtable_Trigger(("Airtable Trigger")):::trigger
-    Sentiment_Transition{"Sentiment Transition"}:::logic
-    Fetch_Active_Linear_Issues["Fetch Active Linear Issues"]
-    Schedule_Trigger(("Schedule Trigger")):::trigger
-    Deduplicate_Notifications["Deduplicate Notifications"]
-    Report_Issue_Negative_Transition["Report Issue Negative Transition"]
+    Issues_to_List["fas:fa-cogs Issues to List"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Combine_Sentiment_Analysis["fas:fa-cogs Combine Sentiment Analysis"]
+    Sentiment_over_Issue_Comments["fas:fa-robot Sentiment over Issue Comments"]
+    Copy_of_Issue["fas:fa-cogs Copy of Issue"]
+    For_Each_Issue___["fas:fa-cogs For Each Issue..."]
+    Get_Existing_Sentiment["fas:fa-robot Get Existing Sentiment"]
+    Update_Row["fas:fa-robot Update Row"]
+    Airtable_Trigger(("fas:fa-robot Airtable Trigger")):::trigger
+    Sentiment_Transition{"fas:fa-code-branch Sentiment Transition"}:::logic
+    Fetch_Active_Linear_Issues["fas:fa-cogs Fetch Active Linear Issues"]
+    Schedule_Trigger(("fas:fa-bolt Schedule Trigger")):::trigger
+    Deduplicate_Notifications["fas:fa-cogs Deduplicate Notifications"]
+    Report_Issue_Negative_Transition["fab:fa-slack Report Issue Negative Transition"]
 
     Update_Row --> For_Each_Issue___
     Copy_of_Issue --> Get_Existing_Sentiment

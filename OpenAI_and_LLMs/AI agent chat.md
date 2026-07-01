@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    SerpAPI["SerpAPI"]
-    When_chat_message_received(("When chat message received")):::trigger
-    AI_Agent["AI Agent"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    SerpAPI["fas:fa-robot SerpAPI"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
 
     SerpAPI --> AI_Agent
     OpenAI_Chat_Model --> AI_Agent

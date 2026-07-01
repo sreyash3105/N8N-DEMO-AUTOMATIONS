@@ -4,16 +4,16 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Strava_Trigger(("Strava Trigger")):::trigger
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    Gmail["Gmail"]
-    Combine_Everything["Combine Everything"]
-    Fitness_Coach["Fitness Coach"]:::ai
-    Structure_Output["Structure Output"]
-    Conver_to_HTML["Conver to HTML"]
-    Send_Email["Send Email"]
-    Code["Code"]
-    WhatsApp_Business_Cloud["WhatsApp Business Cloud"]
+    Strava_Trigger(("fas:fa-bolt Strava Trigger")):::trigger
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    Gmail["fas:fa-envelope Gmail"]
+    Combine_Everything["fas:fa-cogs Combine Everything"]
+    Fitness_Coach["fas:fa-robot Fitness Coach"]:::ai
+    Structure_Output["fas:fa-cogs Structure Output"]
+    Conver_to_HTML["fas:fa-cogs Conver to HTML"]
+    Send_Email["fas:fa-envelope Send Email"]
+    Code["fas:fa-cogs Code"]
+    WhatsApp_Business_Cloud["fab:fa-whatsapp WhatsApp Business Cloud"]
 
     Code --> Combine_Everything
     Fitness_Coach --> Structure_Output

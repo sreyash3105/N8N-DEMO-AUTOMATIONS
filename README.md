@@ -54,28 +54,28 @@ Content Automation      │ WordPress, social media, SEO, brand voice generation
 
 | Category | Count | Focus Areas |
 |---|---|---|
-| [<img src="https://cdn.simpleicons.org/n8n/EF5E3E" width="16" height="16" align="center" /> AI & Research](./AI_Research_RAG_and_Data_Analysis) | 42 | Autonomous agents, RAG pipelines, web scraping, data enrichment |
-| [<img src="https://cdn.simpleicons.org/openai/412991" width="16" height="16" align="center" /> OpenAI & LLMs](./OpenAI_and_LLMs) | 83 | GPT-4, Claude, Gemini, Ollama, DALL-E, ElevenLabs, FLUX |
-| [<img src="https://cdn.simpleicons.org/gmail/EA4335" width="16" height="16" align="center" /> Gmail & Email](./Gmail_and_Email_Automation) | 22 | Auto-labelling, smart drafts, phishing detection, email routing |
-| [<img src="https://cdn.simpleicons.org/telegram/26A5E4" width="16" height="16" align="center" /> Telegram](./Telegram) | 21 | Bots with long-term memory, voice, images, PDF, multi-language |
-| [<img src="https://cdn.simpleicons.org/whatsapp/25D366" width="16" height="16" align="center" /> WhatsApp](./WhatsApp) | 5 | Business chatbots, AI sales prep, RAG customer support |
-| [<img src="https://cdn.simpleicons.org/slack/4A154B" width="16" height="16" align="center" /> Slack](./Slack) | 12 | AI ops bots, ticketing, security, sentiment monitoring |
-| [<img src="https://cdn.simpleicons.org/notion/000000" width="16" height="16" align="center" /> Notion](./Notion) | 11 | AI assistants, vector sync, competitor research |
-| [<img src="https://cdn.simpleicons.org/googledrive/4285F4" width="16" height="16" align="center" /> Google Workspace](./Google_Drive_and_Google_Sheets) | 18 | Sheets chat, Drive RAG, lead scoring, image generation |
-| [<img src="https://cdn.simpleicons.org/wordpress/21759B" width="16" height="16" align="center" /> WordPress](./WordPress) | 7 | AI blog generation, auto-tagging, embedded chatbots |
-| [<img src="https://cdn.simpleicons.org/adobe/EC1C24" width="16" height="16" align="center" /> PDF & Documents](./PDF_and_Document_Processing) | 12 | Invoice parsing, CV extraction, transcription, PII removal |
-| [<img src="https://cdn.simpleicons.org/linkedin/0077B5" width="16" height="16" align="center" /> HR & Recruitment](./HR_and_Recruitment) | 5 | CV screening, job evaluation, HR helpdesk bots |
-| [<img src="https://cdn.simpleicons.org/postgresql/4169E1" width="16" height="16" align="center" /> Databases](./Database_and_Storage) | 6 | PostgreSQL, MongoDB, SQLite, Supabase vector store |
-| [<img src="https://cdn.simpleicons.org/airtable/18BFFF" width="16" height="16" align="center" /> Airtable](./Airtable) | 6 | CRM chat, project management, job application handling |
-| [<img src="https://cdn.simpleicons.org/x/000000" width="16" height="16" align="center" /> Social Media](./Instagram_Twitter_Social_Media) | 11 | Content generation, scheduling, DM automation, trend analysis |
-| [<img src="https://cdn.simpleicons.org/typeform/111111" width="16" height="16" align="center" /> Forms & Surveys](./Forms_and_Surveys) | 5 | AI-powered interview forms, lead qualifying, subscriptions |
-| [<img src="https://cdn.simpleicons.org/zapier/FF4A00" width="16" height="16" align="center" /> Other Integrations](./Other_Integrations_and_Use_Cases) | 31 | Zoom, Twilio, Spotify, GitLab, MITRE ATT&CK, Apple Shortcuts |
+| [<img src="https://cdn.simpleicons.org/n8n" width="16" height="16" align="center" /> AI & Research](./AI_Research_RAG_and_Data_Analysis) | 42 | Autonomous agents, RAG pipelines, web scraping, data enrichment |
+| [<img src="https://cdn.simpleicons.org/openai" width="16" height="16" align="center" /> OpenAI & LLMs](./OpenAI_and_LLMs) | 83 | GPT-4, Claude, Gemini, Ollama, DALL-E, ElevenLabs, FLUX |
+| [<img src="https://cdn.simpleicons.org/gmail" width="16" height="16" align="center" /> Gmail & Email](./Gmail_and_Email_Automation) | 22 | Auto-labelling, smart drafts, phishing detection, email routing |
+| [<img src="https://cdn.simpleicons.org/telegram" width="16" height="16" align="center" /> Telegram](./Telegram) | 21 | Bots with long-term memory, voice, images, PDF, multi-language |
+| [<img src="https://cdn.simpleicons.org/whatsapp" width="16" height="16" align="center" /> WhatsApp](./WhatsApp) | 5 | Business chatbots, AI sales prep, RAG customer support |
+| [<img src="https://cdn.simpleicons.org/slack" width="16" height="16" align="center" /> Slack](./Slack) | 12 | AI ops bots, ticketing, security, sentiment monitoring |
+| [<img src="https://cdn.simpleicons.org/notion" width="16" height="16" align="center" /> Notion](./Notion) | 11 | AI assistants, vector sync, competitor research |
+| [<img src="https://cdn.simpleicons.org/googledrive" width="16" height="16" align="center" /> Google Workspace](./Google_Drive_and_Google_Sheets) | 18 | Sheets chat, Drive RAG, lead scoring, image generation |
+| [<img src="https://cdn.simpleicons.org/wordpress" width="16" height="16" align="center" /> WordPress](./WordPress) | 7 | AI blog generation, auto-tagging, embedded chatbots |
+| [<img src="https://cdn.simpleicons.org/adobeacrobatreader" width="16" height="16" align="center" /> PDF & Documents](./PDF_and_Document_Processing) | 12 | Invoice parsing, CV extraction, transcription, PII removal |
+| [<img src="https://cdn.simpleicons.org/linkedin" width="16" height="16" align="center" /> HR & Recruitment](./HR_and_Recruitment) | 5 | CV screening, job evaluation, HR helpdesk bots |
+| [<img src="https://cdn.simpleicons.org/postgresql" width="16" height="16" align="center" /> Databases](./Database_and_Storage) | 6 | PostgreSQL, MongoDB, SQLite, Supabase vector store |
+| [<img src="https://cdn.simpleicons.org/airtable" width="16" height="16" align="center" /> Airtable](./Airtable) | 6 | CRM chat, project management, job application handling |
+| [<img src="https://cdn.simpleicons.org/x" width="16" height="16" align="center" /> Social Media](./Instagram_Twitter_Social_Media) | 11 | Content generation, scheduling, DM automation, trend analysis |
+| [<img src="https://cdn.simpleicons.org/typeform" width="16" height="16" align="center" /> Forms & Surveys](./Forms_and_Surveys) | 5 | AI-powered interview forms, lead qualifying, subscriptions |
+| [<img src="https://cdn.simpleicons.org/zapier" width="16" height="16" align="center" /> Other Integrations](./Other_Integrations_and_Use_Cases) | 31 | Zoom, Twilio, Spotify, GitLab, MITRE ATT&CK, Apple Shortcuts |
 
 ---
 
 ## ✨ Highlighted Work
 
-### <img src="https://cdn.simpleicons.org/n8n/EF5E3E" width="20" height="20" align="center" /> AI Agents & Research Automation
+### <img src="https://cdn.simpleicons.org/n8n" width="20" height="20" align="center" /> AI Agents & Research Automation
 
 **[Autonomous Deep Research Agent](./AI_Research_RAG_and_Data_Analysis)**
 A fully autonomous research pipeline using OpenAI o3 reasoning + Apify web scraping. Accepts a research topic, browses the web, synthesizes findings, and produces a structured report — with no manual steps.
@@ -88,7 +88,7 @@ A multi-part series implementing KNN search and anomaly detection on large datas
 
 ---
 
-### <img src="https://cdn.simpleicons.org/zapier/FF4A00" width="20" height="20" align="center" /> Business Process Automation
+### <img src="https://cdn.simpleicons.org/zapier" width="20" height="20" align="center" /> Business Process Automation
 
 **[WhatsApp Sales Meeting Prep (AI + Apify)](./WhatsApp)**
 1 hour before a meeting: automatically checks Google Calendar → scrapes each attendee's LinkedIn profile via Apify → retrieves last email correspondence → generates and sends an AI-crafted pre-meeting brief to WhatsApp. A complete sales intelligence pipeline.
@@ -104,7 +104,7 @@ End-to-end hiring automation. Posts jobs, collects applications, screens CVs wit
 
 ---
 
-### <img src="https://cdn.simpleicons.org/openai/412991" width="20" height="20" align="center" /> AI Chatbots & Bots
+### <img src="https://cdn.simpleicons.org/openai" width="20" height="20" align="center" /> AI Chatbots & Bots
 
 **[Telegram Bot with Long-Term Memory](./Telegram)**
 A Telegram AI assistant that persists memory across sessions and stores structured notes. Feels like a real personal assistant, not a stateless chatbot.
@@ -120,7 +120,7 @@ Fully local, fully private AI assistant. No API costs, no data leaving your mach
 
 ---
 
-### <img src="https://cdn.simpleicons.org/gmail/EA4335" width="20" height="20" align="center" /> Email & Communication Intelligence
+### <img src="https://cdn.simpleicons.org/gmail" width="20" height="20" align="center" /> Email & Communication Intelligence
 
 **[Phishing Detector (ChatGPT Vision)](./Gmail_and_Email_Automation)**
 Uses multimodal AI to analyze both the text and visual layout of suspicious emails — catching social engineering attacks that text-only filters miss.
@@ -133,7 +133,7 @@ Reads Gmail receipts, extracts amounts, vendors, and dates using AI, and logs th
 
 ---
 
-### <img src="https://cdn.simpleicons.org/canva/00C4CC" width="20" height="20" align="center" /> Multimodal & Creative
+### <img src="https://cdn.simpleicons.org/canva" width="20" height="20" align="center" /> Multimodal & Creative
 
 **[FLUX.1 Inpainting Image Editor](./OpenAI_and_LLMs)**
 Interactive image editing pipeline — select a region of an image, describe the desired change, and FLUX fills it in seamlessly.

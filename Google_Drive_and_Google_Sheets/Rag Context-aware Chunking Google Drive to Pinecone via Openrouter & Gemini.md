@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Loop_Over_Items["Loop Over Items"]
-    OpenRouter_Chat_Model{"OpenRouter Chat Model"}
-    Pinecone_Vector_Store["Pinecone Vector Store"]
-    Embeddings_Google_Gemini["Embeddings Google Gemini"]
-    Default_Data_Loader["Default Data Loader"]
-    Recursive_Character_Text_Splitter["Recursive Character Text Splitter"]
-    Get_Document_From_Google_Drive["Get Document From Google Drive"]
-    Extract_Text_Data_From_Google_Document["Extract Text Data From Google Document"]
-    Split_Document_Text_Into_Sections["Split Document Text Into Sections"]
-    Prepare_Sections_For_Looping["Prepare Sections For Looping"]
-    AI_Agent___Prepare_Context["AI Agent - Prepare Context"]:::ai
-    Concatenate_the_context_and_section_text["Concatenate the context and section text"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Loop_Over_Items["fas:fa-cogs Loop Over Items"]
+    OpenRouter_Chat_Model{"fas:fa-robot OpenRouter Chat Model"}
+    Pinecone_Vector_Store["fas:fa-robot Pinecone Vector Store"]
+    Embeddings_Google_Gemini["fab:fa-google Embeddings Google Gemini"]
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Recursive_Character_Text_Splitter["fas:fa-robot Recursive Character Text Splitter"]
+    Get_Document_From_Google_Drive["fab:fa-google Get Document From Google Drive"]
+    Extract_Text_Data_From_Google_Document["fab:fa-google Extract Text Data From Google Document"]
+    Split_Document_Text_Into_Sections["fas:fa-cogs Split Document Text Into Sections"]
+    Prepare_Sections_For_Looping["fas:fa-cogs Prepare Sections For Looping"]
+    AI_Agent___Prepare_Context["fas:fa-robot AI Agent - Prepare Context"]:::ai
+    Concatenate_the_context_and_section_text["fas:fa-cogs Concatenate the context and section text"]
 
     Loop_Over_Items --> AI_Agent___Prepare_Context
     Default_Data_Loader --> Pinecone_Vector_Store

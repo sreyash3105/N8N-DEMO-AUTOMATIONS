@@ -4,24 +4,24 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Respond_to_Webhook(("Respond to Webhook")):::trigger
-    AI_Agent["AI Agent"]:::ai
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Qdrant_Vector_Store["Qdrant Vector Store"]
-    Create_collection["Create collection"]
-    Refresh_collection["Refresh collection"]
-    Get_folder["Get folder"]
-    Download_Files["Download Files"]
-    Embeddings_OpenAI(["Embeddings OpenAI"]):::ai
-    Default_Data_Loader["Default Data Loader"]
-    Token_Splitter["Token Splitter"]
-    Verify(("Verify")):::trigger
-    Respond(("Respond")):::trigger
-    is_Message_{"is Message?"}:::logic
-    Only_message["Only message"]
-    Send["Send"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
+    Respond_to_Webhook(("fas:fa-bolt Respond to Webhook")):::trigger
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Qdrant_Vector_Store["fas:fa-robot Qdrant Vector Store"]
+    Create_collection["fas:fa-globe Create collection"]
+    Refresh_collection["fas:fa-globe Refresh collection"]
+    Get_folder["fab:fa-google Get folder"]
+    Download_Files["fab:fa-google Download Files"]
+    Embeddings_OpenAI(["fas:fa-robot Embeddings OpenAI"]):::ai
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Token_Splitter["fas:fa-robot Token Splitter"]
+    Verify(("fas:fa-bolt Verify")):::trigger
+    Respond(("fas:fa-bolt Respond")):::trigger
+    is_Message_{"fas:fa-code-branch is Message?"}:::logic
+    Only_message["fab:fa-whatsapp Only message"]
+    Send["fab:fa-whatsapp Send"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
 
     Verify --> Respond_to_Webhook
     Respond --> is_Message_

@@ -4,51 +4,51 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Embeddings_OpenAI(["Embeddings OpenAI"]):::ai
-    Default_Data_Loader["Default Data Loader"]
-    Token_Splitter["Token Splitter"]
-    Embeddings_OpenAI1(["Embeddings OpenAI1"]):::ai
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Postgres_Chat_Memory[("Postgres Chat Memory")]
-    Respond_to_Webhook(("Respond to Webhook")):::trigger
-    Set_fields["Set fields"]
-    Embeddings_OpenAI2(["Embeddings OpenAI2"]):::ai
-    Default_Data_Loader1["Default Data Loader1"]
-    Token_Splitter1["Token Splitter1"]
-    Markdown1["Markdown1"]
-    Postgres["Postgres"]
-    Aggregate["Aggregate"]
-    Aggregate1["Aggregate1"]
-    Aggregate2["Aggregate2"]
-    Wordpress___Get_all_posts["Wordpress - Get all posts"]
-    Wordpress___Get_all_pages["Wordpress - Get all pages"]
-    Set_fields1["Set fields1"]
-    Filter___Only_published___unprotected_content["Filter - Only published & unprotected content"]
-    HTML_To_Markdown["HTML To Markdown"]
-    Supabase___Store_workflow_execution["Supabase - Store workflow execution"]
-    Every_30_seconds(("Every 30 seconds")):::trigger
-    Wordpress___Get_posts_modified_after_last_workflow_execution["Wordpress - Get posts modified after last workflow execution"]
-    Wordpress___Get_posts_modified_after_last_workflow_execution1["Wordpress - Get posts modified after last workflow execution1"]
-    Set_fields2["Set fields2"]
-    Filter___Only_published_and_unprotected_content["Filter - Only published and unprotected content"]
-    Loop_Over_Items["Loop Over Items"]
-    Set_fields3["Set fields3"]
-    Set_fields4["Set fields4"]
-    Store_documents_on_Supabase["Store documents on Supabase"]
-    Store_workflow_execution_id_and_timestamptz["Store workflow execution id and timestamptz"]
-    Aggregate_documents["Aggregate documents"]
-    Postgres___Create_documents_table["Postgres - Create documents table"]
-    Postgres___Create_workflow_execution_history_table["Postgres - Create workflow execution history table"]
-    Merge_Wordpress_Posts_and_Pages["Merge Wordpress Posts and Pages"]
-    Merge_retrieved_WordPress_posts_and_pages["Merge retrieved WordPress posts and pages"]
-    Postgres___Filter_on_existing_documents["Postgres - Filter on existing documents"]
-    Supabase___Delete_row_if_documents_exists["Supabase - Delete row if documents exists"]
-    Switch{"Switch"}:::logic
-    When_chat_message_received(("When chat message received")):::trigger
-    Supabase___Retrieve_documents_from_chatinput["Supabase - Retrieve documents from chatinput"]
-    AI_Agent["AI Agent"]:::ai
-    Supabase_Vector_Store["Supabase Vector Store"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Embeddings_OpenAI(["fas:fa-robot Embeddings OpenAI"]):::ai
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Token_Splitter["fas:fa-robot Token Splitter"]
+    Embeddings_OpenAI1(["fas:fa-robot Embeddings OpenAI1"]):::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Postgres_Chat_Memory[("fas:fa-database Postgres Chat Memory")]
+    Respond_to_Webhook(("fas:fa-bolt Respond to Webhook")):::trigger
+    Set_fields["fas:fa-cogs Set fields"]
+    Embeddings_OpenAI2(["fas:fa-robot Embeddings OpenAI2"]):::ai
+    Default_Data_Loader1["fas:fa-robot Default Data Loader1"]
+    Token_Splitter1["fas:fa-robot Token Splitter1"]
+    Markdown1["fas:fa-cogs Markdown1"]
+    Postgres["fas:fa-database Postgres"]
+    Aggregate["fas:fa-cogs Aggregate"]
+    Aggregate1["fas:fa-cogs Aggregate1"]
+    Aggregate2["fas:fa-cogs Aggregate2"]
+    Wordpress___Get_all_posts["fab:fa-wordpress Wordpress - Get all posts"]
+    Wordpress___Get_all_pages["fab:fa-wordpress Wordpress - Get all pages"]
+    Set_fields1["fas:fa-cogs Set fields1"]
+    Filter___Only_published___unprotected_content["fas:fa-cogs Filter - Only published & unprotected content"]
+    HTML_To_Markdown["fas:fa-cogs HTML To Markdown"]
+    Supabase___Store_workflow_execution["fas:fa-database Supabase - Store workflow execution"]
+    Every_30_seconds(("fas:fa-bolt Every 30 seconds")):::trigger
+    Wordpress___Get_posts_modified_after_last_workflow_execution["fab:fa-wordpress Wordpress - Get posts modified after last workflow execution"]
+    Wordpress___Get_posts_modified_after_last_workflow_execution1["fab:fa-wordpress Wordpress - Get posts modified after last workflow execution1"]
+    Set_fields2["fas:fa-cogs Set fields2"]
+    Filter___Only_published_and_unprotected_content["fas:fa-cogs Filter - Only published and unprotected content"]
+    Loop_Over_Items["fas:fa-cogs Loop Over Items"]
+    Set_fields3["fas:fa-cogs Set fields3"]
+    Set_fields4["fas:fa-cogs Set fields4"]
+    Store_documents_on_Supabase["fas:fa-database Store documents on Supabase"]
+    Store_workflow_execution_id_and_timestamptz["fas:fa-database Store workflow execution id and timestamptz"]
+    Aggregate_documents["fas:fa-cogs Aggregate documents"]
+    Postgres___Create_documents_table["fas:fa-database Postgres - Create documents table"]
+    Postgres___Create_workflow_execution_history_table["fas:fa-database Postgres - Create workflow execution history table"]
+    Merge_Wordpress_Posts_and_Pages["fab:fa-wordpress Merge Wordpress Posts and Pages"]
+    Merge_retrieved_WordPress_posts_and_pages["fab:fa-wordpress Merge retrieved WordPress posts and pages"]
+    Postgres___Filter_on_existing_documents["fas:fa-database Postgres - Filter on existing documents"]
+    Supabase___Delete_row_if_documents_exists["fas:fa-database Supabase - Delete row if documents exists"]
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    Supabase___Retrieve_documents_from_chatinput["fas:fa-database Supabase - Retrieve documents from chatinput"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Supabase_Vector_Store["fas:fa-database Supabase Vector Store"]
 
     Switch --> Supabase___Delete_row_if_documents_exists
     Switch --> Set_fields4

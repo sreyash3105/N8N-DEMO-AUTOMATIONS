@@ -4,33 +4,33 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    HTTP_Request1["HTTP Request1"]
-    Proxmox_API_Documentation["Proxmox API Documentation"]
-    Auto_fixing_Output_Parser["Auto-fixing Output Parser"]
-    Google_Gemini_Chat_Model1["Google Gemini Chat Model1"]
-    Structured_Output_Parser["Structured Output Parser"]
-    Proxmox["Proxmox"]
-    HTTP_Request["HTTP Request"]
-    Google_Gemini_Chat_Model2["Google Gemini Chat Model2"]
-    When_chat_message_received(("When chat message received")):::trigger
-    Telegram_Trigger(("Telegram Trigger")):::trigger
-    Gmail_Trigger(("Gmail Trigger")):::trigger
-    Webhook(("Webhook")):::trigger
-    Proxmox_API_Wiki["Proxmox API Wiki"]
-    Structure_Response["Structure Response"]
-    Structgure_Response_from_Proxmox["Structgure Response from Proxmox"]
-    Format_Response_and_Hide_Sensitive_Data["Format Response and Hide Sensitive Data"]
-    If{"If"}:::logic
-    HTTP_Request2["HTTP Request2"]
-    Merge["Merge"]
-    HTTP_Request3["HTTP Request3"]
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    AI_Agent1["AI Agent1"]:::ai
-    If1{"If1"}:::logic
-    HTTP_Request4["HTTP Request4"]
-    Merge1["Merge1"]
-    AI_Agent["AI Agent"]:::ai
-    Switch{"Switch"}:::logic
+    HTTP_Request1["fas:fa-globe HTTP Request1"]
+    Proxmox_API_Documentation["fas:fa-robot Proxmox API Documentation"]
+    Auto_fixing_Output_Parser["fas:fa-robot Auto-fixing Output Parser"]
+    Google_Gemini_Chat_Model1["fab:fa-google Google Gemini Chat Model1"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Proxmox["fas:fa-robot Proxmox"]
+    HTTP_Request["fas:fa-globe HTTP Request"]
+    Google_Gemini_Chat_Model2["fab:fa-google Google Gemini Chat Model2"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    Telegram_Trigger(("fab:fa-telegram Telegram Trigger")):::trigger
+    Gmail_Trigger(("fas:fa-envelope Gmail Trigger")):::trigger
+    Webhook(("fas:fa-bolt Webhook")):::trigger
+    Proxmox_API_Wiki["fas:fa-robot Proxmox API Wiki"]
+    Structure_Response["fas:fa-cogs Structure Response"]
+    Structgure_Response_from_Proxmox["fas:fa-cogs Structgure Response from Proxmox"]
+    Format_Response_and_Hide_Sensitive_Data["fas:fa-cogs Format Response and Hide Sensitive Data"]
+    If{"fas:fa-code-branch If"}:::logic
+    HTTP_Request2["fas:fa-globe HTTP Request2"]
+    Merge["fas:fa-cogs Merge"]
+    HTTP_Request3["fas:fa-globe HTTP Request3"]
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    AI_Agent1["fas:fa-robot AI Agent1"]:::ai
+    If1{"fas:fa-code-branch If1"}:::logic
+    HTTP_Request4["fas:fa-globe HTTP Request4"]
+    Merge1["fas:fa-cogs Merge1"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Switch{"fas:fa-code-branch Switch"}:::logic
 
     If --> HTTP_Request1
     If --> HTTP_Request2

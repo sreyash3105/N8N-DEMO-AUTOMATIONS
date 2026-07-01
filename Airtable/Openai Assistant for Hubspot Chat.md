@@ -4,32 +4,32 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    getHubspotMessage["getHubspotMessage"]
-    OpenAi_Create_Thread["OpenAi Create Thread"]
-    OpenAI_Run["OpenAI Run"]
-    Get_Run["Get Run"]
-    Get_Last_Message["Get Last Message"]
-    HTTP_Request["HTTP Request"]
-    Completed__Action_or_Inprogress{"Completed, Action or Inprogress"}:::logic
-    Wait["Wait"]
-    Wait1["Wait1"]
-    Submit_Data["Submit Data"]
-    Select_Function{"Select Function"}:::logic
-    Code1["Code1"]
-    Wait2["Wait2"]
-    HTTP_Request1["HTTP Request1"]
-    Code["Code"]
-    Submit_Data1["Submit Data1"]
-    Wait3["Wait3"]
-    respondHubspotMessage1["respondHubspotMessage1"]
-    IF{"IF"}:::logic
-    Airtable["Airtable"]
-    IF1{"IF1"}:::logic
-    createThread["createThread"]
-    OpenAI_Run1["OpenAI Run1"]
-    IF2{"IF2"}:::logic
-    OpenAI(["OpenAI"]):::ai
-    Webhook(("Webhook")):::trigger
+    getHubspotMessage["fas:fa-globe getHubspotMessage"]
+    OpenAi_Create_Thread["fas:fa-globe OpenAi Create Thread"]
+    OpenAI_Run["fas:fa-globe OpenAI Run"]
+    Get_Run["fas:fa-globe Get Run"]
+    Get_Last_Message["fas:fa-globe Get Last Message"]
+    HTTP_Request["fas:fa-globe HTTP Request"]
+    Completed__Action_or_Inprogress{"fas:fa-code-branch Completed, Action or Inprogress"}:::logic
+    Wait["fas:fa-robot Wait"]
+    Wait1["fas:fa-robot Wait1"]
+    Submit_Data["fas:fa-globe Submit Data"]
+    Select_Function{"fas:fa-code-branch Select Function"}:::logic
+    Code1["fas:fa-cogs Code1"]
+    Wait2["fas:fa-robot Wait2"]
+    HTTP_Request1["fas:fa-globe HTTP Request1"]
+    Code["fas:fa-cogs Code"]
+    Submit_Data1["fas:fa-globe Submit Data1"]
+    Wait3["fas:fa-robot Wait3"]
+    respondHubspotMessage1["fas:fa-globe respondHubspotMessage1"]
+    IF{"fas:fa-code-branch IF"}:::logic
+    Airtable["fas:fa-robot Airtable"]
+    IF1{"fas:fa-code-branch IF1"}:::logic
+    createThread["fas:fa-robot createThread"]
+    OpenAI_Run1["fas:fa-globe OpenAI Run1"]
+    IF2{"fas:fa-code-branch IF2"}:::logic
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
+    Webhook(("fas:fa-bolt Webhook")):::trigger
 
     IF --> Airtable
     IF1 --> OpenAi_Create_Thread

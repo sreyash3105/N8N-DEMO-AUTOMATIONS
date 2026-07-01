@@ -4,16 +4,16 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Webhook(("Webhook")):::trigger
-    Code["Code"]
-    Split_Out1["Split Out1"]
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Get_Changes1["Get Changes1"]
-    Skip_File_Change1{"Skip File Change1"}:::logic
-    Parse_Last_Diff_Line1["Parse Last Diff Line1"]
-    Post_Discussions1["Post Discussions1"]
-    Need_Review1{"Need Review1"}:::logic
-    Basic_LLM_Chain1(["Basic LLM Chain1"]):::ai
+    Webhook(("fas:fa-bolt Webhook")):::trigger
+    Code["fas:fa-cogs Code"]
+    Split_Out1["fas:fa-cogs Split Out1"]
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Get_Changes1["fas:fa-globe Get Changes1"]
+    Skip_File_Change1{"fas:fa-code-branch Skip File Change1"}:::logic
+    Parse_Last_Diff_Line1["fas:fa-cogs Parse Last Diff Line1"]
+    Post_Discussions1["fas:fa-globe Post Discussions1"]
+    Need_Review1{"fas:fa-code-branch Need Review1"}:::logic
+    Basic_LLM_Chain1(["fas:fa-robot Basic LLM Chain1"]):::ai
 
     Code --> Basic_LLM_Chain1
     Webhook --> Need_Review1

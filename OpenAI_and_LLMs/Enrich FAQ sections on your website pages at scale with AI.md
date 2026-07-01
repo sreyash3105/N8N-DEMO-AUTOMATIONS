@@ -4,35 +4,35 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Format_QA_Pair1["Format QA Pair1"]
-    For_Each_Question___1["For Each Question...1"]
-    Question_to_List1["Question to List1"]
-    Questions_to_Object___1["Questions to Object...1"]
-    Format_DisplayName___Questions1["Format DisplayName + Questions1"]
-    Create_From_Text["Create From Text"]
-    Define_Sheets["Define Sheets"]
-    Sheets_To_List___["Sheets To List..."]
-    Get_Services["Get Services"]
-    Single_Integration_Cred_only["Single Integration Cred-only"]
-    Single_Integration_Native["Single Integration Native"]
-    Categories["Categories"]
-    For_Each_Sheet___["For Each Sheet..."]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Execute_Workflow["Execute Workflow"]
-    Prepare_Job["Prepare Job"]
-    For_Each_Service___["For Each Service..."]
-    Update_Row_Status["Update Row Status"]
-    Single_Integration_Non_native["Single Integration Non-native"]
-    If_has_Data{"If has Data"}:::logic
-    Needs_AI_Completion_1{"Needs AI Completion?1"}:::logic
-    Switch{"Switch"}:::logic
-    Strapi["Strapi"]
-    Wordpress["Wordpress"]
-    Webflow["Webflow"]
-    HTTP_Request["HTTP Request"]
-    AI_Completion1(["AI Completion1"]):::ai
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Format_QA_Pair1["fas:fa-cogs Format QA Pair1"]
+    For_Each_Question___1["fas:fa-cogs For Each Question...1"]
+    Question_to_List1["fas:fa-cogs Question to List1"]
+    Questions_to_Object___1["fas:fa-cogs Questions to Object...1"]
+    Format_DisplayName___Questions1["fas:fa-cogs Format DisplayName + Questions1"]
+    Create_From_Text["fab:fa-google Create From Text"]
+    Define_Sheets["fas:fa-cogs Define Sheets"]
+    Sheets_To_List___["fas:fa-cogs Sheets To List..."]
+    Get_Services["fab:fa-google Get Services"]
+    Single_Integration_Cred_only["fas:fa-cogs Single Integration Cred-only"]
+    Single_Integration_Native["fas:fa-cogs Single Integration Native"]
+    Categories["fas:fa-cogs Categories"]
+    For_Each_Sheet___["fas:fa-cogs For Each Sheet..."]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Execute_Workflow["fas:fa-cogs Execute Workflow"]
+    Prepare_Job["fas:fa-cogs Prepare Job"]
+    For_Each_Service___["fas:fa-cogs For Each Service..."]
+    Update_Row_Status["fab:fa-google Update Row Status"]
+    Single_Integration_Non_native["fas:fa-cogs Single Integration Non-native"]
+    If_has_Data{"fas:fa-code-branch If has Data"}:::logic
+    Needs_AI_Completion_1{"fas:fa-code-branch Needs AI Completion?1"}:::logic
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    Strapi["fas:fa-cogs Strapi"]
+    Wordpress["fab:fa-wordpress Wordpress"]
+    Webflow["fas:fa-cogs Webflow"]
+    HTTP_Request["fas:fa-globe HTTP Request"]
+    AI_Completion1(["fas:fa-robot AI Completion1"]):::ai
 
     Switch --> Single_Integration_Native
     Switch --> Single_Integration_Cred_only

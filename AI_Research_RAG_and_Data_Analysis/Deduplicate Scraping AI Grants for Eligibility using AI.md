@@ -4,22 +4,22 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Grants_to_List["Grants to List"]
-    Get_Grant_Details["Get Grant Details"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Summarize_Synopsis["Summarize Synopsis"]
-    Eligibility_Factors["Eligibility Factors"]
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Merge["Merge"]
-    Save_to_Tracker["Save to Tracker"]
-    Only_New_Grants["Only New Grants"]
-    AI_Grants_since_Yesterday["AI Grants since Yesterday"]
-    Get_New_Eligible_Grants_Today["Get New Eligible Grants Today"]
-    Generate_Email["Generate Email"]
-    Everyday___9am(("Everyday @ 9am")):::trigger
-    Everyday___8_30am(("Everyday @ 8.30am")):::trigger
-    Get_Subscribers["Get Subscribers"]
-    Send_Subscriber_Email["Send Subscriber Email"]
+    Grants_to_List["fas:fa-cogs Grants to List"]
+    Get_Grant_Details["fas:fa-globe Get Grant Details"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Summarize_Synopsis["fas:fa-robot Summarize Synopsis"]
+    Eligibility_Factors["fas:fa-robot Eligibility Factors"]
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Merge["fas:fa-cogs Merge"]
+    Save_to_Tracker["fas:fa-robot Save to Tracker"]
+    Only_New_Grants["fas:fa-cogs Only New Grants"]
+    AI_Grants_since_Yesterday["fas:fa-globe AI Grants since Yesterday"]
+    Get_New_Eligible_Grants_Today["fas:fa-robot Get New Eligible Grants Today"]
+    Generate_Email["fas:fa-cogs Generate Email"]
+    Everyday___9am(("fas:fa-bolt Everyday @ 9am")):::trigger
+    Everyday___8_30am(("fas:fa-bolt Everyday @ 8.30am")):::trigger
+    Get_Subscribers["fas:fa-robot Get Subscribers"]
+    Send_Subscriber_Email["fas:fa-envelope Send Subscriber Email"]
 
     Merge --> Save_to_Tracker
     Everyday___9am --> Get_New_Eligible_Grants_Today

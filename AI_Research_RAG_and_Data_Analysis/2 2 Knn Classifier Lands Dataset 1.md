@@ -4,16 +4,16 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Embed_image["Embed image"]
-    Query_Qdrant["Query Qdrant"]
-    Majority_Vote["Majority Vote"]
-    Increase_limitKNN["Increase limitKNN"]
-    Propagate_loop_variables["Propagate loop variables"]
-    Image_Test_URL["Image Test URL"]
-    Return_class["Return class"]
-    Check_tie{"Check tie"}:::logic
-    Qdrant_variables___embedding___KNN_neigbours["Qdrant variables + embedding + KNN neigbours"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
+    Embed_image["fas:fa-globe Embed image"]
+    Query_Qdrant["fas:fa-globe Query Qdrant"]
+    Majority_Vote["fas:fa-cogs Majority Vote"]
+    Increase_limitKNN["fas:fa-cogs Increase limitKNN"]
+    Propagate_loop_variables["fas:fa-cogs Propagate loop variables"]
+    Image_Test_URL["fas:fa-cogs Image Test URL"]
+    Return_class["fas:fa-cogs Return class"]
+    Check_tie{"fas:fa-code-branch Check tie"}:::logic
+    Qdrant_variables___embedding___KNN_neigbours["fas:fa-cogs Qdrant variables + embedding + KNN neigbours"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
 
     Check_tie --> Increase_limitKNN
     Check_tie --> Return_class

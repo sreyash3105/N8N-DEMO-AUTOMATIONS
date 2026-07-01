@@ -4,42 +4,42 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Event_Type{"Event Type"}:::logic
-    Get_Prompt_Fields["Get Prompt Fields"]
-    Get_File_Data["Get File Data"]
-    Extract_from_File["Extract from File"]
-    Get_Result["Get Result"]
-    Loop_Over_Items["Loop Over Items"]
-    Row_Reference["Row Reference"]
-    Generate_Field_Value(["Generate Field Value"]):::ai
-    Fields_to_Update["Fields to Update"]
-    Loop_Over_Items1["Loop Over Items1"]
-    Row_Ref["Row Ref"]
-    Get_File_Data1["Get File Data1"]
-    Extract_from_File1["Extract from File1"]
-    Get_Result1["Get Result1"]
-    Generate_Field_Value1(["Generate Field Value1"]):::ai
-    Filter_Valid_Rows["Filter Valid Rows"]
-    Filter_Valid_Fields["Filter Valid Fields"]
-    Event_Ref["Event Ref"]
-    Event_Ref1["Event Ref1"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Get_Webhook_Payload["Get Webhook Payload"]
-    Parse_Event["Parse Event"]
-    Get_Table_Schema["Get Table Schema"]
-    Fetch_Records["Fetch Records"]
-    Update_Row["Update Row"]
-    Get_Row["Get Row"]
-    Add_Row_ID_to_Payload["Add Row ID to Payload"]
-    Update_Record["Update Record"]
-    Airtable_Webhook(("Airtable Webhook")):::trigger
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Set_Airtable_Vars["Set Airtable Vars"]
-    Get_Table_Schema1["Get Table Schema1"]
-    Get__Input__Field["Get 'Input' Field"]
-    RecordsChanged_Webhook["RecordsChanged Webhook"]
-    FieldsChanged_Webhook["FieldsChanged Webhook"]
+    Event_Type{"fas:fa-code-branch Event Type"}:::logic
+    Get_Prompt_Fields["fas:fa-cogs Get Prompt Fields"]
+    Get_File_Data["fas:fa-globe Get File Data"]
+    Extract_from_File["fas:fa-cogs Extract from File"]
+    Get_Result["fas:fa-cogs Get Result"]
+    Loop_Over_Items["fas:fa-cogs Loop Over Items"]
+    Row_Reference["fas:fa-cogs Row Reference"]
+    Generate_Field_Value(["fas:fa-robot Generate Field Value"]):::ai
+    Fields_to_Update["fas:fa-cogs Fields to Update"]
+    Loop_Over_Items1["fas:fa-cogs Loop Over Items1"]
+    Row_Ref["fas:fa-cogs Row Ref"]
+    Get_File_Data1["fas:fa-globe Get File Data1"]
+    Extract_from_File1["fas:fa-cogs Extract from File1"]
+    Get_Result1["fas:fa-cogs Get Result1"]
+    Generate_Field_Value1(["fas:fa-robot Generate Field Value1"]):::ai
+    Filter_Valid_Rows["fas:fa-cogs Filter Valid Rows"]
+    Filter_Valid_Fields["fas:fa-cogs Filter Valid Fields"]
+    Event_Ref["fas:fa-cogs Event Ref"]
+    Event_Ref1["fas:fa-cogs Event Ref1"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Get_Webhook_Payload["fas:fa-globe Get Webhook Payload"]
+    Parse_Event["fas:fa-cogs Parse Event"]
+    Get_Table_Schema["fas:fa-robot Get Table Schema"]
+    Fetch_Records["fas:fa-robot Fetch Records"]
+    Update_Row["fas:fa-robot Update Row"]
+    Get_Row["fas:fa-robot Get Row"]
+    Add_Row_ID_to_Payload["fas:fa-cogs Add Row ID to Payload"]
+    Update_Record["fas:fa-robot Update Record"]
+    Airtable_Webhook(("fas:fa-bolt Airtable Webhook")):::trigger
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Set_Airtable_Vars["fas:fa-cogs Set Airtable Vars"]
+    Get_Table_Schema1["fas:fa-robot Get Table Schema1"]
+    Get__Input__Field["fas:fa-cogs Get 'Input' Field"]
+    RecordsChanged_Webhook["fas:fa-globe RecordsChanged Webhook"]
+    FieldsChanged_Webhook["fas:fa-globe FieldsChanged Webhook"]
 
     Get_Row --> Filter_Valid_Rows
     Row_Ref --> Get_File_Data1

@@ -4,33 +4,33 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    stats_aggregate_creators["stats_aggregate_creators"]
-    stats_aggregate_workflows["stats_aggregate_workflows"]
-    Global_Variables["Global Variables"]
-    Parse_Workflow_Data["Parse Workflow Data"]
-    Parse_Creators_Data["Parse Creators Data"]
-    Take_Top_25_Creators["Take Top 25 Creators"]
-    Aggregate["Aggregate"]
-    Filter_By_Creator_Username["Filter By Creator Username"]
-    gpt_4o_mini(["gpt-4o-mini"]):::ai
-    When_Executed_by_Another_Workflow(("When Executed by Another Workflow")):::trigger
-    When_chat_message_received(("When chat message received")):::trigger
-    Workflow_Tool["Workflow Tool"]
-    creator_summary["creator-summary"]
-    Workflow_Response["Workflow Response"]
-    n8n_Creator_Stats_Agent["n8n Creator Stats Agent"]:::ai
-    Save_creator_summary_md["Save creator-summary.md"]
-    Summary_Report["Summary Report"]
-    Ollama_Chat_Model["Ollama Chat Model"]
-    Creators_Data["Creators Data"]
-    Workflows_Data["Workflows Data"]
-    Merge_Creators___Workflows["Merge Creators & Workflows"]
-    Split_Out_Creators["Split Out Creators"]
-    Split_Out_Workflows["Split Out Workflows"]
-    Sort_By_Top_Weekly_Creator_Inserts["Sort By Top Weekly Creator Inserts"]
-    Sort_By_Top_Weekly_Workflow_Inserts["Sort By Top Weekly Workflow Inserts"]
-    Take_Top_300_Workflows["Take Top 300 Workflows"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
+    stats_aggregate_creators["fas:fa-globe stats_aggregate_creators"]
+    stats_aggregate_workflows["fas:fa-globe stats_aggregate_workflows"]
+    Global_Variables["fas:fa-cogs Global Variables"]
+    Parse_Workflow_Data["fas:fa-cogs Parse Workflow Data"]
+    Parse_Creators_Data["fas:fa-cogs Parse Creators Data"]
+    Take_Top_25_Creators["fas:fa-cogs Take Top 25 Creators"]
+    Aggregate["fas:fa-cogs Aggregate"]
+    Filter_By_Creator_Username["fas:fa-cogs Filter By Creator Username"]
+    gpt_4o_mini(["fas:fa-robot gpt-4o-mini"]):::ai
+    When_Executed_by_Another_Workflow(("fas:fa-bolt When Executed by Another Workflow")):::trigger
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    Workflow_Tool["fas:fa-robot Workflow Tool"]
+    creator_summary["fas:fa-cogs creator-summary"]
+    Workflow_Response["fas:fa-cogs Workflow Response"]
+    n8n_Creator_Stats_Agent["fas:fa-robot n8n Creator Stats Agent"]:::ai
+    Save_creator_summary_md["fas:fa-cogs Save creator-summary.md"]
+    Summary_Report["fas:fa-cogs Summary Report"]
+    Ollama_Chat_Model["fas:fa-robot Ollama Chat Model"]
+    Creators_Data["fas:fa-cogs Creators Data"]
+    Workflows_Data["fas:fa-cogs Workflows Data"]
+    Merge_Creators___Workflows["fas:fa-cogs Merge Creators & Workflows"]
+    Split_Out_Creators["fas:fa-cogs Split Out Creators"]
+    Split_Out_Workflows["fas:fa-cogs Split Out Workflows"]
+    Sort_By_Top_Weekly_Creator_Inserts["fas:fa-cogs Sort By Top Weekly Creator Inserts"]
+    Sort_By_Top_Weekly_Workflow_Inserts["fas:fa-cogs Sort By Top Weekly Workflow Inserts"]
+    Take_Top_300_Workflows["fas:fa-cogs Take Top 300 Workflows"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
 
     Aggregate --> Workflow_Response
     gpt_4o_mini --> n8n_Creator_Stats_Agent

@@ -4,27 +4,27 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Get_invoice(("Get invoice")):::trigger
-    Get_payment(("Get payment")):::trigger
-    Extract_invoice["Extract invoice"]
-    Extract_payment["Extract payment"]
-    HTML["HTML"]
-    Split_Out["Split Out"]
-    Structured_Output_Parser1["Structured Output Parser1"]
-    Google_Gemini_Chat_Model1["Google Gemini Chat Model1"]
-    Send["Send"]
-    Set_data_0["Set data 0"]
-    Set_data_1["Set data 1"]
-    Set_data_2["Set data 2"]
-    Invoice_data["Invoice data"]
-    Payment_data["Payment data"]
-    Switch{"Switch"}:::logic
-    Groq_Chat_Model["Groq Chat Model"]
-    Structured_Output_Parser["Structured Output Parser"]
-    Send1["Send1"]
-    Extract_details1(["Extract details1"]):::ai
-    Merge["Merge"]
-    Extract_details(["Extract details"]):::ai
+    Get_invoice(("fas:fa-envelope Get invoice")):::trigger
+    Get_payment(("fas:fa-envelope Get payment")):::trigger
+    Extract_invoice["fas:fa-cogs Extract invoice"]
+    Extract_payment["fas:fa-cogs Extract payment"]
+    HTML["fas:fa-cogs HTML"]
+    Split_Out["fas:fa-cogs Split Out"]
+    Structured_Output_Parser1["fas:fa-robot Structured Output Parser1"]
+    Google_Gemini_Chat_Model1["fab:fa-google Google Gemini Chat Model1"]
+    Send["fab:fa-google Send"]
+    Set_data_0["fas:fa-cogs Set data 0"]
+    Set_data_1["fas:fa-cogs Set data 1"]
+    Set_data_2["fas:fa-cogs Set data 2"]
+    Invoice_data["fas:fa-cogs Invoice data"]
+    Payment_data["fas:fa-cogs Payment data"]
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    Groq_Chat_Model["fas:fa-robot Groq Chat Model"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Send1["fab:fa-google Send1"]
+    Extract_details1(["fas:fa-robot Extract details1"]):::ai
+    Merge["fas:fa-cogs Merge"]
+    Extract_details(["fas:fa-robot Extract details"]):::ai
 
     HTML --> Split_Out
     Merge --> Extract_details

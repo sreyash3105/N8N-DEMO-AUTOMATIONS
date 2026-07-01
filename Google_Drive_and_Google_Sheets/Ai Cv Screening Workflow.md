@@ -4,13 +4,13 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    Confirmation_of_CV_Submission["Confirmation of CV Submission"]
-    Inform_HR_New_CV_Received["Inform HR New CV Received"]
-    Using_AI_Analysis___Rating(["Using AI Analysis & Rating"]):::ai
-    Convert_Binary_to_Json["Convert Binary to Json"]
-    Application_Form(("Application Form")):::trigger
-    Candidate_Lists["Candidate Lists"]
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    Confirmation_of_CV_Submission["fas:fa-envelope Confirmation of CV Submission"]
+    Inform_HR_New_CV_Received["fas:fa-envelope Inform HR New CV Received"]
+    Using_AI_Analysis___Rating(["fas:fa-robot Using AI Analysis & Rating"]):::ai
+    Convert_Binary_to_Json["fas:fa-cogs Convert Binary to Json"]
+    Application_Form(("fas:fa-bolt Application Form")):::trigger
+    Candidate_Lists["fab:fa-google Candidate Lists"]
 
     Candidate_Lists --> Inform_HR_New_CV_Received
     Application_Form --> Convert_Binary_to_Json

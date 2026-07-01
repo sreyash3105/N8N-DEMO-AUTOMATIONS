@@ -4,18 +4,18 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Webhook(("Webhook")):::trigger
-    YouTube_Transcript["YouTube Transcript"]
-    Split_Out["Split Out"]
-    Respond_to_Webhook(("Respond to Webhook")):::trigger
-    Telegram["Telegram"]
-    Get_YouTube_URL["Get YouTube URL"]
-    YouTube_Video_ID["YouTube Video ID"]
-    Get_YouTube_Video["Get YouTube Video"]
-    gpt_4o_mini(["gpt-4o-mini"]):::ai
-    Summarize___Analyze_Transcript(["Summarize & Analyze Transcript"]):::ai
-    Concatenate["Concatenate"]
-    Response_Object["Response Object"]
+    Webhook(("fas:fa-bolt Webhook")):::trigger
+    YouTube_Transcript["fas:fa-cogs YouTube Transcript"]
+    Split_Out["fas:fa-cogs Split Out"]
+    Respond_to_Webhook(("fas:fa-bolt Respond to Webhook")):::trigger
+    Telegram["fab:fa-telegram Telegram"]
+    Get_YouTube_URL["fas:fa-cogs Get YouTube URL"]
+    YouTube_Video_ID["fas:fa-cogs YouTube Video ID"]
+    Get_YouTube_Video["fas:fa-cogs Get YouTube Video"]
+    gpt_4o_mini(["fas:fa-robot gpt-4o-mini"]):::ai
+    Summarize___Analyze_Transcript(["fas:fa-robot Summarize & Analyze Transcript"]):::ai
+    Concatenate["fas:fa-cogs Concatenate"]
+    Response_Object["fas:fa-cogs Response Object"]
 
     Webhook --> Get_YouTube_URL
     Split_Out --> Concatenate

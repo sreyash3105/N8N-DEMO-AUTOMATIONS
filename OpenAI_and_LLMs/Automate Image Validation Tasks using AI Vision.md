@@ -4,14 +4,14 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Structured_Output_Parser["Structured Output Parser"]
-    Photo_URLs["Photo URLs"]
-    Photos_To_List["Photos To List"]
-    Download_Photos["Download Photos"]
-    Resize_For_AI["Resize For AI"]
-    Passport_Photo_Validator(["Passport Photo Validator"]):::ai
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Photo_URLs["fas:fa-cogs Photo URLs"]
+    Photos_To_List["fas:fa-cogs Photos To List"]
+    Download_Photos["fab:fa-google Download Photos"]
+    Resize_For_AI["fas:fa-cogs Resize For AI"]
+    Passport_Photo_Validator(["fas:fa-robot Passport Photo Validator"]):::ai
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
 
     Photo_URLs --> Photos_To_List
     Resize_For_AI --> Passport_Photo_Validator

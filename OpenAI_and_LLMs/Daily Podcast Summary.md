@@ -4,22 +4,22 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Gmail["Gmail"]
-    TaddyTopDaily["TaddyTopDaily"]
-    Genre["Genre"]
-    Split_Out["Split Out"]
-    Whisper_Transcribe_Audio["Whisper Transcribe Audio"]
-    Final_Data["Final Data"]
-    Merge_Results["Merge Results"]
-    HTML["HTML"]
-    Summarize_Podcast(["Summarize Podcast"]):::ai
-    Schedule(("Schedule")):::trigger
-    Request_Audio_Crop["Request Audio Crop"]
-    Get_Download_Link["Get Download Link"]
-    Download_Cut_MP3["Download Cut MP3"]
-    Download_Podcast["Download Podcast"]
-    Wait["Wait"]
-    If_Downloads_Ready{"If Downloads Ready"}:::logic
+    Gmail["fas:fa-envelope Gmail"]
+    TaddyTopDaily["fas:fa-globe TaddyTopDaily"]
+    Genre["fas:fa-cogs Genre"]
+    Split_Out["fas:fa-cogs Split Out"]
+    Whisper_Transcribe_Audio["fas:fa-globe Whisper Transcribe Audio"]
+    Final_Data["fas:fa-cogs Final Data"]
+    Merge_Results["fas:fa-cogs Merge Results"]
+    HTML["fas:fa-cogs HTML"]
+    Summarize_Podcast(["fas:fa-robot Summarize Podcast"]):::ai
+    Schedule(("fas:fa-bolt Schedule")):::trigger
+    Request_Audio_Crop["fas:fa-globe Request Audio Crop"]
+    Get_Download_Link["fas:fa-globe Get Download Link"]
+    Download_Cut_MP3["fas:fa-globe Download Cut MP3"]
+    Download_Podcast["fas:fa-globe Download Podcast"]
+    Wait["fas:fa-robot Wait"]
+    If_Downloads_Ready{"fas:fa-code-branch If Downloads Ready"}:::logic
 
     HTML --> Gmail
     Wait --> Get_Download_Link

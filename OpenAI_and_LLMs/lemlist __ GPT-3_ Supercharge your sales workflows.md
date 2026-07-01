@@ -4,18 +4,18 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Lemlist___Unsubscribe["Lemlist - Unsubscribe"]
-    follow_up_task["follow up task"]
-    Switch{"Switch"}:::logic
-    Merge["Merge"]
-    lemlist___Mark_as_interested["lemlist - Mark as interested"]
-    HubSpot___Create_Deal["HubSpot - Create Deal"]
-    HubSpot___Get_contact_ID["HubSpot - Get contact ID"]
-    Slack["Slack"]
-    HubSpot___Get_contact_ID1["HubSpot - Get contact ID1"]
-    Slack1["Slack1"]
-    Lemlist___Lead_Replied(("Lemlist - Lead Replied")):::trigger
-    OpenAI(["OpenAI"]):::ai
+    Lemlist___Unsubscribe["fas:fa-cogs Lemlist - Unsubscribe"]
+    follow_up_task["fas:fa-cogs follow up task"]
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    Merge["fas:fa-cogs Merge"]
+    lemlist___Mark_as_interested["fas:fa-globe lemlist - Mark as interested"]
+    HubSpot___Create_Deal["fas:fa-cogs HubSpot - Create Deal"]
+    HubSpot___Get_contact_ID["fas:fa-cogs HubSpot - Get contact ID"]
+    Slack["fab:fa-slack Slack"]
+    HubSpot___Get_contact_ID1["fas:fa-cogs HubSpot - Get contact ID1"]
+    Slack1["fab:fa-slack Slack1"]
+    Lemlist___Lead_Replied(("fas:fa-bolt Lemlist - Lead Replied")):::trigger
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
 
     Merge --> Switch
     OpenAI --> Merge

@@ -4,37 +4,37 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    No_email_provided["No email provided"]
-    If_email_provided{"If email provided"}:::logic
-    If_user_found{"If user found"}:::logic
-    No_customer_found["No customer found"]
-    If_contains_DHL_data{"If contains DHL data"}:::logic
-    Extract_Tracking_Data["Extract Tracking Data"]
-    Merge_Orders["Merge Orders"]
-    Merge_Order_and_Tracking_Data["Merge Order and Tracking Data"]
-    Split_Out["Split Out"]
-    Aggregate["Aggregate"]
-    Merge_Tracking_Data["Merge Tracking Data"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    WooCommerce___Get_User["WooCommerce - Get User"]
-    If_order_found{"If order found"}:::logic
-    WooCommerce_Get_Orders["WooCommerce Get Orders"]
-    No_order_found["No order found"]
-    Add_Error_Information["Add Error Information"]
-    DHL["DHL"]
-    Send_Response["Send Response"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    WooCommerce_Tool["WooCommerce_Tool"]
-    Chat_Trigger(("Chat Trigger")):::trigger
-    Respond_to_Webhook(("Respond to Webhook")):::trigger
-    Webhook_Example_Page(("Webhook Example Page")):::trigger
-    Decrypt_email["Decrypt email"]
-    Encrypt_email["Encrypt email"]
-    Example_encrypted_email["Example encrypted email"]
-    Decrypt_email_address["Decrypt email address"]
-    AI_Agent["AI Agent"]:::ai
-    Mock_Data["Mock Data"]
+    No_email_provided["fas:fa-cogs No email provided"]
+    If_email_provided{"fas:fa-code-branch If email provided"}:::logic
+    If_user_found{"fas:fa-code-branch If user found"}:::logic
+    No_customer_found["fas:fa-cogs No customer found"]
+    If_contains_DHL_data{"fas:fa-code-branch If contains DHL data"}:::logic
+    Extract_Tracking_Data["fas:fa-cogs Extract Tracking Data"]
+    Merge_Orders["fas:fa-cogs Merge Orders"]
+    Merge_Order_and_Tracking_Data["fas:fa-cogs Merge Order and Tracking Data"]
+    Split_Out["fas:fa-cogs Split Out"]
+    Aggregate["fas:fa-cogs Aggregate"]
+    Merge_Tracking_Data["fas:fa-cogs Merge Tracking Data"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    WooCommerce___Get_User["fas:fa-cogs WooCommerce - Get User"]
+    If_order_found{"fas:fa-code-branch If order found"}:::logic
+    WooCommerce_Get_Orders["fas:fa-globe WooCommerce Get Orders"]
+    No_order_found["fas:fa-cogs No order found"]
+    Add_Error_Information["fas:fa-cogs Add Error Information"]
+    DHL["fas:fa-cogs DHL"]
+    Send_Response["fas:fa-cogs Send Response"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    WooCommerce_Tool["fas:fa-robot WooCommerce_Tool"]
+    Chat_Trigger(("fas:fa-robot Chat Trigger")):::trigger
+    Respond_to_Webhook(("fas:fa-bolt Respond to Webhook")):::trigger
+    Webhook_Example_Page(("fas:fa-bolt Webhook Example Page")):::trigger
+    Decrypt_email["fas:fa-cogs Decrypt email"]
+    Encrypt_email["fas:fa-cogs Encrypt email"]
+    Example_encrypted_email["fas:fa-cogs Example encrypted email"]
+    Decrypt_email_address["fas:fa-cogs Decrypt email address"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Mock_Data["fas:fa-cogs Mock Data"]
 
     DHL --> Merge_Tracking_Data
     DHL --> Add_Error_Information

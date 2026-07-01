@@ -4,18 +4,18 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Schedule_Trigger(("Schedule Trigger")):::trigger
-    OpenAI_Chat_Model2(["OpenAI Chat Model2"]):::ai
-    Create_a_Prompt_for_DALL_E["Create a Prompt for DALL-E"]
-    Recursive_Character_Text_Splitter["Recursive Character Text Splitter"]
-    Create_a_story["Create a story"]
-    Generate_Audio_for_the_story(["Generate Audio for the story"]):::ai
-    Generate_a_Picture_for_the_story(["Generate a Picture for the story"]):::ai
-    Send_Story_Text["Send Story Text"]
-    Send_Audio_for_the_story["Send Audio for the story"]
-    Send_Story_Picture["Send Story Picture"]
-    Config["Config"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Schedule_Trigger(("fas:fa-bolt Schedule Trigger")):::trigger
+    OpenAI_Chat_Model2(["fas:fa-robot OpenAI Chat Model2"]):::ai
+    Create_a_Prompt_for_DALL_E["fas:fa-robot Create a Prompt for DALL-E"]
+    Recursive_Character_Text_Splitter["fas:fa-robot Recursive Character Text Splitter"]
+    Create_a_story["fas:fa-robot Create a story"]
+    Generate_Audio_for_the_story(["fas:fa-robot Generate Audio for the story"]):::ai
+    Generate_a_Picture_for_the_story(["fas:fa-robot Generate a Picture for the story"]):::ai
+    Send_Story_Text["fab:fa-telegram Send Story Text"]
+    Send_Audio_for_the_story["fab:fa-telegram Send Audio for the story"]
+    Send_Story_Picture["fab:fa-telegram Send Story Picture"]
+    Config["fas:fa-cogs Config"]
 
     Config --> Create_a_story
     Create_a_story --> Generate_Audio_for_the_story

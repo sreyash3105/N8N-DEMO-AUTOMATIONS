@@ -4,15 +4,15 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Google_Drive["Google Drive"]
-    Upload_File["Upload File"]
-    Google_Drive_Trigger(("Google Drive Trigger")):::trigger
-    Create_Invoice["Create Invoice"]
-    Create_Line_Item["Create Line Item"]
-    OpenAI___Extract_Line_Items["OpenAI - Extract Line Items"]
-    Set_Fields["Set Fields"]
-    Process_Line_Items["Process Line Items"]
-    Webhook(("Webhook")):::trigger
+    Google_Drive["fab:fa-google Google Drive"]
+    Upload_File["fas:fa-globe Upload File"]
+    Google_Drive_Trigger(("fab:fa-google Google Drive Trigger")):::trigger
+    Create_Invoice["fas:fa-robot Create Invoice"]
+    Create_Line_Item["fas:fa-robot Create Line Item"]
+    OpenAI___Extract_Line_Items["fas:fa-globe OpenAI - Extract Line Items"]
+    Set_Fields["fas:fa-cogs Set Fields"]
+    Process_Line_Items["fas:fa-cogs Process Line Items"]
+    Webhook(("fas:fa-bolt Webhook")):::trigger
 
     Webhook --> Set_Fields
     Set_Fields --> OpenAI___Extract_Line_Items

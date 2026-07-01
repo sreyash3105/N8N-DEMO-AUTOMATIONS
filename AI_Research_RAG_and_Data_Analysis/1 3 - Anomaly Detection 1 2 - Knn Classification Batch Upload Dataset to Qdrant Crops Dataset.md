@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Google_Cloud_Storage["Google Cloud Storage"]
-    Get_fields_for_Qdrant["Get fields for Qdrant"]
-    Qdrant_cluster_variables["Qdrant cluster variables"]
-    Embed_crop_image["Embed crop image"]
-    Create_Qdrant_Collection["Create Qdrant Collection"]
-    Check_Qdrant_Collection_Existence["Check Qdrant Collection Existence"]
-    Batches_in_the_API_s_format["Batches in the API's format"]
-    Batch_Upload_to_Qdrant["Batch Upload to Qdrant"]
-    Split_in_batches__generate_uuids_for_Qdrant_points["Split in batches, generate uuids for Qdrant points"]
-    If_collection_exists{"If collection exists"}:::logic
-    Payload_index_on_crop_name["Payload index on crop_name"]
-    Filtering_out_tomato_to_test_anomalies["Filtering out tomato to test anomalies"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Google_Cloud_Storage["fab:fa-google Google Cloud Storage"]
+    Get_fields_for_Qdrant["fas:fa-cogs Get fields for Qdrant"]
+    Qdrant_cluster_variables["fas:fa-cogs Qdrant cluster variables"]
+    Embed_crop_image["fas:fa-globe Embed crop image"]
+    Create_Qdrant_Collection["fas:fa-globe Create Qdrant Collection"]
+    Check_Qdrant_Collection_Existence["fas:fa-globe Check Qdrant Collection Existence"]
+    Batches_in_the_API_s_format["fas:fa-cogs Batches in the API's format"]
+    Batch_Upload_to_Qdrant["fas:fa-globe Batch Upload to Qdrant"]
+    Split_in_batches__generate_uuids_for_Qdrant_points["fas:fa-cogs Split in batches, generate uuids for Qdrant points"]
+    If_collection_exists{"fas:fa-code-branch If collection exists"}:::logic
+    Payload_index_on_crop_name["fas:fa-globe Payload index on crop_name"]
+    Filtering_out_tomato_to_test_anomalies["fas:fa-cogs Filtering out tomato to test anomalies"]
 
     Embed_crop_image --> Batch_Upload_to_Qdrant
     Google_Cloud_Storage --> Get_fields_for_Qdrant

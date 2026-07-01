@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    No_Operation__do_nothing["No Operation, do nothing"]
-    Add_to_Messages_Stack["Add to Messages Stack"]
-    Should_Continue_{"Should Continue?"}:::logic
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Twilio_Trigger(("Twilio Trigger")):::trigger
-    Get_Latest_Message_Stack["Get Latest Message Stack"]
-    Send_Reply["Send Reply"]
-    Wait_5_seconds["Wait 5 seconds"]
-    Get_Chat_History[("Get Chat History")]
-    Window_Buffer_Memory1[("Window Buffer Memory1")]
-    Get_Messages_Buffer["Get Messages Buffer"]
-    AI_Agent["AI Agent"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    No_Operation__do_nothing["fas:fa-cogs No Operation, do nothing"]
+    Add_to_Messages_Stack["fas:fa-cogs Add to Messages Stack"]
+    Should_Continue_{"fas:fa-code-branch Should Continue?"}:::logic
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Twilio_Trigger(("fas:fa-bolt Twilio Trigger")):::trigger
+    Get_Latest_Message_Stack["fas:fa-cogs Get Latest Message Stack"]
+    Send_Reply["fas:fa-cogs Send Reply"]
+    Wait_5_seconds["fas:fa-robot Wait 5 seconds"]
+    Get_Chat_History[("fas:fa-robot Get Chat History")]
+    Window_Buffer_Memory1[("fas:fa-robot Window Buffer Memory1")]
+    Get_Messages_Buffer["fas:fa-cogs Get Messages Buffer"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
 
     AI_Agent --> Send_Reply
     Twilio_Trigger --> Add_to_Messages_Stack

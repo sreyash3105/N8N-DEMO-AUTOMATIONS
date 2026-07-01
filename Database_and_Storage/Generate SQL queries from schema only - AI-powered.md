@@ -4,26 +4,26 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    No_Operation__do_nothing["No Operation, do nothing"]
-    List_all_tables_in_a_database["List all tables in a database"]
-    Extract_database_schema["Extract database schema"]
-    Add_table_name_to_output["Add table name to output"]
-    Convert_data_to_binary["Convert data to binary"]
-    Save_file_locally["Save file locally"]
-    Extract_data_from_file["Extract data from file"]
-    Chat_Trigger(("Chat Trigger")):::trigger
-    AI_Agent["AI Agent"]:::ai
-    When_clicking__Test_workflow_(("When clicking 'Test workflow'")):::trigger
-    Combine_schema_data_and_chat_input["Combine schema data and chat input"]
-    Load_the_schema_from_the_local_file["Load the schema from the local file"]
-    Extract_SQL_query["Extract SQL query"]
-    Check_if_query_exists{"Check if query exists"}:::logic
-    Format_query_results["Format query results"]
-    Run_SQL_query["Run SQL query"]
-    Prepare_final_output["Prepare final output"]
-    Combine_query_result_and_chat_answer["Combine query result and chat answer"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    No_Operation__do_nothing["fas:fa-cogs No Operation, do nothing"]
+    List_all_tables_in_a_database["fas:fa-cogs List all tables in a database"]
+    Extract_database_schema["fas:fa-cogs Extract database schema"]
+    Add_table_name_to_output["fas:fa-cogs Add table name to output"]
+    Convert_data_to_binary["fas:fa-cogs Convert data to binary"]
+    Save_file_locally["fas:fa-cogs Save file locally"]
+    Extract_data_from_file["fas:fa-cogs Extract data from file"]
+    Chat_Trigger(("fas:fa-robot Chat Trigger")):::trigger
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking 'Test workflow'")):::trigger
+    Combine_schema_data_and_chat_input["fas:fa-cogs Combine schema data and chat input"]
+    Load_the_schema_from_the_local_file["fas:fa-cogs Load the schema from the local file"]
+    Extract_SQL_query["fas:fa-cogs Extract SQL query"]
+    Check_if_query_exists{"fas:fa-code-branch Check if query exists"}:::logic
+    Format_query_results["fas:fa-cogs Format query results"]
+    Run_SQL_query["fas:fa-cogs Run SQL query"]
+    Prepare_final_output["fas:fa-cogs Prepare final output"]
+    Combine_query_result_and_chat_answer["fas:fa-cogs Combine query result and chat answer"]
 
     AI_Agent --> Extract_SQL_query
     Chat_Trigger --> Load_the_schema_from_the_local_file

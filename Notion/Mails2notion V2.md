@@ -4,31 +4,31 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Calculator["Calculator"]
-    Structured_Output_Parser["Structured Output Parser"]
-    Add_Label__Processed_["Add Label 'Processed'"]
-    Active_Routes_Only["Active Routes Only"]
-    Extract_Route_ID["Extract Route ID"]
-    Deactivate_Route["Deactivate Route"]
-    Add_Label__Error_["Add Label 'Error'"]
-    Send_notification_about_deactivated_route["Send notification about deactivated route"]
-    Send_notification_about_missing_route["Send notification about missing route"]
-    Get_Route_by_ID["Get Route by ID"]
-    Create_Notion_Page["Create Notion Page"]
-    Gmail_Trigger(("Gmail Trigger")):::trigger
-    Filter_for_unprocessed_mails["Filter for unprocessed mails"]
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Required_labels["Required labels"]
-    Globals["Globals"]
-    No_Operation__do_nothing["No Operation, do nothing"]
-    Format_Notion_Page_Blocks["Format Notion Page Blocks"]
-    Get_all_labels["Get all labels"]
-    Structured_Output_Parser1["Structured Output Parser1"]
-    Calculator1["Calculator1"]
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Generate_Actionable_Task["Generate Actionable Task"]:::ai
-    Get_Summary___Meta_Data["Get Summary & Meta Data"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Calculator["fas:fa-robot Calculator"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Add_Label__Processed_["fas:fa-envelope Add Label 'Processed'"]
+    Active_Routes_Only["fas:fa-cogs Active Routes Only"]
+    Extract_Route_ID["fas:fa-cogs Extract Route ID"]
+    Deactivate_Route["fas:fa-robot Deactivate Route"]
+    Add_Label__Error_["fas:fa-envelope Add Label 'Error'"]
+    Send_notification_about_deactivated_route["fas:fa-envelope Send notification about deactivated route"]
+    Send_notification_about_missing_route["fas:fa-envelope Send notification about missing route"]
+    Get_Route_by_ID["fas:fa-robot Get Route by ID"]
+    Create_Notion_Page["fas:fa-globe Create Notion Page"]
+    Gmail_Trigger(("fas:fa-envelope Gmail Trigger")):::trigger
+    Filter_for_unprocessed_mails["fas:fa-cogs Filter for unprocessed mails"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Required_labels["fas:fa-cogs Required labels"]
+    Globals["fas:fa-cogs Globals"]
+    No_Operation__do_nothing["fas:fa-cogs No Operation, do nothing"]
+    Format_Notion_Page_Blocks["fas:fa-cogs Format Notion Page Blocks"]
+    Get_all_labels["fas:fa-envelope Get all labels"]
+    Structured_Output_Parser1["fas:fa-robot Structured Output Parser1"]
+    Calculator1["fas:fa-robot Calculator1"]
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Generate_Actionable_Task["fas:fa-robot Generate Actionable Task"]:::ai
+    Get_Summary___Meta_Data["fas:fa-robot Get Summary & Meta Data"]:::ai
 
     Globals --> Filter_for_unprocessed_mails
     Calculator --> Get_Summary___Meta_Data

@@ -4,24 +4,24 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Notion["Notion"]
-    Return_success_to_chat["Return success to chat"]
-    Auto_fixing_Output_Parser["Auto-fixing Output Parser"]
-    Anthropic_Chat_Model["Anthropic Chat Model"]
-    Set_schema_for_eval["Set schema for eval"]
-    Return_error_to_chat["Return error to chat"]
-    Anthropic_Chat_Model1["Anthropic Chat Model1"]
-    standardize_schema["standardize schema"]
-    Simplify_properties_object["Simplify properties object"]
-    Structured_Output_Parser["Structured Output Parser"]
-    Set_input_data["Set input data"]
-    Set_schem_for_rerun["Set schem for rerun"]
-    Add_feedback_prompt["Add feedback prompt"]
-    Check_for_WF_JSON_errors{"Check for WF JSON errors"}:::logic
-    Generate_Workflow_Agent["Generate Workflow Agent"]:::ai
-    Anthropic_Chat_Model2["Anthropic Chat Model2"]
-    When_chat_message_received(("When chat message received")):::trigger
-    Valid_n8n_workflow_JSON_{"Valid n8n workflow JSON?"}:::logic
+    Notion["fas:fa-cogs Notion"]
+    Return_success_to_chat["fas:fa-cogs Return success to chat"]
+    Auto_fixing_Output_Parser["fas:fa-robot Auto-fixing Output Parser"]
+    Anthropic_Chat_Model["fas:fa-robot Anthropic Chat Model"]
+    Set_schema_for_eval["fas:fa-cogs Set schema for eval"]
+    Return_error_to_chat["fas:fa-cogs Return error to chat"]
+    Anthropic_Chat_Model1["fas:fa-robot Anthropic Chat Model1"]
+    standardize_schema["fas:fa-cogs standardize schema"]
+    Simplify_properties_object["fas:fa-cogs Simplify properties object"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Set_input_data["fas:fa-cogs Set input data"]
+    Set_schem_for_rerun["fas:fa-cogs Set schem for rerun"]
+    Add_feedback_prompt["fas:fa-cogs Add feedback prompt"]
+    Check_for_WF_JSON_errors{"fas:fa-code-branch Check for WF JSON errors"}:::logic
+    Generate_Workflow_Agent["fas:fa-robot Generate Workflow Agent"]:::ai
+    Anthropic_Chat_Model2["fas:fa-robot Anthropic Chat Model2"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    Valid_n8n_workflow_JSON_{"fas:fa-robot Valid n8n workflow JSON?"}:::logic
 
     Notion --> standardize_schema
     Notion --> Return_error_to_chat

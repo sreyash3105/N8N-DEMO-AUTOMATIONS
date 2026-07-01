@@ -4,25 +4,25 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Get_Meeting_ConferenceRecords["Get Meeting ConferenceRecords"]
-    Get_Meeting_Transcript_Location["Get Meeting Transcript Location"]
-    Get_Transcript_File["Get Transcript File"]
-    When_clicking__Test_workflow_(("When clicking 'Test workflow'")):::trigger
-    PDF_Loader["PDF Loader"]
-    Get_Calendar_Event["Get Calendar Event"]
-    Structured_Output_Parser["Structured Output Parser"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Response["Response"]
-    Edit_Fields["Edit Fields"]
-    Fallback_Response["Fallback Response"]
-    Actions_Router{"Actions Router"}:::logic
-    Get_Attendees["Get Attendees"]
-    Attendees_List["Attendees List"]
-    Add_Attendee_to_Invite["Add Attendee to Invite"]
-    Create_Calendar_Event1["Create Calendar Event1"]
-    Schedule_Meeting["Schedule Meeting"]
-    AI_Agent["AI Agent"]:::ai
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Get_Meeting_ConferenceRecords["fas:fa-globe Get Meeting ConferenceRecords"]
+    Get_Meeting_Transcript_Location["fas:fa-globe Get Meeting Transcript Location"]
+    Get_Transcript_File["fab:fa-google Get Transcript File"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking 'Test workflow'")):::trigger
+    PDF_Loader["fas:fa-file-pdf PDF Loader"]
+    Get_Calendar_Event["fab:fa-google Get Calendar Event"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Response["fas:fa-cogs Response"]
+    Edit_Fields["fas:fa-cogs Edit Fields"]
+    Fallback_Response["fas:fa-cogs Fallback Response"]
+    Actions_Router{"fas:fa-code-branch Actions Router"}:::logic
+    Get_Attendees["fas:fa-cogs Get Attendees"]
+    Attendees_List["fas:fa-cogs Attendees List"]
+    Add_Attendee_to_Invite["fab:fa-google Add Attendee to Invite"]
+    Create_Calendar_Event1["fab:fa-google Create Calendar Event1"]
+    Schedule_Meeting["fas:fa-robot Schedule Meeting"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
 
     PDF_Loader --> AI_Agent
     Edit_Fields --> Actions_Router

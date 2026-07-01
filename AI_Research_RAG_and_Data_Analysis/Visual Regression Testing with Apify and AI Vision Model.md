@@ -4,30 +4,30 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Base_Image["Base Image"]
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    Structured_Output_Parser["Structured Output Parser"]
-    Loop_Over_Items["Loop Over Items"]
-    Wait["Wait"]
-    Download_Screenshot["Download Screenshot"]
-    Upload_to_Drive["Upload to Drive"]
-    Update_Base_Image["Update Base Image"]
-    Merge["Merge"]
-    Schedule_Trigger(("Schedule Trigger")):::trigger
-    Get_URLs_with_Missing_Base_Images["Get URLs with Missing Base Images"]
-    Run_Webpage_Screenshot["Run Webpage Screenshot"]
-    Run_Webpage_Screenshot1["Run Webpage Screenshot1"]
-    Has_Changes["Has Changes"]
-    Combine_Row_and_Result["Combine Row and Result"]
-    Wait1["Wait1"]
-    Aggregate["Aggregate"]
-    Create_Report["Create Report"]
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Get_Webpages_List["Get Webpages List"]
-    For_Each_Webpage___["For Each Webpage..."]
-    Download_New_Screenshot["Download New Screenshot"]
-    Combine_Screenshots["Combine Screenshots"]
-    Visual_Regression_Agent(["Visual Regression Agent"]):::ai
+    Base_Image["fab:fa-google Base Image"]
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Loop_Over_Items["fas:fa-cogs Loop Over Items"]
+    Wait["fas:fa-robot Wait"]
+    Download_Screenshot["fas:fa-globe Download Screenshot"]
+    Upload_to_Drive["fab:fa-google Upload to Drive"]
+    Update_Base_Image["fab:fa-google Update Base Image"]
+    Merge["fas:fa-cogs Merge"]
+    Schedule_Trigger(("fas:fa-bolt Schedule Trigger")):::trigger
+    Get_URLs_with_Missing_Base_Images["fab:fa-google Get URLs with Missing Base Images"]
+    Run_Webpage_Screenshot["fas:fa-globe Run Webpage Screenshot"]
+    Run_Webpage_Screenshot1["fas:fa-globe Run Webpage Screenshot1"]
+    Has_Changes["fas:fa-cogs Has Changes"]
+    Combine_Row_and_Result["fas:fa-cogs Combine Row and Result"]
+    Wait1["fas:fa-robot Wait1"]
+    Aggregate["fas:fa-cogs Aggregate"]
+    Create_Report["fas:fa-cogs Create Report"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Get_Webpages_List["fab:fa-google Get Webpages List"]
+    For_Each_Webpage___["fas:fa-cogs For Each Webpage..."]
+    Download_New_Screenshot["fas:fa-globe Download New Screenshot"]
+    Combine_Screenshots["fas:fa-cogs Combine Screenshots"]
+    Visual_Regression_Agent(["fas:fa-robot Visual Regression Agent"]):::ai
 
     Wait --> Loop_Over_Items
     Merge --> Download_Screenshot

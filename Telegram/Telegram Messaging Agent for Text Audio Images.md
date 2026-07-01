@@ -4,35 +4,35 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Check_User___Chat_ID{"Check User & Chat ID"}:::logic
-    Error_message["Error message"]
-    Listen_for_Telegram_Events(("Listen for Telegram Events")):::trigger
-    Set_Webhook_Test_URL["Set Webhook Test URL"]
-    Get_Telegram_Webhook_Info["Get Telegram Webhook Info"]
-    Image_Schema["Image Schema"]
-    gpt_4o_mini(["gpt-4o-mini"]):::ai
-    Get_Audio_File["Get Audio File"]
-    Get_Image["Get Image"]
-    Analyze_Image(["Analyze Image"]):::ai
-    Transcribe_Recording(["Transcribe Recording"]):::ai
-    gpt_4o_mini1(["gpt-4o-mini1"]):::ai
-    Test_Webhook_Status["Test Webhook Status"]
-    Production_Webhook_Status["Production Webhook Status"]
-    Set_Webhook_Production_URL["Set Webhook Production URL"]
-    Edit_Fields["Edit Fields"]
-    Audio_Task_Message["Audio Task Message"]
-    Audio_Other_Message["Audio Other Message"]
-    Text_Task_Message["Text Task Message"]
-    Text_Other_Message["Text Other Message"]
-    Image_Message["Image Message"]
-    Convert_to_Image_File["Convert to Image File"]
-    Extract_from_File_to_Base64["Extract from File to Base64"]
-    Text_Classifier_Audio{"Text Classifier Audio"}:::logic
-    Text_Classifier{"Text Classifier"}:::logic
-    Telegram_Token___Webhooks["Telegram Token & Webhooks"]
-    Get_Webhook_Status["Get Webhook Status"]
-    Validation["Validation"]
-    Message_Router{"Message Router"}:::logic
+    Check_User___Chat_ID{"fas:fa-code-branch Check User & Chat ID"}:::logic
+    Error_message["fab:fa-telegram Error message"]
+    Listen_for_Telegram_Events(("fab:fa-telegram Listen for Telegram Events")):::trigger
+    Set_Webhook_Test_URL["fas:fa-globe Set Webhook Test URL"]
+    Get_Telegram_Webhook_Info["fab:fa-telegram Get Telegram Webhook Info"]
+    Image_Schema["fas:fa-cogs Image Schema"]
+    gpt_4o_mini(["fas:fa-robot gpt-4o-mini"]):::ai
+    Get_Audio_File["fab:fa-telegram Get Audio File"]
+    Get_Image["fab:fa-telegram Get Image"]
+    Analyze_Image(["fas:fa-robot Analyze Image"]):::ai
+    Transcribe_Recording(["fas:fa-robot Transcribe Recording"]):::ai
+    gpt_4o_mini1(["fas:fa-robot gpt-4o-mini1"]):::ai
+    Test_Webhook_Status["fab:fa-telegram Test Webhook Status"]
+    Production_Webhook_Status["fab:fa-telegram Production Webhook Status"]
+    Set_Webhook_Production_URL["fas:fa-globe Set Webhook Production URL"]
+    Edit_Fields["fas:fa-cogs Edit Fields"]
+    Audio_Task_Message["fab:fa-telegram Audio Task Message"]
+    Audio_Other_Message["fab:fa-telegram Audio Other Message"]
+    Text_Task_Message["fab:fa-telegram Text Task Message"]
+    Text_Other_Message["fab:fa-telegram Text Other Message"]
+    Image_Message["fab:fa-telegram Image Message"]
+    Convert_to_Image_File["fas:fa-cogs Convert to Image File"]
+    Extract_from_File_to_Base64["fas:fa-cogs Extract from File to Base64"]
+    Text_Classifier_Audio{"fas:fa-robot Text Classifier Audio"}:::logic
+    Text_Classifier{"fas:fa-robot Text Classifier"}:::logic
+    Telegram_Token___Webhooks["fab:fa-telegram Telegram Token & Webhooks"]
+    Get_Webhook_Status["fab:fa-telegram Get Webhook Status"]
+    Validation["fas:fa-cogs Validation"]
+    Message_Router{"fas:fa-code-branch Message Router"}:::logic
 
     Get_Image --> Extract_from_File_to_Base64
     Validation --> Check_User___Chat_ID

@@ -4,17 +4,17 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Telegram["Telegram"]
-    Correct_errors["Correct errors"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Listen_for_incoming_events(("Listen for incoming events")):::trigger
-    Send_back_an_image["Send back an image"]
-    add_response_field["add response field"]
-    Dall_E_3_Tool["Dall-E 3 Tool"]
-    Generate_image_in_Dall_E_3["Generate image in Dall-E 3"]
-    AI_Agent["AI Agent"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Telegram["fab:fa-telegram Telegram"]
+    Correct_errors["fab:fa-telegram Correct errors"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Listen_for_incoming_events(("fab:fa-telegram Listen for incoming events")):::trigger
+    Send_back_an_image["fab:fa-telegram Send back an image"]
+    add_response_field["fas:fa-cogs add response field"]
+    Dall_E_3_Tool["fas:fa-robot Dall-E 3 Tool"]
+    Generate_image_in_Dall_E_3["fas:fa-globe Generate image in Dall-E 3"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
 
     AI_Agent --> Telegram
     Telegram --> Correct_errors

@@ -4,23 +4,23 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Respond_to_Webhook(("Respond to Webhook")):::trigger
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Make_Appointment["Make Appointment"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    varResponse["varResponse"]
-    freeTimeSlots["freeTimeSlots"]
-    Get_Events["Get Events"]
-    Get_Availability["Get Availability"]
-    Send_Message["Send Message"]
-    Chat_Trigger(("Chat Trigger")):::trigger
-    Switch{"Switch"}:::logic
-    varMessageResponse["varMessageResponse"]
-    Send_Message1["Send Message1"]
-    AI_Agent["AI Agent"]:::ai
-    If{"If"}:::logic
-    Respond_With_Initial_Message(("Respond With Initial Message")):::trigger
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Respond_to_Webhook(("fas:fa-bolt Respond to Webhook")):::trigger
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Make_Appointment["fas:fa-robot Make Appointment"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    varResponse["fas:fa-cogs varResponse"]
+    freeTimeSlots["fas:fa-cogs freeTimeSlots"]
+    Get_Events["fas:fa-globe Get Events"]
+    Get_Availability["fas:fa-robot Get Availability"]
+    Send_Message["fas:fa-robot Send Message"]
+    Chat_Trigger(("fas:fa-robot Chat Trigger")):::trigger
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    varMessageResponse["fas:fa-cogs varMessageResponse"]
+    Send_Message1["fas:fa-cogs Send Message1"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    If{"fas:fa-code-branch If"}:::logic
+    Respond_With_Initial_Message(("fas:fa-bolt Respond With Initial Message")):::trigger
 
     If --> AI_Agent
     If --> Respond_With_Initial_Message

@@ -4,26 +4,26 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Microsoft_Outlook23["Microsoft Outlook23"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Set_Category["Set Category"]
-    Structured_Output_Parser["Structured Output Parser"]
-    If{"If"}:::logic
-    Set_Importance["Set Importance"]
-    AI__Analyse_Email["AI: Analyse Email"]:::ai
-    Check_Mail_Schedule_Trigger(("Check Mail Schedule Trigger")):::trigger
-    Update_Contacts_Schedule_Trigger(("Update Contacts Schedule Trigger")):::trigger
-    Monday_com___Get_Contacts["Monday.com - Get Contacts"]
-    Airtable___Contacts["Airtable - Contacts"]
-    Convert_to_Markdown["Convert to Markdown"]
-    Email_Messages["Email Messages"]
-    Rules["Rules"]
-    Categories["Categories"]
-    Delete_Rules["Delete Rules"]
-    Contact["Contact"]
-    Loop_Over_Items["Loop Over Items"]
-    Merge["Merge"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Microsoft_Outlook23["fas:fa-cogs Microsoft Outlook23"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Set_Category["fas:fa-cogs Set Category"]
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    If{"fas:fa-code-branch If"}:::logic
+    Set_Importance["fas:fa-cogs Set Importance"]
+    AI__Analyse_Email["fas:fa-robot AI: Analyse Email"]:::ai
+    Check_Mail_Schedule_Trigger(("fas:fa-bolt Check Mail Schedule Trigger")):::trigger
+    Update_Contacts_Schedule_Trigger(("fas:fa-bolt Update Contacts Schedule Trigger")):::trigger
+    Monday_com___Get_Contacts["fas:fa-cogs Monday.com - Get Contacts"]
+    Airtable___Contacts["fas:fa-robot Airtable - Contacts"]
+    Convert_to_Markdown["fas:fa-cogs Convert to Markdown"]
+    Email_Messages["fas:fa-cogs Email Messages"]
+    Rules["fas:fa-robot Rules"]
+    Categories["fas:fa-robot Categories"]
+    Delete_Rules["fas:fa-robot Delete Rules"]
+    Contact["fas:fa-robot Contact"]
+    Loop_Over_Items["fas:fa-cogs Loop Over Items"]
+    Merge["fas:fa-cogs Merge"]
 
     If --> Set_Importance
     If --> Loop_Over_Items

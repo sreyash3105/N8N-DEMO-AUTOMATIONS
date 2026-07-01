@@ -4,15 +4,15 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Schedule_Trigger(("Schedule Trigger")):::trigger
-    Set_post_status_to__Done_["Set post status to 'Done'"]
-    Post_on_LinkedIn["Post on LinkedIn"]
-    Combine_text_image["Combine text+image"]
-    Fetch_image_from_post["Fetch image from post"]
-    Reformat_Post_Text(["Reformat Post Text"]):::ai
-    get_all_content_from_post_page["get all content from post page"]
-    Pull_together_all_text_blocks___image["Pull together all text blocks + image"]
-    query_entries_from_Notion_table_for_today["query entries from Notion table for today"]
+    Schedule_Trigger(("fas:fa-bolt Schedule Trigger")):::trigger
+    Set_post_status_to__Done_["fas:fa-cogs Set post status to 'Done'"]
+    Post_on_LinkedIn["fas:fa-cogs Post on LinkedIn"]
+    Combine_text_image["fas:fa-cogs Combine text+image"]
+    Fetch_image_from_post["fas:fa-globe Fetch image from post"]
+    Reformat_Post_Text(["fas:fa-robot Reformat Post Text"]):::ai
+    get_all_content_from_post_page["fas:fa-cogs get all content from post page"]
+    Pull_together_all_text_blocks___image["fas:fa-cogs Pull together all text blocks + image"]
+    query_entries_from_Notion_table_for_today["fas:fa-cogs query entries from Notion table for today"]
 
     Post_on_LinkedIn --> Set_post_status_to__Done_
     Schedule_Trigger --> query_entries_from_Notion_table_for_today

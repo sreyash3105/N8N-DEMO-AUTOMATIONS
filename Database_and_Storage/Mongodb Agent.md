@@ -4,12 +4,12 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    MongoDBAggregate["MongoDBAggregate"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    When_chat_message_received(("When chat message received")):::trigger
-    insertFavorite["insertFavorite"]
-    AI_Agent___Movie_Recommendation["AI Agent - Movie Recommendation"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    MongoDBAggregate["fas:fa-cogs MongoDBAggregate"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    insertFavorite["fas:fa-robot insertFavorite"]
+    AI_Agent___Movie_Recommendation["fas:fa-robot AI Agent - Movie Recommendation"]:::ai
 
     insertFavorite --> AI_Agent___Movie_Recommendation
     MongoDBAggregate --> AI_Agent___Movie_Recommendation

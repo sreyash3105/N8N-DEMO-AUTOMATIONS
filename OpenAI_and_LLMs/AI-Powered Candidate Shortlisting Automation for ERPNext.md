@@ -4,29 +4,29 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Code["Code"]
-    ApplicantData["ApplicantData"]
-    ERPNext___Reject_if_Resume_not_Attached["ERPNext - Reject if Resume not Attached"]
-    Applied_Against_Job{"Applied Against Job"}:::logic
-    ERPNext___Hold_Applicant["ERPNext - Hold Applicant"]
-    Get_Job_Opening["Get Job Opening"]
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    Convert_to_Fields["Convert to Fields"]
-    If_score_less_than_80{"If score less than 80"}:::logic
-    Reject_Applicant["Reject Applicant"]
-    Update_Applicant_Data["Update Applicant Data"]
-    Reume_Attachment_Link["Reume Attachment Link"]
-    Resume_Link_Provided{"Resume Link Provided"}:::logic
-    Accept_Applicant["Accept Applicant"]
-    Webhook(("Webhook")):::trigger
-    File_Type{"File Type"}:::logic
-    Download_PDF_Resume["Download PDF Resume"]
-    PDF_to_Text["PDF to Text"]
-    Txt_File_to_Text__Example_["Txt File to Text (Example)"]
-    Merge1["Merge1"]
-    Recruitment_AI_Agent["Recruitment AI Agent"]:::ai
-    Microsoft_Outlook["Microsoft Outlook"]
-    WhatsApp_Business_Cloud["WhatsApp Business Cloud"]
+    Code["fas:fa-cogs Code"]
+    ApplicantData["fas:fa-cogs ApplicantData"]
+    ERPNext___Reject_if_Resume_not_Attached["fas:fa-cogs ERPNext - Reject if Resume not Attached"]
+    Applied_Against_Job{"fas:fa-code-branch Applied Against Job"}:::logic
+    ERPNext___Hold_Applicant["fas:fa-cogs ERPNext - Hold Applicant"]
+    Get_Job_Opening["fas:fa-cogs Get Job Opening"]
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    Convert_to_Fields["fas:fa-cogs Convert to Fields"]
+    If_score_less_than_80{"fas:fa-code-branch If score less than 80"}:::logic
+    Reject_Applicant["fas:fa-globe Reject Applicant"]
+    Update_Applicant_Data["fas:fa-globe Update Applicant Data"]
+    Reume_Attachment_Link["fas:fa-cogs Reume Attachment Link"]
+    Resume_Link_Provided{"fas:fa-code-branch Resume Link Provided"}:::logic
+    Accept_Applicant["fas:fa-globe Accept Applicant"]
+    Webhook(("fas:fa-bolt Webhook")):::trigger
+    File_Type{"fas:fa-code-branch File Type"}:::logic
+    Download_PDF_Resume["fas:fa-file-pdf Download PDF Resume"]
+    PDF_to_Text["fas:fa-file-pdf PDF to Text"]
+    Txt_File_to_Text__Example_["fas:fa-cogs Txt File to Text (Example)"]
+    Merge1["fas:fa-cogs Merge1"]
+    Recruitment_AI_Agent["fas:fa-robot Recruitment AI Agent"]:::ai
+    Microsoft_Outlook["fas:fa-cogs Microsoft Outlook"]
+    WhatsApp_Business_Cloud["fab:fa-whatsapp WhatsApp Business Cloud"]
 
     Code --> ApplicantData
     Merge1 --> Get_Job_Opening

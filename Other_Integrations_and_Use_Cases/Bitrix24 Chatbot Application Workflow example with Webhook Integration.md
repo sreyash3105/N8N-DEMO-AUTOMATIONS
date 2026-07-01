@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Bitrix24_Handler(("Bitrix24 Handler")):::trigger
-    Credentials["Credentials"]
-    Validate_Token{"Validate Token"}:::logic
-    Route_Event{"Route Event"}:::logic
-    Process_Message["Process Message"]
-    Process_Join["Process Join"]
-    Process_Install["Process Install"]
-    Register_Bot["Register Bot"]
-    Send_Message["Send Message"]
-    Send_Join_Message["Send Join Message"]
-    Process_Delete["Process Delete"]
-    Success_Response(("Success Response")):::trigger
-    Error_Response(("Error Response")):::trigger
+    Bitrix24_Handler(("fas:fa-bolt Bitrix24 Handler")):::trigger
+    Credentials["fas:fa-cogs Credentials"]
+    Validate_Token{"fas:fa-code-branch Validate Token"}:::logic
+    Route_Event{"fas:fa-code-branch Route Event"}:::logic
+    Process_Message["fas:fa-cogs Process Message"]
+    Process_Join["fas:fa-cogs Process Join"]
+    Process_Install["fas:fa-cogs Process Install"]
+    Register_Bot["fas:fa-globe Register Bot"]
+    Send_Message["fas:fa-globe Send Message"]
+    Send_Join_Message["fas:fa-globe Send Join Message"]
+    Process_Delete["fas:fa-cogs Process Delete"]
+    Success_Response(("fas:fa-bolt Success Response")):::trigger
+    Error_Response(("fas:fa-bolt Error Response")):::trigger
 
     Credentials --> Validate_Token
     Route_Event --> Process_Message

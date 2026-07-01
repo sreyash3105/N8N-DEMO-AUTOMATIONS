@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Telegram_Trigger(("Telegram Trigger")):::trigger
-    OpenAI(["OpenAI"]):::ai
-    Telegram["Telegram"]
-    Merge["Merge"]
-    Aggregate["Aggregate"]
+    Telegram_Trigger(("fab:fa-telegram Telegram Trigger")):::trigger
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
+    Telegram["fab:fa-telegram Telegram"]
+    Merge["fas:fa-cogs Merge"]
+    Aggregate["fas:fa-cogs Aggregate"]
 
     Merge --> Aggregate
     OpenAI --> Merge

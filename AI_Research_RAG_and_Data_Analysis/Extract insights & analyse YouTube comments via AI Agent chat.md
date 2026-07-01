@@ -4,28 +4,28 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    get_channel_details["get_channel_details"]
-    get_video_description["get_video_description"]
-    get_list_of_videos["get_list_of_videos"]
-    get_list_of_comments["get_list_of_comments"]
-    search["search"]
-    analyze_thumbnail["analyze_thumbnail"]
-    video_transcription["video_transcription"]
-    Postgres_Chat_Memory[("Postgres Chat Memory")]
-    AI_Agent["AI Agent"]:::ai
-    When_chat_message_received(("When chat message received")):::trigger
-    Get_Comments["Get Comments"]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Get_Channel_Details["Get Channel Details"]
-    Get_Video_Description["Get Video Description"]
-    Edit_Fields["Edit Fields"]
-    Run_Query["Run Query"]
-    Get_Videos_by_Channel["Get Videos by Channel"]
-    Response["Response"]
-    Switch{"Switch"}:::logic
-    Get_Video_Transcription["Get Video Transcription"]
-    OpenAI(["OpenAI"]):::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    get_channel_details["fas:fa-robot get_channel_details"]
+    get_video_description["fas:fa-robot get_video_description"]
+    get_list_of_videos["fas:fa-robot get_list_of_videos"]
+    get_list_of_comments["fas:fa-robot get_list_of_comments"]
+    search["fas:fa-robot search"]
+    analyze_thumbnail["fas:fa-robot analyze_thumbnail"]
+    video_transcription["fas:fa-robot video_transcription"]
+    Postgres_Chat_Memory[("fas:fa-database Postgres Chat Memory")]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    Get_Comments["fas:fa-globe Get Comments"]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Get_Channel_Details["fas:fa-globe Get Channel Details"]
+    Get_Video_Description["fas:fa-globe Get Video Description"]
+    Edit_Fields["fas:fa-cogs Edit Fields"]
+    Run_Query["fas:fa-globe Run Query"]
+    Get_Videos_by_Channel["fas:fa-globe Get Videos by Channel"]
+    Response["fas:fa-cogs Response"]
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    Get_Video_Transcription["fas:fa-globe Get Video Transcription"]
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
 
     OpenAI --> Response
     Switch --> Get_Channel_Details

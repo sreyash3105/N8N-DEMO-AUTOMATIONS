@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Google_Drive_Trigger(("Google Drive Trigger")):::trigger
-    Google_Drive["Google Drive"]
-    Notion["Notion"]
-    OpenAI(["OpenAI"]):::ai
-    OpenAI1(["OpenAI1"]):::ai
+    Google_Drive_Trigger(("fab:fa-google Google Drive Trigger")):::trigger
+    Google_Drive["fab:fa-google Google Drive"]
+    Notion["fas:fa-cogs Notion"]
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
+    OpenAI1(["fas:fa-robot OpenAI1"]):::ai
 
     OpenAI --> OpenAI1
     OpenAI1 --> Notion

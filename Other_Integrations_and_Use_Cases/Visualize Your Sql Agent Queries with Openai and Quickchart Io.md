@@ -4,20 +4,20 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Execute_Workflow["Execute Workflow"]
-    Execute__Generate_a_chart__tool(("Execute 'Generate a chart' tool")):::trigger
-    OpenAI___Generate_Chart_definition_with_Structured_Output["OpenAI - Generate Chart definition with Structured Output"]
-    Set_response["Set response"]
-    When_chat_message_received(("When chat message received")):::trigger
-    Set_Text_output["Set Text output"]
-    Set_Text___Chart_output["Set Text + Chart output"]
-    AI_Agent["AI Agent"]:::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    OpenAI_Chat_Model_Classifier(["OpenAI Chat Model Classifier"]):::ai
-    Text_Classifier___Chart_required_{"Text Classifier - Chart required?"}:::logic
-    User_question___Agent_initial_response["User question + Agent initial response"]
-    Information_Extractor___User_question["Information Extractor - User question"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Execute_Workflow["fas:fa-cogs Execute Workflow"]
+    Execute__Generate_a_chart__tool(("fas:fa-bolt Execute 'Generate a chart' tool")):::trigger
+    OpenAI___Generate_Chart_definition_with_Structured_Output["fas:fa-globe OpenAI - Generate Chart definition with Structured Output"]
+    Set_response["fas:fa-cogs Set response"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    Set_Text_output["fas:fa-cogs Set Text output"]
+    Set_Text___Chart_output["fas:fa-cogs Set Text + Chart output"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    OpenAI_Chat_Model_Classifier(["fas:fa-robot OpenAI Chat Model Classifier"]):::ai
+    Text_Classifier___Chart_required_{"fas:fa-robot Text Classifier - Chart required?"}:::logic
+    User_question___Agent_initial_response["fas:fa-robot User question + Agent initial response"]
+    Information_Extractor___User_question["fas:fa-robot Information Extractor - User question"]
 
     AI_Agent --> Text_Classifier___Chart_required_
     Execute_Workflow --> Set_Text___Chart_output

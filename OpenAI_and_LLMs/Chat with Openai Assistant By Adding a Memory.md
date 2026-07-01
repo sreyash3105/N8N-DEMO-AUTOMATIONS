@@ -4,15 +4,15 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Assistant(["OpenAI Assistant"]):::ai
-    Calculator["Calculator"]
-    Chat_Memory_Manager[("Chat Memory Manager")]
-    Chat_Memory_Manager1[("Chat Memory Manager1")]
-    Aggregate["Aggregate"]
-    Edit_Fields["Edit Fields"]
-    Limit["Limit"]
-    Chat_Trigger(("Chat Trigger")):::trigger
-    Window_Buffer_Memory[("Window Buffer Memory")]
+    OpenAI_Assistant(["fas:fa-robot OpenAI Assistant"]):::ai
+    Calculator["fas:fa-robot Calculator"]
+    Chat_Memory_Manager[("fas:fa-robot Chat Memory Manager")]
+    Chat_Memory_Manager1[("fas:fa-robot Chat Memory Manager1")]
+    Aggregate["fas:fa-cogs Aggregate"]
+    Edit_Fields["fas:fa-cogs Edit Fields"]
+    Limit["fas:fa-cogs Limit"]
+    Chat_Trigger(("fas:fa-robot Chat Trigger")):::trigger
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
 
     Limit --> Edit_Fields
     Aggregate --> OpenAI_Assistant

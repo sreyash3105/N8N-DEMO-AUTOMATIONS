@@ -4,14 +4,14 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Structured_Output_Parser["Structured Output Parser"]
-    Should_Proceed_To_Stage_2_{"Should Proceed To Stage 2?"}:::logic
-    Download_Resume["Download Resume"]
-    PDF_to_Image_API["PDF-to-Image API"]
-    Resize_Converted_Image["Resize Converted Image"]
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    Candidate_Resume_Analyser(["Candidate Resume Analyser"]):::ai
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Structured_Output_Parser["fas:fa-robot Structured Output Parser"]
+    Should_Proceed_To_Stage_2_{"fas:fa-code-branch Should Proceed To Stage 2?"}:::logic
+    Download_Resume["fab:fa-google Download Resume"]
+    PDF_to_Image_API["fas:fa-file-pdf PDF-to-Image API"]
+    Resize_Converted_Image["fas:fa-cogs Resize Converted Image"]
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    Candidate_Resume_Analyser(["fas:fa-robot Candidate Resume Analyser"]):::ai
 
     Download_Resume --> PDF_to_Image_API
     PDF_to_Image_API --> Resize_Converted_Image

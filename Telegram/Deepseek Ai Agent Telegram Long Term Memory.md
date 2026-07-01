@@ -4,21 +4,21 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Check_User___Chat_ID{"Check User & Chat ID"}:::logic
-    Error_message["Error message"]
-    Listen_for_Telegram_Events(("Listen for Telegram Events")):::trigger
-    Validation["Validation"]
-    Message_Router{"Message Router"}:::logic
-    AI_Agent["AI Agent"]:::ai
-    Merge["Merge"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    When_chat_message_received(("When chat message received")):::trigger
-    Telegram_Response["Telegram Response"]
-    Save_Long_Term_Memories["Save Long Term Memories"]
-    Retrieve_Long_Term_Memories["Retrieve Long Term Memories"]
-    Response_Error_message["Response Error message"]
-    DeepSeek_R1_Reasoning(["DeepSeek-R1 Reasoning"]):::ai
-    DeepSeek_V3_Chat(["DeepSeek-V3 Chat"]):::ai
+    Check_User___Chat_ID{"fas:fa-code-branch Check User & Chat ID"}:::logic
+    Error_message["fab:fa-telegram Error message"]
+    Listen_for_Telegram_Events(("fab:fa-telegram Listen for Telegram Events")):::trigger
+    Validation["fas:fa-cogs Validation"]
+    Message_Router{"fas:fa-code-branch Message Router"}:::logic
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Merge["fas:fa-cogs Merge"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    Telegram_Response["fab:fa-telegram Telegram Response"]
+    Save_Long_Term_Memories["fab:fa-google Save Long Term Memories"]
+    Retrieve_Long_Term_Memories["fab:fa-google Retrieve Long Term Memories"]
+    Response_Error_message["fab:fa-telegram Response Error message"]
+    DeepSeek_R1_Reasoning(["fas:fa-robot DeepSeek-R1 Reasoning"]):::ai
+    DeepSeek_V3_Chat(["fas:fa-robot DeepSeek-V3 Chat"]):::ai
 
     Merge --> AI_Agent
     AI_Agent --> Telegram_Response

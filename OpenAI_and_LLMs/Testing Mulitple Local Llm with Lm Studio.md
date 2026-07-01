@@ -4,18 +4,18 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Get_Models["Get Models"]
-    When_chat_message_received(("When chat message received")):::trigger
-    Get_timeDifference["Get timeDifference"]
-    Run_Model_with_Dunamic_Inputs(["Run Model with Dunamic Inputs"]):::ai
-    Analyze_LLM_Response_Metrics["Analyze LLM Response Metrics"]
-    Save_Results_to_Google_Sheets["Save Results to Google Sheets"]
-    Capture_End_Time["Capture End Time"]
-    Capture_Start_Time["Capture Start Time"]
-    Prepare_Data_for_Analysis["Prepare Data for Analysis"]
-    Extract_Model_IDsto_Run_Separately["Extract Model IDsto Run Separately"]
-    Add_System_Prompt["Add System Prompt"]
-    LLM_Response_Analysis(["LLM Response Analysis"]):::ai
+    Get_Models["fas:fa-globe Get Models"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    Get_timeDifference["fas:fa-cogs Get timeDifference"]
+    Run_Model_with_Dunamic_Inputs(["fas:fa-robot Run Model with Dunamic Inputs"]):::ai
+    Analyze_LLM_Response_Metrics["fas:fa-cogs Analyze LLM Response Metrics"]
+    Save_Results_to_Google_Sheets["fab:fa-google Save Results to Google Sheets"]
+    Capture_End_Time["fas:fa-cogs Capture End Time"]
+    Capture_Start_Time["fas:fa-cogs Capture Start Time"]
+    Prepare_Data_for_Analysis["fas:fa-cogs Prepare Data for Analysis"]
+    Extract_Model_IDsto_Run_Separately["fas:fa-cogs Extract Model IDsto Run Separately"]
+    Add_System_Prompt["fas:fa-cogs Add System Prompt"]
+    LLM_Response_Analysis(["fas:fa-robot LLM Response Analysis"]):::ai
 
     Get_Models --> Extract_Model_IDsto_Run_Separately
     Capture_End_Time --> Get_timeDifference

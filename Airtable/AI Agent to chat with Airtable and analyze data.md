@@ -4,36 +4,36 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    AI_Agent["AI Agent"]:::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    When_chat_message_received(("When chat message received")):::trigger
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Response["Response"]
-    Switch{"Switch"}:::logic
-    Aggregate["Aggregate"]
-    Aggregate1["Aggregate1"]
-    Merge["Merge"]
-    Aggregate2["Aggregate2"]
-    If1{"If1"}:::logic
-    Response1["Response1"]
-    Search_records["Search records"]
-    Process_data_with_code["Process data with code"]
-    Create_map_image["Create map image"]
-    Get_list_of_bases["Get list of bases"]
-    Get_base_schema["Get base schema"]
-    Get_Bases["Get Bases"]
-    Get_Base_Tables_schema["Get Base/Tables schema"]
-    If_filter_description_exists{"If filter description exists"}:::logic
-    Airtable___Search_records["Airtable - Search records"]
-    OpenAI___Generate_search_filter["OpenAI - Generate search filter"]
-    Set_schema_and_prompt["Set schema and prompt"]
-    Upload_file_to_get_link["Upload file to get link"]
-    OpenAI___Download_File["OpenAI - Download File"]
-    OpenAI___Get_messages["OpenAI - Get messages"]
-    OpenAI___Run_assistant["OpenAI - Run assistant"]
-    OpenAI___Send_message["OpenAI - Send message"]
-    OpenAI___Create_thread["OpenAI - Create thread"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Response["fas:fa-cogs Response"]
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    Aggregate["fas:fa-cogs Aggregate"]
+    Aggregate1["fas:fa-cogs Aggregate1"]
+    Merge["fas:fa-cogs Merge"]
+    Aggregate2["fas:fa-cogs Aggregate2"]
+    If1{"fas:fa-code-branch If1"}:::logic
+    Response1["fas:fa-cogs Response1"]
+    Search_records["fas:fa-robot Search records"]
+    Process_data_with_code["fas:fa-robot Process data with code"]
+    Create_map_image["fas:fa-robot Create map image"]
+    Get_list_of_bases["fas:fa-robot Get list of bases"]
+    Get_base_schema["fas:fa-robot Get base schema"]
+    Get_Bases["fas:fa-robot Get Bases"]
+    Get_Base_Tables_schema["fas:fa-robot Get Base/Tables schema"]
+    If_filter_description_exists{"fas:fa-code-branch If filter description exists"}:::logic
+    Airtable___Search_records["fas:fa-globe Airtable - Search records"]
+    OpenAI___Generate_search_filter["fas:fa-globe OpenAI - Generate search filter"]
+    Set_schema_and_prompt["fas:fa-cogs Set schema and prompt"]
+    Upload_file_to_get_link["fas:fa-globe Upload file to get link"]
+    OpenAI___Download_File["fas:fa-globe OpenAI - Download File"]
+    OpenAI___Get_messages["fas:fa-globe OpenAI - Get messages"]
+    OpenAI___Run_assistant["fas:fa-globe OpenAI - Run assistant"]
+    OpenAI___Send_message["fas:fa-globe OpenAI - Send message"]
+    OpenAI___Create_thread["fas:fa-globe OpenAI - Create thread"]
 
     If1 --> Response
     If1 --> OpenAI___Download_File

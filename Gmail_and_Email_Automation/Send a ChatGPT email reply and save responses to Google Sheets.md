@@ -4,46 +4,46 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Generate_reply(["Generate reply"]):::ai
-    On_email_received(("On email received")):::trigger
-    Only_continue_for_specific_emails{"Only continue for specific emails"}:::logic
-    Configure["Configure"]
-    Send_reply_to_recipient["Send reply to recipient"]
-    Generate_UUID["Generate UUID"]
-    Thanks_for_your_response_["Thanks for your response!"]
-    Extract_message_content__advanced_["Extract message content (advanced)"]
-    If_spreadsheet_doesn_t_exist{"If spreadsheet doesn't exist"}:::logic
-    Successfully_created_or_updated_row["Successfully created or updated row"]
-    Create_spreadsheet["Create spreadsheet"]
-    Store_spreadsheet_ID["Store spreadsheet ID"]
-    Paste_data["Paste data"]
-    If_no_sheet_IDs{"If no sheet IDs"}:::logic
-    Create_or_update_rows["Create or update rows"]
-    Get_data_from__Format_data_["Get data from `Format data`"]
-    Get_data_from__Format_data__node["Get data from `Format data` node"]
-    Format_data["Format data"]
-    Send_email_reply["Send email reply"]
-    On_feedback_given(("On feedback given")):::trigger
-    Send_feedback_for_fine_tuned_data["Send feedback for fine-tuned data"]
-    Show_HTML_page(("Show HTML page")):::trigger
-    Get_sheet_IDs__1["Get sheet IDs #1"]
-    If_no_spreadsheet_in_configuration__2{"If no spreadsheet in configuration #2"}:::logic
-    Store_specific_sheet_IDs__2["Store specific sheet IDs #2"]
-    Get_sheet_IDs__2["Get sheet IDs #2"]
-    If_no_spreadsheet_in_configuration__1{"If no spreadsheet in configuration #1"}:::logic
-    Store_specific_sheet_IDs__1["Store specific sheet IDs #1"]
-    Email_template["Email template"]
-    Record_feedback["Record feedback"]
-    Fallback_route["Fallback route"]
-    Identify_trigger__2["Identify trigger #2"]
-    Identify_trigger__1["Identify trigger #1"]
-    Do_not_send_unfinished_email_reply["Do not send unfinished email reply"]
-    If_reply_is_complete{"If reply is complete"}:::logic
-    Do_not_send_email_to_this_recipient["Do not send email to this recipient"]
-    Send_reply_to_database["Send reply to database"]
-    Determine_which_trigger_ran{"Determine which trigger ran"}:::logic
-    Is_text_within_token_limit_{"Is text within token limit?"}:::logic
-    Do_nothing["Do nothing"]
+    Generate_reply(["fas:fa-robot Generate reply"]):::ai
+    On_email_received(("fas:fa-envelope On email received")):::trigger
+    Only_continue_for_specific_emails{"fas:fa-code-branch Only continue for specific emails"}:::logic
+    Configure["fas:fa-cogs Configure"]
+    Send_reply_to_recipient["fas:fa-envelope Send reply to recipient"]
+    Generate_UUID["fas:fa-cogs Generate UUID"]
+    Thanks_for_your_response_["fas:fa-cogs Thanks for your response!"]
+    Extract_message_content__advanced_["fas:fa-cogs Extract message content (advanced)"]
+    If_spreadsheet_doesn_t_exist{"fas:fa-code-branch If spreadsheet doesn't exist"}:::logic
+    Successfully_created_or_updated_row["fas:fa-cogs Successfully created or updated row"]
+    Create_spreadsheet["fab:fa-google Create spreadsheet"]
+    Store_spreadsheet_ID["fas:fa-cogs Store spreadsheet ID"]
+    Paste_data["fab:fa-google Paste data"]
+    If_no_sheet_IDs{"fas:fa-code-branch If no sheet IDs"}:::logic
+    Create_or_update_rows["fab:fa-google Create or update rows"]
+    Get_data_from__Format_data_["fas:fa-cogs Get data from `Format data`"]
+    Get_data_from__Format_data__node["fas:fa-cogs Get data from `Format data` node"]
+    Format_data["fas:fa-cogs Format data"]
+    Send_email_reply["fas:fa-cogs Send email reply"]
+    On_feedback_given(("fas:fa-bolt On feedback given")):::trigger
+    Send_feedback_for_fine_tuned_data["fab:fa-google Send feedback for fine-tuned data"]
+    Show_HTML_page(("fas:fa-bolt Show HTML page")):::trigger
+    Get_sheet_IDs__1["fas:fa-cogs Get sheet IDs #1"]
+    If_no_spreadsheet_in_configuration__2{"fas:fa-code-branch If no spreadsheet in configuration #2"}:::logic
+    Store_specific_sheet_IDs__2["fas:fa-cogs Store specific sheet IDs #2"]
+    Get_sheet_IDs__2["fas:fa-cogs Get sheet IDs #2"]
+    If_no_spreadsheet_in_configuration__1{"fas:fa-code-branch If no spreadsheet in configuration #1"}:::logic
+    Store_specific_sheet_IDs__1["fas:fa-cogs Store specific sheet IDs #1"]
+    Email_template["fas:fa-cogs Email template"]
+    Record_feedback["fas:fa-cogs Record feedback"]
+    Fallback_route["fas:fa-cogs Fallback route"]
+    Identify_trigger__2["fas:fa-cogs Identify trigger #2"]
+    Identify_trigger__1["fas:fa-cogs Identify trigger #1"]
+    Do_not_send_unfinished_email_reply["fas:fa-cogs Do not send unfinished email reply"]
+    If_reply_is_complete{"fas:fa-code-branch If reply is complete"}:::logic
+    Do_not_send_email_to_this_recipient["fas:fa-cogs Do not send email to this recipient"]
+    Send_reply_to_database["fas:fa-cogs Send reply to database"]
+    Determine_which_trigger_ran{"fas:fa-code-branch Determine which trigger ran"}:::logic
+    Is_text_within_token_limit_{"fas:fa-code-branch Is text within token limit?"}:::logic
+    Do_nothing["fas:fa-cogs Do nothing"]
 
     Configure --> Determine_which_trigger_ran
     Format_data --> If_no_spreadsheet_in_configuration__1

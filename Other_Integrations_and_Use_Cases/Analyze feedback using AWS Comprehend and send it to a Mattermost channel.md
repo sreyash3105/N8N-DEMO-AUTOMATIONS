@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Mattermost["Mattermost"]
-    NoOp["NoOp"]
-    IF{"IF"}:::logic
-    AWS_Comprehend["AWS Comprehend"]
-    Typeform_Trigger(("Typeform Trigger")):::trigger
+    Mattermost["fas:fa-cogs Mattermost"]
+    NoOp["fas:fa-cogs NoOp"]
+    IF{"fas:fa-code-branch IF"}:::logic
+    AWS_Comprehend["fas:fa-cogs AWS Comprehend"]
+    Typeform_Trigger(("fas:fa-bolt Typeform Trigger")):::trigger
 
     IF --> Mattermost
     IF --> NoOp

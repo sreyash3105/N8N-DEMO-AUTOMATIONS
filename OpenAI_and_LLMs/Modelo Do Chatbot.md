@@ -4,17 +4,17 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    If{"If"}:::logic
-    Edit_Fields1["Edit Fields1"]
-    Edit_Fields2["Edit Fields2"]
-    OpenAI(["OpenAI"]):::ai
-    Chat_Trigger(("Chat Trigger")):::trigger
-    Postgres_Chat_Memory[("Postgres Chat Memory")]
-    Postgres_Chat_Memory1[("Postgres Chat Memory1")]
-    Products_in_Daatabase["Products in Daatabase"]
-    Knowledge_Base["Knowledge Base"]
-    External_API["External API"]
-    OpenAI2(["OpenAI2"]):::ai
+    If{"fas:fa-code-branch If"}:::logic
+    Edit_Fields1["fas:fa-cogs Edit Fields1"]
+    Edit_Fields2["fas:fa-cogs Edit Fields2"]
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
+    Chat_Trigger(("fas:fa-robot Chat Trigger")):::trigger
+    Postgres_Chat_Memory[("fas:fa-database Postgres Chat Memory")]
+    Postgres_Chat_Memory1[("fas:fa-database Postgres Chat Memory1")]
+    Products_in_Daatabase["fas:fa-cogs Products in Daatabase"]
+    Knowledge_Base["fas:fa-robot Knowledge Base"]
+    External_API["fas:fa-robot External API"]
+    OpenAI2(["fas:fa-robot OpenAI2"]):::ai
 
     If --> Edit_Fields1
     If --> OpenAI2

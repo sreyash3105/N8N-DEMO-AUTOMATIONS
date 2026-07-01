@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Webhook(("Webhook")):::trigger
-    Switch{"Switch"}:::logic
-    Basic_LLM_Chain(["Basic LLM Chain"]):::ai
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Send_a_Message["Send a Message"]
+    Webhook(("fas:fa-bolt Webhook")):::trigger
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    Basic_LLM_Chain(["fas:fa-robot Basic LLM Chain"]):::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Send_a_Message["fab:fa-slack Send a Message"]
 
     Switch --> Basic_LLM_Chain
     Webhook --> Switch

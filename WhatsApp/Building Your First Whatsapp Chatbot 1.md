@@ -4,24 +4,24 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    WhatsApp_Trigger(("WhatsApp Trigger")):::trigger
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Vector_Store_Tool["Vector Store Tool"]
-    Embeddings_OpenAI(["Embeddings OpenAI"]):::ai
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    Embeddings_OpenAI1(["Embeddings OpenAI1"]):::ai
-    Default_Data_Loader["Default Data Loader"]
-    Recursive_Character_Text_Splitter["Recursive Character Text Splitter"]
-    Extract_from_File["Extract from File"]
-    get_Product_Brochure["get Product Brochure"]
-    Reply_To_User["Reply To User"]
-    Reply_To_User1["Reply To User1"]
-    Product_Catalogue[("Product Catalogue")]
-    Create_Product_Catalogue[("Create Product Catalogue")]
-    Handle_Message_Types{"Handle Message Types"}:::logic
-    AI_Sales_Agent["AI Sales Agent"]:::ai
+    WhatsApp_Trigger(("fab:fa-whatsapp WhatsApp Trigger")):::trigger
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Vector_Store_Tool["fas:fa-robot Vector Store Tool"]
+    Embeddings_OpenAI(["fas:fa-robot Embeddings OpenAI"]):::ai
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    Embeddings_OpenAI1(["fas:fa-robot Embeddings OpenAI1"]):::ai
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Recursive_Character_Text_Splitter["fas:fa-robot Recursive Character Text Splitter"]
+    Extract_from_File["fas:fa-cogs Extract from File"]
+    get_Product_Brochure["fas:fa-globe get Product Brochure"]
+    Reply_To_User["fab:fa-whatsapp Reply To User"]
+    Reply_To_User1["fab:fa-whatsapp Reply To User1"]
+    Product_Catalogue[("fas:fa-robot Product Catalogue")]
+    Create_Product_Catalogue[("fas:fa-robot Create Product Catalogue")]
+    Handle_Message_Types{"fas:fa-code-branch Handle Message Types"}:::logic
+    AI_Sales_Agent["fas:fa-robot AI Sales Agent"]:::ai
 
     AI_Sales_Agent --> Reply_To_User
     WhatsApp_Trigger --> Handle_Message_Types

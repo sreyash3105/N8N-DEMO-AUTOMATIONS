@@ -4,14 +4,14 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Switch{"Switch"}:::logic
-    Respond_to_Shortcut(("Respond to Shortcut")):::trigger
-    Webhook_from_Shortcut(("Webhook from Shortcut")):::trigger
-    OpenAI___Make_Shorter(["OpenAI - Make Shorter"]):::ai
-    OpenAI___Make_Longer(["OpenAI - Make Longer"]):::ai
-    OpenAI___Correct_Grammar(["OpenAI - Correct Grammar"]):::ai
-    OpenAI___To_Spanish(["OpenAI - To Spanish"]):::ai
-    OpenAI___To_English(["OpenAI - To English"]):::ai
+    Switch{"fas:fa-code-branch Switch"}:::logic
+    Respond_to_Shortcut(("fas:fa-bolt Respond to Shortcut")):::trigger
+    Webhook_from_Shortcut(("fas:fa-bolt Webhook from Shortcut")):::trigger
+    OpenAI___Make_Shorter(["fas:fa-robot OpenAI - Make Shorter"]):::ai
+    OpenAI___Make_Longer(["fas:fa-robot OpenAI - Make Longer"]):::ai
+    OpenAI___Correct_Grammar(["fas:fa-robot OpenAI - Correct Grammar"]):::ai
+    OpenAI___To_Spanish(["fas:fa-robot OpenAI - To Spanish"]):::ai
+    OpenAI___To_English(["fas:fa-robot OpenAI - To English"]):::ai
 
     Switch --> OpenAI___To_Spanish
     Switch --> OpenAI___To_English

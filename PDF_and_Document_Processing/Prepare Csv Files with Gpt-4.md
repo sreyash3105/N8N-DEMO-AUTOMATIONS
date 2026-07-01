@@ -4,15 +4,15 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Execute_Workflow_(("When clicking 'Execute Workflow'")):::trigger
-    OpenAI(["OpenAI"]):::ai
-    Split_In_Batches["Split In Batches"]
-    Parse_JSON["Parse JSON"]
-    Make_JSON_Table["Make JSON Table"]
-    Convert_to_CSV["Convert to CSV"]
-    Save_to_Disk["Save to Disk"]
-    Strip_UTF_BOM_bytes["Strip UTF BOM bytes"]
-    Create_valid_binary["Create valid binary"]
+    When_clicking__Execute_Workflow_(("fas:fa-bolt When clicking 'Execute Workflow'")):::trigger
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
+    Split_In_Batches["fas:fa-cogs Split In Batches"]
+    Parse_JSON["fas:fa-cogs Parse JSON"]
+    Make_JSON_Table["fas:fa-cogs Make JSON Table"]
+    Convert_to_CSV["fas:fa-cogs Convert to CSV"]
+    Save_to_Disk["fas:fa-cogs Save to Disk"]
+    Strip_UTF_BOM_bytes["fas:fa-cogs Strip UTF BOM bytes"]
+    Create_valid_binary["fas:fa-cogs Create valid binary"]
 
     OpenAI --> Split_In_Batches
     Parse_JSON --> Make_JSON_Table

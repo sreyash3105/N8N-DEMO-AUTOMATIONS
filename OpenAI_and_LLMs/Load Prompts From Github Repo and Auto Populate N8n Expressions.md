@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    GitHub["GitHub"]
-    Extract_from_File["Extract from File"]
-    setVars["setVars"]
-    replace_variables["replace variables"]
-    If{"If"}:::logic
-    Check_All_Prompt_Vars_Present["Check All Prompt Vars Present"]
-    SetPrompt["SetPrompt"]
-    Stop_and_Error["Stop and Error"]
-    Set_Completed_Prompt["Set Completed Prompt"]
-    AI_Agent["AI Agent"]:::ai
-    Prompt_Output["Prompt Output"]
-    Ollama_Chat_Model["Ollama Chat Model"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    GitHub["fas:fa-cogs GitHub"]
+    Extract_from_File["fas:fa-cogs Extract from File"]
+    setVars["fas:fa-cogs setVars"]
+    replace_variables["fas:fa-cogs replace variables"]
+    If{"fas:fa-code-branch If"}:::logic
+    Check_All_Prompt_Vars_Present["fas:fa-cogs Check All Prompt Vars Present"]
+    SetPrompt["fas:fa-cogs SetPrompt"]
+    Stop_and_Error["fas:fa-cogs Stop and Error"]
+    Set_Completed_Prompt["fas:fa-cogs Set Completed Prompt"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Prompt_Output["fas:fa-cogs Prompt Output"]
+    Ollama_Chat_Model["fas:fa-robot Ollama Chat Model"]
 
     If --> replace_variables
     If --> Stop_and_Error

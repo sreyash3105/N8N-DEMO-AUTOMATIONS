@@ -4,15 +4,15 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Activity_Tool["Activity Tool"]
-    Set_ChatInput1["Set ChatInput1"]
-    AI_Agent1["AI Agent1"]:::ai
-    Set_ChatInput["Set ChatInput"]
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    AI_Agent["AI Agent"]:::ai
-    Webscraper_Tool["Webscraper Tool"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Activity_Tool["fas:fa-robot Activity Tool"]
+    Set_ChatInput1["fas:fa-cogs Set ChatInput1"]
+    AI_Agent1["fas:fa-robot AI Agent1"]:::ai
+    Set_ChatInput["fas:fa-cogs Set ChatInput"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Webscraper_Tool["fas:fa-robot Webscraper Tool"]
 
     Activity_Tool --> AI_Agent1
     Set_ChatInput --> AI_Agent

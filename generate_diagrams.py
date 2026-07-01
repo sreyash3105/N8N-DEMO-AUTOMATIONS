@@ -25,6 +25,28 @@ def determine_shape(node_type: str) -> tuple:
     else:
         return ("[", "]")    # Rectangle for standard actions
 
+def determine_icon(node_type: str, name: str) -> str:
+    """Returns a native FontAwesome icon string for the node."""
+    t = node_type.lower()
+    n = name.lower()
+    
+    if "telegram" in t or "telegram" in n: return "fab:fa-telegram "
+    if "whatsapp" in t or "whatsapp" in n: return "fab:fa-whatsapp "
+    if "slack" in t or "slack" in n: return "fab:fa-slack "
+    if "gmail" in t or "email" in t or "gmail" in n: return "fas:fa-envelope "
+    if "google" in t or "google" in n: return "fab:fa-google "
+    if "wordpress" in t or "wordpress" in n: return "fab:fa-wordpress "
+    if "database" in t or "postgres" in t or "supabase" in t: return "fas:fa-database "
+    if "pdf" in t or "pdf" in n: return "fas:fa-file-pdf "
+    if "llm" in t or "openai" in t or "ai" in t or "agent" in n: return "fas:fa-robot "
+    if "trigger" in t or "webhook" in t: return "fas:fa-bolt "
+    if "switch" in t or "if" in t or "router" in t: return "fas:fa-code-branch "
+    if "schedule" in t or "cron" in t: return "fas:fa-clock "
+    if "http" in t or "request" in t: return "fas:fa-globe "
+    
+    # Default icon if none match
+    return "fas:fa-cogs "
+
 def parse_n8n_json(filepath: Path):
     """Safely loads n8n JSON, handling both full workflow objects and node arrays."""
     with open(filepath, "r", encoding="utf-8") as f:
@@ -86,8 +108,9 @@ def generate_mermaid_for_workflow(filepath: Path) -> bool:
         
         left, right = determine_shape(node_type)
         safe_name = name.replace('"', "'")
+        icon = determine_icon(node_type, name)
         
-        line = f'    {safe_id}{left}"{safe_name}"{right}'
+        line = f'    {safe_id}{left}"{icon}{safe_name}"{right}'
         
         # Apply CSS classes based on type to make it pretty
         t = node_type.lower()

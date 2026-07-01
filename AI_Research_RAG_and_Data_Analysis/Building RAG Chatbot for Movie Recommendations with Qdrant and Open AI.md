@@ -4,31 +4,31 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    GitHub["GitHub"]
-    Extract_from_File["Extract from File"]
-    Embeddings_OpenAI(["Embeddings OpenAI"]):::ai
-    Default_Data_Loader["Default Data Loader"]
-    Token_Splitter["Token Splitter"]
-    Qdrant_Vector_Store["Qdrant Vector Store"]
-    When_chat_message_received(("When chat message received")):::trigger
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Call_n8n_Workflow_Tool["Call n8n Workflow Tool"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Execute_Workflow_Trigger(("Execute Workflow Trigger")):::trigger
-    Merge["Merge"]
-    Split_Out["Split Out"]
-    Split_Out1["Split Out1"]
-    Merge1["Merge1"]
-    Aggregate["Aggregate"]
-    AI_Agent["AI Agent"]:::ai
-    Embedding_Recommendation_Request_with_Open_AI["Embedding Recommendation Request with Open AI"]
-    Embedding_Anti_Recommendation_Request_with_Open_AI["Embedding Anti-Recommendation Request with Open AI"]
-    Extracting_Embedding["Extracting Embedding"]
-    Extracting_Embedding1["Extracting Embedding1"]
-    Calling_Qdrant_Recommendation_API["Calling Qdrant Recommendation API"]
-    Retrieving_Recommended_Movies_Meta_Data["Retrieving Recommended Movies Meta Data"]
-    Selecting_Fields_Relevant_for_Agent["Selecting Fields Relevant for Agent"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    GitHub["fas:fa-cogs GitHub"]
+    Extract_from_File["fas:fa-cogs Extract from File"]
+    Embeddings_OpenAI(["fas:fa-robot Embeddings OpenAI"]):::ai
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Token_Splitter["fas:fa-robot Token Splitter"]
+    Qdrant_Vector_Store["fas:fa-robot Qdrant Vector Store"]
+    When_chat_message_received(("fas:fa-robot When chat message received")):::trigger
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Call_n8n_Workflow_Tool["fas:fa-robot Call n8n Workflow Tool"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Execute_Workflow_Trigger(("fas:fa-bolt Execute Workflow Trigger")):::trigger
+    Merge["fas:fa-cogs Merge"]
+    Split_Out["fas:fa-cogs Split Out"]
+    Split_Out1["fas:fa-cogs Split Out1"]
+    Merge1["fas:fa-cogs Merge1"]
+    Aggregate["fas:fa-cogs Aggregate"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Embedding_Recommendation_Request_with_Open_AI["fas:fa-globe Embedding Recommendation Request with Open AI"]
+    Embedding_Anti_Recommendation_Request_with_Open_AI["fas:fa-globe Embedding Anti-Recommendation Request with Open AI"]
+    Extracting_Embedding["fas:fa-cogs Extracting Embedding"]
+    Extracting_Embedding1["fas:fa-cogs Extracting Embedding1"]
+    Calling_Qdrant_Recommendation_API["fas:fa-globe Calling Qdrant Recommendation API"]
+    Retrieving_Recommended_Movies_Meta_Data["fas:fa-globe Retrieving Recommended Movies Meta Data"]
+    Selecting_Fields_Relevant_for_Agent["fas:fa-robot Selecting Fields Relevant for Agent"]
 
     Merge --> Calling_Qdrant_Recommendation_API
     GitHub --> Extract_from_File

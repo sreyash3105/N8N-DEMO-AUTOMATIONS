@@ -4,13 +4,13 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Extract_specific_content["Extract specific content"]
-    Get_financial_news_online["Get financial news online"]
-    Schedule_Trigger(("Schedule Trigger")):::trigger
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    Gather_the_elements["Gather the elements"]
-    AI_Agent["AI Agent"]:::ai
-    Send_the_summary_by_e_mail["Send the summary by e-mail"]
+    Extract_specific_content["fas:fa-cogs Extract specific content"]
+    Get_financial_news_online["fas:fa-globe Get financial news online"]
+    Schedule_Trigger(("fas:fa-bolt Schedule Trigger")):::trigger
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    Gather_the_elements["fas:fa-cogs Gather the elements"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    Send_the_summary_by_e_mail["fas:fa-cogs Send the summary by e-mail"]
 
     AI_Agent --> Send_the_summary_by_e_mail
     Schedule_Trigger --> Get_financial_news_online

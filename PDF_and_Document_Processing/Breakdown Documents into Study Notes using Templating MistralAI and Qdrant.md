@@ -4,41 +4,41 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Local_File_Trigger(("Local File Trigger")):::trigger
-    Default_Data_Loader["Default Data Loader"]
-    Recursive_Character_Text_Splitter["Recursive Character Text Splitter"]
-    Embeddings_Mistral_Cloud["Embeddings Mistral Cloud"]
-    Mistral_Cloud_Chat_Model["Mistral Cloud Chat Model"]
-    Mistral_Cloud_Chat_Model1["Mistral Cloud Chat Model1"]
-    Prep_Incoming_Doc["Prep Incoming Doc"]
-    Settings["Settings"]
-    Merge["Merge"]
-    Get_Doc_Types["Get Doc Types"]
-    Split_Out_Doc_Types["Split Out Doc Types"]
-    For_Each_Doc_Type___["For Each Doc Type..."]
-    Item_List_Output_Parser["Item List Output Parser"]
-    Vector_Store_Retriever["Vector Store Retriever"]
-    Embeddings_Mistral_Cloud1["Embeddings Mistral Cloud1"]
-    Qdrant_Vector_Store1["Qdrant Vector Store1"]
-    Mistral_Cloud_Chat_Model2["Mistral Cloud Chat Model2"]
-    Split_Out["Split Out"]
-    Aggregate["Aggregate"]
-    Mistral_Cloud_Chat_Model3["Mistral Cloud Chat Model3"]
-    Discover["Discover"]
-    n_2secs["2secs"]
-    Get_Generated_Documents["Get Generated Documents"]
-    Generate(["Generate"]):::ai
-    Prep_For_AI["Prep For AI"]
-    To_Binary["To Binary"]
-    Export_to_Folder["Export to Folder"]
-    Get_FileType{"Get FileType"}:::logic
-    Import_File["Import File"]
-    Extract_from_PDF["Extract from PDF"]
-    Extract_from_DOCX["Extract from DOCX"]
-    Extract_from_TEXT["Extract from TEXT"]
-    Summarization_Chain["Summarization Chain"]
-    Qdrant_Vector_Store["Qdrant Vector Store"]
-    Interview(["Interview"]):::ai
+    Local_File_Trigger(("fas:fa-bolt Local File Trigger")):::trigger
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Recursive_Character_Text_Splitter["fas:fa-robot Recursive Character Text Splitter"]
+    Embeddings_Mistral_Cloud["fas:fa-robot Embeddings Mistral Cloud"]
+    Mistral_Cloud_Chat_Model["fas:fa-robot Mistral Cloud Chat Model"]
+    Mistral_Cloud_Chat_Model1["fas:fa-robot Mistral Cloud Chat Model1"]
+    Prep_Incoming_Doc["fas:fa-cogs Prep Incoming Doc"]
+    Settings["fas:fa-cogs Settings"]
+    Merge["fas:fa-cogs Merge"]
+    Get_Doc_Types["fas:fa-cogs Get Doc Types"]
+    Split_Out_Doc_Types["fas:fa-cogs Split Out Doc Types"]
+    For_Each_Doc_Type___["fas:fa-cogs For Each Doc Type..."]
+    Item_List_Output_Parser["fas:fa-robot Item List Output Parser"]
+    Vector_Store_Retriever["fas:fa-robot Vector Store Retriever"]
+    Embeddings_Mistral_Cloud1["fas:fa-robot Embeddings Mistral Cloud1"]
+    Qdrant_Vector_Store1["fas:fa-robot Qdrant Vector Store1"]
+    Mistral_Cloud_Chat_Model2["fas:fa-robot Mistral Cloud Chat Model2"]
+    Split_Out["fas:fa-cogs Split Out"]
+    Aggregate["fas:fa-cogs Aggregate"]
+    Mistral_Cloud_Chat_Model3["fas:fa-robot Mistral Cloud Chat Model3"]
+    Discover["fas:fa-robot Discover"]
+    n_2secs["fas:fa-robot 2secs"]
+    Get_Generated_Documents["fas:fa-cogs Get Generated Documents"]
+    Generate(["fas:fa-robot Generate"]):::ai
+    Prep_For_AI["fas:fa-cogs Prep For AI"]
+    To_Binary["fas:fa-cogs To Binary"]
+    Export_to_Folder["fas:fa-cogs Export to Folder"]
+    Get_FileType{"fas:fa-code-branch Get FileType"}:::logic
+    Import_File["fas:fa-cogs Import File"]
+    Extract_from_PDF["fas:fa-file-pdf Extract from PDF"]
+    Extract_from_DOCX["fas:fa-cogs Extract from DOCX"]
+    Extract_from_TEXT["fas:fa-cogs Extract from TEXT"]
+    Summarization_Chain["fas:fa-robot Summarization Chain"]
+    Qdrant_Vector_Store["fas:fa-robot Qdrant Vector Store"]
+    Interview(["fas:fa-robot Interview"]):::ai
 
     n_2secs --> For_Each_Doc_Type___
     Merge --> Prep_For_AI

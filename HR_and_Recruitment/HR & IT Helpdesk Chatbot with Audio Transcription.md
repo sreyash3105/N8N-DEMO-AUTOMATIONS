@@ -4,27 +4,27 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    When_clicking__Test_workflow_(("When clicking ‘Test workflow’")):::trigger
-    HTTP_Request["HTTP Request"]
-    Extract_from_File["Extract from File"]
-    Create_HR_Policies["Create HR Policies"]
-    Embeddings_OpenAI(["Embeddings OpenAI"]):::ai
-    Default_Data_Loader["Default Data Loader"]
-    Recursive_Character_Text_Splitter["Recursive Character Text Splitter"]
-    Telegram_Trigger(("Telegram Trigger")):::trigger
-    Verify_Message_Type{"Verify Message Type"}:::logic
-    OpenAI(["OpenAI"]):::ai
-    Telegram1["Telegram1"]
-    Unsupported_Message_Type["Unsupported Message Type"]
-    AI_Agent["AI Agent"]:::ai
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Postgres_Chat_Memory[("Postgres Chat Memory")]
-    Answer_questions_with_a_vector_store["Answer questions with a vector store"]
-    Postgres_PGVector_Store["Postgres PGVector Store"]
-    OpenAI_Chat_Model1(["OpenAI Chat Model1"]):::ai
-    Embeddings_OpenAI1(["Embeddings OpenAI1"]):::ai
-    Telegram["Telegram"]
-    Edit_Fields["Edit Fields"]
+    When_clicking__Test_workflow_(("fas:fa-bolt When clicking ‘Test workflow’")):::trigger
+    HTTP_Request["fas:fa-globe HTTP Request"]
+    Extract_from_File["fas:fa-cogs Extract from File"]
+    Create_HR_Policies["fas:fa-robot Create HR Policies"]
+    Embeddings_OpenAI(["fas:fa-robot Embeddings OpenAI"]):::ai
+    Default_Data_Loader["fas:fa-robot Default Data Loader"]
+    Recursive_Character_Text_Splitter["fas:fa-robot Recursive Character Text Splitter"]
+    Telegram_Trigger(("fab:fa-telegram Telegram Trigger")):::trigger
+    Verify_Message_Type{"fas:fa-code-branch Verify Message Type"}:::logic
+    OpenAI(["fas:fa-robot OpenAI"]):::ai
+    Telegram1["fab:fa-telegram Telegram1"]
+    Unsupported_Message_Type["fab:fa-telegram Unsupported Message Type"]
+    AI_Agent["fas:fa-robot AI Agent"]:::ai
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Postgres_Chat_Memory[("fas:fa-database Postgres Chat Memory")]
+    Answer_questions_with_a_vector_store["fas:fa-robot Answer questions with a vector store"]
+    Postgres_PGVector_Store["fas:fa-robot Postgres PGVector Store"]
+    OpenAI_Chat_Model1(["fas:fa-robot OpenAI Chat Model1"]):::ai
+    Embeddings_OpenAI1(["fas:fa-robot Embeddings OpenAI1"]):::ai
+    Telegram["fab:fa-telegram Telegram"]
+    Edit_Fields["fas:fa-cogs Edit Fields"]
 
     OpenAI --> AI_Agent
     AI_Agent --> Telegram

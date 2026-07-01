@@ -4,11 +4,11 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Google_Gemini_Chat_Model["Google Gemini Chat Model"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Send_response_back_to_slack_channel["Send response back to slack channel"]
-    Webhook_to_receive_message(("Webhook to receive message")):::trigger
-    Agent["Agent"]:::ai
+    Google_Gemini_Chat_Model["fab:fa-google Google Gemini Chat Model"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Send_response_back_to_slack_channel["fab:fa-slack Send response back to slack channel"]
+    Webhook_to_receive_message(("fas:fa-bolt Webhook to receive message")):::trigger
+    Agent["fas:fa-robot Agent"]:::ai
 
     Agent --> Send_response_back_to_slack_channel
     Window_Buffer_Memory --> Agent

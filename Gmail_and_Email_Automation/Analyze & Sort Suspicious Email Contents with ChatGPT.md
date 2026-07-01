@@ -4,25 +4,25 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Gmail_Trigger(("Gmail Trigger")):::trigger
-    Microsoft_Outlook_Trigger(("Microsoft Outlook Trigger")):::trigger
-    Screenshot_HTML["Screenshot HTML"]
-    Retrieve_Screenshot["Retrieve Screenshot"]
-    Set_Outlook_Variables["Set Outlook Variables"]
-    Set_Gmail_Variables["Set Gmail Variables"]
-    Retrieve_Headers_of_Email["Retrieve Headers of Email"]
-    Format_Headers["Format Headers"]
-    Analyze_Email_with_ChatGPT(["Analyze Email with ChatGPT"]):::ai
-    Create_Potentially_Malicious_Ticket["Create Potentially Malicious Ticket"]
-    Create_Potentially_Benign_Ticket["Create Potentially Benign Ticket"]
-    Rename_Screenshot["Rename Screenshot"]
-    Set_Jira_ID["Set Jira ID"]
-    Upload_Screenshot_of_Email_to_Jira["Upload Screenshot of Email to Jira"]
-    Upload_Email_Body_to_Jira["Upload Email Body to Jira"]
-    Convert_Email_Body_to_File["Convert Email Body to File"]
-    Set_Email_Variables["Set Email Variables"]
-    Rename_Email_Body_Screenshot["Rename Email Body Screenshot"]
-    Check_if_Malicious{"Check if Malicious"}:::logic
+    Gmail_Trigger(("fas:fa-envelope Gmail Trigger")):::trigger
+    Microsoft_Outlook_Trigger(("fas:fa-bolt Microsoft Outlook Trigger")):::trigger
+    Screenshot_HTML["fas:fa-globe Screenshot HTML"]
+    Retrieve_Screenshot["fas:fa-globe Retrieve Screenshot"]
+    Set_Outlook_Variables["fas:fa-cogs Set Outlook Variables"]
+    Set_Gmail_Variables["fas:fa-envelope Set Gmail Variables"]
+    Retrieve_Headers_of_Email["fas:fa-globe Retrieve Headers of Email"]
+    Format_Headers["fas:fa-cogs Format Headers"]
+    Analyze_Email_with_ChatGPT(["fas:fa-robot Analyze Email with ChatGPT"]):::ai
+    Create_Potentially_Malicious_Ticket["fas:fa-cogs Create Potentially Malicious Ticket"]
+    Create_Potentially_Benign_Ticket["fas:fa-cogs Create Potentially Benign Ticket"]
+    Rename_Screenshot["fas:fa-cogs Rename Screenshot"]
+    Set_Jira_ID["fas:fa-cogs Set Jira ID"]
+    Upload_Screenshot_of_Email_to_Jira["fas:fa-cogs Upload Screenshot of Email to Jira"]
+    Upload_Email_Body_to_Jira["fas:fa-cogs Upload Email Body to Jira"]
+    Convert_Email_Body_to_File["fas:fa-cogs Convert Email Body to File"]
+    Set_Email_Variables["fas:fa-cogs Set Email Variables"]
+    Rename_Email_Body_Screenshot["fas:fa-cogs Rename Email Body Screenshot"]
+    Check_if_Malicious{"fas:fa-code-branch Check if Malicious"}:::logic
 
     Set_Jira_ID --> Rename_Screenshot
     Gmail_Trigger --> Set_Gmail_Variables

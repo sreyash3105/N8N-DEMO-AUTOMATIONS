@@ -4,18 +4,18 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Vivid_Pop_Explosion["Vivid Pop Explosion"]
-    AI_Dystopia["AI Dystopia"]
-    Post_Analog_Glitchscape["Post-Analog Glitchscape"]
-    Neon_Fauvism["Neon Fauvism"]
-    None["None"]
-    Serve_webpage(("Serve webpage")):::trigger
-    Respond_with_error(("Respond with error")):::trigger
-    Upload_image_to_S3["Upload image to S3"]
-    Hyper_Surreal_Escape["Hyper-Surreal Escape"]
-    n8n_Form_Trigger(("n8n Form Trigger")):::trigger
-    Call_hugginface_inference_api["Call hugginface inference api"]
-    Route_by_style{"Route by style"}:::logic
+    Vivid_Pop_Explosion["fas:fa-cogs Vivid Pop Explosion"]
+    AI_Dystopia["fas:fa-cogs AI Dystopia"]
+    Post_Analog_Glitchscape["fas:fa-cogs Post-Analog Glitchscape"]
+    Neon_Fauvism["fas:fa-cogs Neon Fauvism"]
+    None["fas:fa-cogs None"]
+    Serve_webpage(("fas:fa-bolt Serve webpage")):::trigger
+    Respond_with_error(("fas:fa-bolt Respond with error")):::trigger
+    Upload_image_to_S3["fas:fa-cogs Upload image to S3"]
+    Hyper_Surreal_Escape["fas:fa-cogs Hyper-Surreal Escape"]
+    n8n_Form_Trigger(("fas:fa-bolt n8n Form Trigger")):::trigger
+    Call_hugginface_inference_api["fas:fa-globe Call hugginface inference api"]
+    Route_by_style{"fas:fa-code-branch Route by style"}:::logic
 
     None --> Call_hugginface_inference_api
     AI_Dystopia --> Call_hugginface_inference_api

@@ -4,19 +4,19 @@ graph TD
     classDef ai fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
     classDef logic fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
 
-    Google_Calendar["Google Calendar"]
-    Window_Buffer_Memory[("Window Buffer Memory")]
-    Get_Email["Get Email"]
-    OpenAI_Chat_Model(["OpenAI Chat Model"]):::ai
-    Listen_for_incoming_events(("Listen for incoming events")):::trigger
-    Telegram["Telegram"]
-    If{"If"}:::logic
-    Speech_to_Text(["Speech to Text"]):::ai
-    Voice_or_Text["Voice or Text"]
-    Get_Voice_File["Get Voice File"]
-    Angie__AI_Assistant_____["Angie, AI Assistant 👩🏻‍🏫"]:::ai
-    Tasks["Tasks"]
-    Contacts["Contacts"]
+    Google_Calendar["fab:fa-google Google Calendar"]
+    Window_Buffer_Memory[("fas:fa-robot Window Buffer Memory")]
+    Get_Email["fas:fa-envelope Get Email"]
+    OpenAI_Chat_Model(["fas:fa-robot OpenAI Chat Model"]):::ai
+    Listen_for_incoming_events(("fab:fa-telegram Listen for incoming events")):::trigger
+    Telegram["fab:fa-telegram Telegram"]
+    If{"fas:fa-code-branch If"}:::logic
+    Speech_to_Text(["fas:fa-robot Speech to Text"]):::ai
+    Voice_or_Text["fas:fa-cogs Voice or Text"]
+    Get_Voice_File["fab:fa-telegram Get Voice File"]
+    Angie__AI_Assistant_____["fas:fa-robot Angie, AI Assistant 👩🏻‍🏫"]:::ai
+    Tasks["fas:fa-cogs Tasks"]
+    Contacts["fas:fa-cogs Contacts"]
 
     If --> Get_Voice_File
     If --> Angie__AI_Assistant_____
